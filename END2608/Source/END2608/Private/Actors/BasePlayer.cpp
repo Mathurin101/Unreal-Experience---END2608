@@ -8,7 +8,7 @@
 ABasePlayer::ABasePlayer()
 {
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
-
+	SpringArm->bUsePawnControlRotation = true;
 	SpringArm->SetupAttachment(GetRootComponent()/*, not needed unless we have to set something by it's socket */);
 	SpringArm->SetRelativeLocation(FVector(0.0,0.0,60.0));
 	
@@ -50,16 +50,13 @@ void ABasePlayer::InputAxisMoveForward(float AxisValue)
 
 void ABasePlayer::MovingLeftAndRight(float AxisValue)
 {
-	FRotator ReturnValue = GetControlRotation();
-	float Yaw = ReturnValue.Yaw;
+	//get player Rotation
+	FRotator YawRotation(0.0f, GetControlRotation().Yaw, 0.0f);
 
-	FRotator MakeRotator(0.0f, Yaw, 0.0f);
+	//get YawRotation's vector
+	FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
-	//GetControlRotation().;
-
-	FVector WorldDirection = MakeRotator.Vector().RightVector;
-
-	AddMovementInput(WorldDirection, AxisValue);
+	AddMovementInput(RightDirection, AxisValue);
 
 }
 

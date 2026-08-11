@@ -20,7 +20,7 @@ void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 
 		Velocity = VelocityVector.Size();
 
-		FRotator BaseRotation = Pawn->K2_GetActorRotation();
+		FRotator BaseRotation = Pawn->GetActorRotation();
 
 		Direction = UKismetAnimationLibrary::CalculateDirection(VelocityVector, BaseRotation);
 		

@@ -6,7 +6,7 @@
 #include "GameFramework/Character.h"
 #include "BaseCharacter.generated.h"
 
-UCLASS()
+UCLASS(Abstract)
 class END2608_API ABaseCharacter : public ACharacter
 {
 	GENERATED_BODY()

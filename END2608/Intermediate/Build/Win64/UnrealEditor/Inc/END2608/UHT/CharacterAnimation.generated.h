@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UCharacterAnimation ******************************************************
 END2608_API UClass* Z_Construct_UClass_UCharacterAnimation_NoRegister();
 
-#define FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUCharacterAnimation(); \
 	friend struct Z_Construct_UClass_UCharacterAnimation_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UCharacterAnimation)
 
 
-#define FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UCharacterAnimation(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UCharacterAnimation();
 
 
-#define FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_12_PROLOG
-#define FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_GENERATED_BODY \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_12_PROLOG
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_ENHANCED_CONSTRUCTORS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,6 @@ class UCharacterAnimation;
 // ********** End Class UCharacterAnimation ********************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProjects_END2608_Source_END2608_Public_Both_CharacterAnimation_h
+#define CURRENT_FILE_ID FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\UnrealProjects\\END2608\\Source\\END2608\\END2608.Build.cs",
-		"C:\\UnrealProjects\\END2608\\Source\\END2608.Target.cs",
-		"C:\\UnrealProjects\\END2608\\Source\\END2608Editor.Target.cs"
+		"C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Source\\END2608\\END2608.Build.cs",
+		"C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Source\\END2608.Target.cs",
+		"C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Source\\END2608Editor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }

@@ -115,14 +115,14 @@ ABasePlayer::~ABasePlayer() {}
 // ********** End Class ABasePlayer ****************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProjects_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics
+struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABasePlayer, ABasePlayer::StaticClass, TEXT("ABasePlayer"), &Z_Registration_Info_UClass_ABasePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasePlayer), 2414600672U) },
+		{ Z_Construct_UClass_ABasePlayer, ABasePlayer::StaticClass, TEXT("ABasePlayer"), &Z_Registration_Info_UClass_ABasePlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasePlayer), 645886856U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_3758026872(TEXT("/Script/END2608"),
-	Z_CompiledInDeferFile_FID_UnrealProjects_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_3883005446(TEXT("/Script/END2608"),
+	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BasePlayer_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
