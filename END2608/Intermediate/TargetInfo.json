@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "END2608",
+			"Path": "..\\Source\\END2608.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "END2608Editor",
+			"Path": "..\\Source\\END2608Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

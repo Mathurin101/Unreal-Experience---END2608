@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\END2608.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\END2608.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\END2608Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\END2608">
+      <UniqueIdentifier>{C90B0B45-DF12-3B45-A41F-CA0A8711AA37}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\END2608\END2608.Build.cs">
+      <Filter>Source\END2608</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\END2608\END2608.cpp">
+      <Filter>Source\END2608</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\END2608\END2608.h">
+      <Filter>Source\END2608</Filter>
+    </ClInclude>
+    <Filter Include="Source\END2608\Private">
+      <UniqueIdentifier>{F9342F74-0865-39AC-9B01-ED716AB9A287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\END2608\Private\Actors">
+      <UniqueIdentifier>{CE21D4B5-7E86-37FB-807A-B741123DA1D4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseCharacter.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\END2608\Private\Both">
+      <UniqueIdentifier>{95C9E63F-5697-38C7-8FBD-EF4363D88672}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\END2608\Private\Both\CharacterAnimation.cpp">
+      <Filter>Source\END2608\Private\Both</Filter>
+    </ClCompile>
+    <Filter Include="Source\END2608\Private\Example">
+      <UniqueIdentifier>{9949A978-4755-3CBF-A9B0-1F571947232B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleVariable.cpp">
+      <Filter>Source\END2608\Private\Example</Filter>
+    </ClCompile>
+    <Filter Include="Source\END2608\Public">
+      <UniqueIdentifier>{8FE5FA18-0991-3EF1-8B5C-44F801C25237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\END2608\Public\Actors">
+      <UniqueIdentifier>{BF03F6EF-1F18-32E9-AF47-066C25BB5D48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\END2608\Public\Both">
+      <UniqueIdentifier>{2DC861EA-AEFC-394C-AE96-C2CBD9555D1E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h">
+      <Filter>Source\END2608\Public\Both</Filter>
+    </ClInclude>
+    <Filter Include="Source\END2608\Public\Example">
+      <UniqueIdentifier>{277B71C7-A75C-3F36-B440-12AB88361126}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleVariable.h">
+      <Filter>Source\END2608\Public\Example</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
