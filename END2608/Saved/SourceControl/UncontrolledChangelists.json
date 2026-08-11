@@ -8,7 +8,9 @@
 				"C:/UnrealProjects/END2608/Content/C++/Actors/BP_CodeBasePlayer.uasset",
 				"C:/UnrealProjects/END2608/Content/Both/ABP_CharacterAnimation.uasset",
 				"C:/UnrealProjects/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseCharacter.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseCharacter.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/DoNotConvert/M_FlatColor.uasset"
 			]
 		}
 	]
