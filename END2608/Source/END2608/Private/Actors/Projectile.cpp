@@ -3,6 +3,8 @@
 
 #include "Actors/Projectile.h"
 #include "Components/SphereComponent.h"
+#include "Components/StaticMeshComponent.h"
+#include "GameFrameWork/ProjectileMovementComponent.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -12,6 +14,22 @@ AProjectile::AProjectile()
 	PrimaryActorTick.bStartWithTickEnabled = false;
 
 	SphereCollision = CreateDefaultSubobject<USphereComponent>("SphereCollision");
+	SetRootComponent(SphereCollision);
+	SphereCollision->OnComponentHit.AddDynamic(this, &AProjectile::HandleHit);
+
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>Asset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
+
+	SphereMesh = CreateDefaultSubobject<UStaticMeshComponent>("SphereMesh");
+	SphereMesh->SetCollisionProfileName("NoCollision");
+	SphereMesh->SetupAttachment(SphereCollision);
+	SphereMesh->SetRelativeScale3D(FVector(0.6f,0.6f,0.6f));
+	SphereMesh->SetStaticMesh(Asset.Object);
+
+	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>("ProjectileMovement");
+	ProjectileMovement->ProjectileGravityScale = 0.0f;
+	ProjectileMovement->InitialSpeed = 1900.0f;
+	ProjectileMovement->MaxSpeed = 1900.0f;
+
 }
 
 // Called when the game starts or when spawned
@@ -26,5 +44,10 @@ void AProjectile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AProjectile::HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector OtherImpulse, const FHitResult& Hit)
+{
+	Destroy();
 }
 
