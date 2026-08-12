@@ -254,6 +254,7 @@
     <None Include="..\..\Source\END2608Editor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
@@ -268,6 +269,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\Projectile.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Both\CharacterAnimation.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -276,6 +280,7 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h"/>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleVariable.h"/>
   </ItemGroup>

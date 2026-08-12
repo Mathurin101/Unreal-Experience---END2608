@@ -2031,3 +2031,1481 @@ Sampler Limit: 32
 [2026.08.11-23.15.07:596][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.08.11-23.15.07:599][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
 [2026.08.11-23.15.07:780][422]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.08.11-23.18.11:164][524]LogDerivedDataCache: C:/Users/mathu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 1 empty folders. Scanned 0 files in 2 folders with total size 0 MiB.
+[2026.08.11-23.19.35:507][615]Running C:/Program Files/Epic Games/UE_5.6/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/UnrealProjects/Unreal-Experience---END2608/END2608/END2608.uproject" -game -rocket -progress
+[2026.08.11-23.19.35:620][615]Using bundled DotNet SDK version: 8.0.300 win-x64
+[2026.08.11-23.19.35:620][615]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/UnrealProjects/Unreal-Experience---END2608/END2608/END2608.uproject" -game -rocket -progress
+[2026.08.11-23.19.36:532][615]Log file: C:\Users\mathu\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2026.08.11-23.19.37:035][615]
+[2026.08.11-23.19.37:035][615]Generating VisualStudio project files:
+[2026.08.11-23.19.37:035][615]Discovering modules, targets and source code for project...
+[2026.08.11-23.19.37:136][615]Adding projects for all targets...
+[2026.08.11-23.19.37:638][615]Available x64 toolchains (1):
+[2026.08.11-23.19.37:638][615] * C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207
+[2026.08.11-23.19.37:638][615]    (Family=14.44.35207, FamilyRank=1, Version=14.44.35228, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+[2026.08.11-23.19.37:638][615]Visual Studio 2022 compiler version 14.44.35228 is not a preferred version. Please use the latest preferred version 14.38.33130
+[2026.08.11-23.19.38:345][615]Adding projects for all targets took 1.23s
+[2026.08.11-23.19.38:345][615]Adding projects for all game projects took 0.00s
+[2026.08.11-23.19.39:052][615]Adding projects for all modules took 0.68s
+[2026.08.11-23.19.40:158][615]Compiling Rules Assemblies
+[2026.08.11-23.19.40:158][615]Compiling Rules Assemblies 100%
+[2026.08.11-23.19.40:158][615]Creating Build Targets
+[2026.08.11-23.19.43:686][615]Creating Build Targets 100%
+[2026.08.11-23.19.43:686][615]Creating Build Targets took 3.47s
+[2026.08.11-23.19.43:686][615]Binding IntelliSense data...
+[2026.08.11-23.19.54:170][615]Binding IntelliSense data... 19%
+[2026.08.11-23.20.04:760][615]Binding IntelliSense data... 45%
+[2026.08.11-23.20.13:272][615]Binding IntelliSense data... 100%
+[2026.08.11-23.20.13:272][615]Binding IntelliSense data took 29.66s
+[2026.08.11-23.20.13:272][615]Writing project files...
+[2026.08.11-23.20.16:193][615]Writing project files... 100%
+[2026.08.11-23.20.16:193][615]Writing project files took 2.87s
+[2026.08.11-23.20.16:193][615]
+[2026.08.11-23.20.16:193][615]Generating QueryTargets data for editor...
+[2026.08.11-23.20.16:193][615]Compiling Rules Assemblies
+[2026.08.11-23.20.16:193][615]Compiling Rules Assemblies 100%
+[2026.08.11-23.20.16:193][615]Writing Query Target Info
+[2026.08.11-23.20.16:193][615]Writing Query Target Info 100%
+[2026.08.11-23.20.16:193][615]Generating QueryTargets data for editor took 0.04s
+[2026.08.11-23.20.16:193][615]
+[2026.08.11-23.20.16:193][615]Result: Succeeded
+[2026.08.11-23.20.16:193][615]Total execution time: 40.50 seconds
+[2026.08.11-23.20.16:704][615]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.11-23.20.16:732][615]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.16:741][615]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.16:742][615]LogSlate: Window 'Add C++ Class' being destroyed
+[2026.08.11-23.20.16:761][615]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.16:775][615]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.16:976][616]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.16:984][616]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:309][617]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:317][617]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:641][618]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:650][618]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:973][619]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.17:979][619]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:307][620]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:312][620]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:640][621]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:645][621]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:973][622]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.18:978][622]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:308][623]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:316][623]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:640][624]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:644][624]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:975][625]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.19:983][625]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:309][626]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:317][626]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:641][627]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:645][627]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:975][628]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.20:982][628]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:315][629]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:320][629]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:644][630]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:651][630]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:978][631]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.21:986][631]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:308][632]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:312][632]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:641][633]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:646][633]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:974][634]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.22:978][634]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:307][635]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:313][635]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:640][636]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:645][636]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:973][637]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.23:979][637]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:308][638]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:313][638]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:640][639]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:645][639]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:974][640]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.24:979][640]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:307][641]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:312][641]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:640][642]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:644][642]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:974][643]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.25:980][643]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:309][644]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:314][644]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:642][645]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:646][645]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:975][646]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.26:979][646]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:307][647]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:312][647]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:641][648]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:645][648]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:975][649]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.27:979][649]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:308][650]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:313][650]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:640][651]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:646][651]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:973][652]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.28:981][652]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:308][653]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:312][653]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:640][654]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:646][654]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:974][655]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.29:978][655]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:308][656]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:311][656]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:641][657]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:647][657]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:975][658]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.30:979][658]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:308][659]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:312][659]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:641][660]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:646][660]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:974][661]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.31:979][661]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:309][662]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:312][662]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:641][663]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:646][663]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:975][664]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.32:980][664]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:308][665]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:312][665]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:641][666]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:646][666]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:975][667]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.33:980][667]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:307][668]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:312][668]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:640][669]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:646][669]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:974][670]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.34:978][670]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:308][671]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:313][671]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:643][672]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:648][672]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:975][673]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.35:980][673]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:308][674]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:313][674]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:642][675]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:647][675]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:975][676]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.36:979][676]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:309][677]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:313][677]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:642][678]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:647][678]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:975][679]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.37:980][679]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:308][680]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:313][680]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:642][681]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:647][681]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:975][682]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.38:981][682]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:309][683]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:312][683]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:643][684]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:647][684]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:975][685]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.39:980][685]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:309][686]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:313][686]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:642][687]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:646][687]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:975][688]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.40:980][688]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:309][689]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:314][689]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:642][690]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:648][690]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:976][691]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.41:980][691]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:309][692]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:314][692]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:642][693]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:645][693]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:976][694]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.42:980][694]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:309][695]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:313][695]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:642][696]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:645][696]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:976][697]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.43:980][697]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:309][698]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:314][698]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:642][699]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:648][699]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:976][700]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.44:980][700]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:308][701]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:314][701]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:642][702]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:647][702]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:975][703]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.45:980][703]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:309][704]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:314][704]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:643][705]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:648][705]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:975][706]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.46:980][706]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:309][707]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:314][707]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:642][708]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:649][708]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:975][709]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.47:982][709]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:310][710]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:314][710]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:642][711]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:648][711]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:976][712]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.48:981][712]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:310][713]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:315][713]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:644][714]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:648][714]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:977][715]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.49:981][715]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:310][716]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:314][716]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:643][717]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:648][717]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:976][718]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.50:981][718]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:310][719]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:316][719]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:642][720]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:648][720]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:977][721]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.51:981][721]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:310][722]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:314][722]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:643][723]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:648][723]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:976][724]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.52:981][724]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:310][725]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:314][725]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:643][726]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:648][726]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:975][727]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.53:981][727]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:310][728]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:315][728]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:643][729]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:648][729]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:976][730]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.54:980][730]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:311][731]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:315][731]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:643][732]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:647][732]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:977][733]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.55:981][733]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:310][734]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:314][734]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:643][735]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:648][735]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:976][736]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.56:983][736]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:310][737]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:316][737]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:643][738]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:648][738]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:976][739]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.57:982][739]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:310][740]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:315][740]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:643][741]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:648][741]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:977][742]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.58:982][742]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:311][743]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:315][743]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:644][744]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:650][744]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:978][745]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.20.59:982][745]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:312][746]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:318][746]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:645][747]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:650][747]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:978][748]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.00:983][748]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:312][749]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:316][749]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:644][750]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:648][750]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:978][751]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.01:984][751]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:311][752]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:316][752]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:644][753]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:651][753]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:978][754]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.02:982][754]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:311][755]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:317][755]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:646][756]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:650][756]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:978][757]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.03:983][757]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:312][758]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:317][758]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:645][759]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:650][759]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:978][760]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.04:983][760]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:312][761]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:318][761]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:646][762]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:650][762]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:979][763]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.05:984][763]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:312][764]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:318][764]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:646][765]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:651][765]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:980][766]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.06:985][766]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:314][767]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:318][767]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:646][768]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:650][768]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:980][769]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.07:984][769]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:313][770]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:317][770]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:646][771]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:650][771]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:979][772]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.08:984][772]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:313][773]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:318][773]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:646][774]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:652][774]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:978][775]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.09:984][775]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:313][776]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:317][776]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:646][777]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:652][777]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:979][778]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.10:984][778]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:313][779]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:317][779]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:645][780]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:650][780]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:979][781]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.11:983][781]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:312][782]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:317][782]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:646][783]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:650][783]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:978][784]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.12:983][784]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:313][785]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:317][785]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:645][786]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:650][786]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:978][787]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.13:983][787]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:312][788]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:317][788]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:646][789]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:650][789]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:980][790]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.14:985][790]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:313][791]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:318][791]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:646][792]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:650][792]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:980][793]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.15:984][793]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:313][794]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:317][794]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:646][795]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:650][795]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:979][796]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.16:983][796]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:314][797]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:320][797]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:646][798]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:652][798]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:980][799]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.17:984][799]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:312][800]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:317][800]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:645][801]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:650][801]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:979][802]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.18:984][802]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:313][803]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:317][803]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:646][804]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:651][804]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:660][805]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugb0c7f895-e79d-41e7-9e5a-4becf2687bee ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\6D3E.tmp
+   Creating library C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.lib and object C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.exp
+Detoured run took 982ms
+[2026.08.11-23.21.19:979][805]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.19:984][805]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.20:181][805]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.11-23.21.20:190][805]LogClass: Could not find existing class Projectile in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.11-23.21.20:382][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.08.11-23.21.21:209][806]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:214][806]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:223][806]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 4 classes unchanged
+[2026.08.11-23.21.21:223][806]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.11-23.21.21:232][807]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:236][807]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:566][808]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:569][808]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:898][809]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.21:902][809]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:232][810]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:236][810]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:566][811]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:570][811]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:898][812]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.22:902][812]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:232][813]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:236][813]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:564][814]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:569][814]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:898][815]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.23:902][815]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:232][816]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:235][816]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:565][817]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:569][817]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:898][818]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.24:902][818]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:230][819]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:235][819]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:565][820]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:569][820]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:898][821]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.25:902][821]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:231][822]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:235][822]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:565][823]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:570][823]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:898][824]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.26:902][824]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:231][825]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:235][825]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:565][826]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:568][826]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:898][827]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.27:902][827]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:232][828]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:237][828]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:565][829]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:569][829]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:899][830]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.28:902][830]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:232][831]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:237][831]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:566][832]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:570][832]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:899][833]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.29:904][833]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:233][834]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:237][834]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:566][835]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:571][835]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:899][836]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.30:903][836]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:232][837]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:236][837]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:565][838]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:570][838]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:898][839]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.31:903][839]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:232][840]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:237][840]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:565][841]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:571][841]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:898][842]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.32:903][842]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:234][843]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:238][843]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:565][844]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:570][844]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:899][845]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.33:904][845]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.34:233][846]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.34:237][846]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.21.36:002][847]LogVSAccessor: Visual Studio is open but could not be queried - it may still be initializing or blocked by a modal operation
+[2026.08.11-23.22.05:781][988]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.11-23.23.26:168][626]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug86b489d6-7e67-4f87-b051-7c9f3301cd0c ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\59DD.tmp
+   Creating library C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.lib and object C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.exp
+Detoured run took 1.3s
+[2026.08.11-23.23.26:936][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.08.11-23.23.28:202][627]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged
+[2026.08.11-23.23.28:202][627]LogLiveCoding: Display: Live coding succeeded
+[2026.08.11-23.35.15:401][ 31]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.11-23.36.44:740][145]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.08.11-23.36.44:740][145]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2026.08.11-23.37.57:679][432]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.11-23.39.37:661][343]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugb694e2e7-3c80-4038-bd65-9d05a3ae459d ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\2BFF.tmp
+   Creating library C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_4.lib and object C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_4.exp
+Detoured run took 1.5s
+[2026.08.11-23.39.37:874][347]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.11-23.39.37:874][347]LogClass: UClass Projectile Reload.
+[2026.08.11-23.39.37:889][347]LogClass: Could not find existing class Projectile in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.11-23.39.37:908][347]Re-instancing Projectile after reload.
+[2026.08.11-23.39.38:316][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.08.11-23.39.39:074][348]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged
+[2026.08.11-23.39.39:074][348]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.11-23.41.28:287][  0]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter
+[2026.08.11-23.41.28:287][  0]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.08.11-23.42.05:311][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2026.08.11-23.42.05:624][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.42.05:723][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Actors/BP_BaseCharacter] ([2] browsable assets)...
+[2026.08.11-23.42.05:723][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseCharacter]
+[2026.08.11-23.42.05:736][314]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseCharacter
+[2026.08.11-23.42.05:737][314]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseCharacterA6C75C784A6E0BE2AF30C0B99598AFA8.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset'
+[2026.08.11-23.42.05:748][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.879 ms (total: 2.90 sec)
+[2026.08.11-23.42.05:875][314]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.42.05:875][314]LogContentValidation: Enabled validators:
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.42.05:875][314]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.42.05:875][314]AssetCheck: /Game/BluePrints/Actors/BP_BaseCharacter Validating asset
+[2026.08.11-23.42.05:894][314]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.11-23.44.08:615][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.08.11-23.44.08:621][164]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BluePrints/BluePrintTestingMap' took 0.078
+[2026.08.11-23.44.08:621][164]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.44.08:884][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.44.08:884][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.44.08:900][164]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/Actors/BP_Projectile_Auto3
+[2026.08.11-23.44.08:900][164]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile_Auto320C2D5E9466F3247DBEC0AAE36B5627A.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/BluePrints/Actors/BP_Projectile_Auto3.uasset'
+[2026.08.11-23.44.08:903][164]LogFileHelpers: Auto-saving content packages took 0.281
+[2026.08.11-23.45.49:074][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.45.49:171][255]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.45.49:240][255]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.45.49:240][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.45.49:240][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.45.49:253][255]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.45.49:254][255]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ProjectileABA9E20B45E96CF3A7FF239C96776899.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.45.49:264][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.971 ms (total: 3.09 sec)
+[2026.08.11-23.45.49:269][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.45.49:397][255]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.45.49:398][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.45.49:398][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.45.49:412][255]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.45.49:413][255]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ProjectileDF582D4C46651D3932199495CDDFA6BA.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.45.49:424][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.679 ms (total: 3.25 sec)
+[2026.08.11-23.45.49:551][255]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.45.49:551][255]LogContentValidation: Enabled validators:
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.45.49:551][255]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.45.49:551][255]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.51.36:158][595]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2026.08.11-23.51.36:219][595]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.51.36:316][595]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.51.36:365][595]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.51.36:365][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.51.36:365][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.51.36:380][595]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.51.36:380][595]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ProjectileF79C967542D944E68916A582F1FA14E1.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.51.36:391][595]LogFileHelpers: InternalPromptForCheckoutAndSave took 171.828 ms (total: 3.42 sec)
+[2026.08.11-23.51.36:515][595]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.51.36:515][595]LogContentValidation: Enabled validators:
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.51.36:515][595]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.51.36:515][595]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.51.37:176][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.51.37:266][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.51.37:266][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.51.37:266][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.51.37:281][630]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.51.37:283][630]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile7B827EDA404CDB28C0EE0CB191D8F1E7.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.51.37:293][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.920 ms (total: 3.53 sec)
+[2026.08.11-23.51.37:419][630]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.51.37:419][630]LogContentValidation: Enabled validators:
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.51.37:419][630]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.51.37:419][630]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.52.12:367][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.08.11-23.52.12:424][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.52.12:521][384]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.52.12:585][384]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.52.12:585][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.52.12:585][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.52.12:598][384]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.52.12:599][384]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile3DB56ACE45E7C45D0155AB8EBAE784D1.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.52.12:611][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.421 ms (total: 3.72 sec)
+[2026.08.11-23.52.12:733][384]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.52.12:734][384]LogContentValidation: Enabled validators:
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.52.12:734][384]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.52.12:734][384]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.52.12:910][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.52.12:998][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.52.12:998][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.52.12:998][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.52.13:014][390]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.52.13:014][390]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile4F73F8184AB1E4E60F40C2869F74AFB8.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.52.13:026][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.792 ms (total: 3.84 sec)
+[2026.08.11-23.52.13:152][390]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.52.13:152][390]LogContentValidation: Enabled validators:
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.52.13:152][390]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.52.13:152][390]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.54.09:340][947]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.54.09:428][947]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.54.09:491][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.54.09:491][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.54.09:491][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.54.09:505][947]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.54.09:506][947]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile68473DBE4567EA676DF32C878FF4E886.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.54.09:517][947]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.934 ms (total: 4.02 sec)
+[2026.08.11-23.54.09:645][947]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.54.09:645][947]LogContentValidation: Enabled validators:
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.54.09:645][947]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.54.09:645][947]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.54.36:867][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2026.08.11-23.54.36:872][184]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BluePrints/BluePrintTestingMap' took 0.041
+[2026.08.11-23.54.36:873][184]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.54.36:873][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.54.36:888][184]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/BluePrints/Actors/BP_Projectile_Auto4
+[2026.08.11-23.54.36:888][184]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile_Auto4F7A01D43450C9DCCB04D84B52C61DD96.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/BluePrints/Actors/BP_Projectile_Auto4.uasset'
+[2026.08.11-23.54.36:890][184]LogFileHelpers: Auto-saving content packages took 0.018
+[2026.08.11-23.55.18:628][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.08.11-23.55.18:648][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.55.18:733][354]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.55.18:780][354]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.55.18:780][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.55.18:780][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.55.18:795][354]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.55.18:796][354]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile65CBE30A454D4F83C0A7FAAFD4AD9E73.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.55.18:807][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.496 ms (total: 4.18 sec)
+[2026.08.11-23.55.18:933][354]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.55.18:933][354]LogContentValidation: Enabled validators:
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.55.18:933][354]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.55.18:933][354]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.55.19:254][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.55.19:345][369]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.55.19:345][369]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.55.19:345][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.55.19:359][369]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.55.19:360][369]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ProjectileD6FA85904D8210618D4387ABDE020C16.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.55.19:370][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.223 ms (total: 4.29 sec)
+[2026.08.11-23.55.19:495][369]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.55.19:495][369]LogContentValidation: Enabled validators:
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.55.19:495][369]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.55.19:495][369]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.55.22:516][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.08.11-23.55.22:877][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.55.22:968][558]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_BaseCharacter] ([2] browsable assets)...
+[2026.08.11-23.55.23:030][558]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter]
+[2026.08.11-23.55.23:030][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseCharacter]
+[2026.08.11-23.55.23:044][558]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseCharacter
+[2026.08.11-23.55.23:045][558]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseCharacter51E5D83F4AB8F87B46F1AEB9902E593D.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset'
+[2026.08.11-23.55.23:057][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.535 ms (total: 4.47 sec)
+[2026.08.11-23.55.23:184][558]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.55.23:184][558]LogContentValidation: Enabled validators:
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.55.23:184][558]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.55.23:184][558]AssetCheck: /Game/BluePrints/Actors/BP_BaseCharacter Validating asset
+[2026.08.11-23.55.32:202][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.08.11-23.55.32:206][ 54]LogAssetEditorSubsystem: Opening Asset editor for World /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap
+[2026.08.11-23.55.32:208][ 54]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.11-23.55.32:236][ 54]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.11-23.55.32:236][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.55.32:273][ 54]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.11-23.55.32:279][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2026.08.11-23.55.32:392][ 54]LogStreaming: Display: FlushAsyncLoading(566): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.11-23.55.32:398][ 54]LogAudio: Display: Audio Device (ID: 1) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.55.32:398][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.55.32:470][ 54]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.11-23.55.32:509][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.08.11-23.55.32:519][ 54]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.11-23.55.32:519][ 54]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
+[2026.08.11-23.55.32:593][ 55]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.11-23.55.33:122][ 57]LogSlate: External Image Picker: DecompressImage failed
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: ================================================
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Total job queries 525, among them cache hits 93 (17.71%), DDC hits 358 (68.19%), Duplicates 67 (12.76%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Tracking 365 distinct input hashes that result in 260 distinct outputs (71.23%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: RAM used: 3.40 MiB of 1.60 GiB budget. Usage: 0.21%
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Shaders Compiled: 7
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Jobs assigned 7, completed 7 (100%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Average time worker was idle: 2861.43 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.09 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Job execution time: average 1.64 s, max 2.06 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 2.15
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Shader code size: total 53.434 KiB, numShaders 7, average 7.633 KiB, min 5.562 KiB, max 11.008 KiB
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.98 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Jobs were issued in 7 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Average processing rate: 1.76 jobs/sec
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Total thread time: 7.127 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Total thread preprocess time: 14.665 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Percentage time preprocessing: 205.78%
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Effective parallelization: 1.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.223935
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 1.42 sec, max 1.42 sec, min 1.42 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.05 sec, max 1.18 sec, min 0.82 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 44.38% of total time (compiled    3 times, average 1.05 sec, max 1.18 sec, min 0.82 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.80% of total time (compiled    2 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 19.90% of total time (compiled    1 times, average 1.42 sec, max 1.42 sec, min 1.42 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                                  FHitProxyVS - 11.91% of total time (compiled    1 times, average 0.85 sec, max 0.85 sec, min 0.85 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: === Material stats ===
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Materials Translated:    152
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Material Translation Only: 0.08 s (49%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: Material Cache Hits: 42 (28%)
+[2026.08.11-23.56.17:581][182]LogShaderCompilers: Display: ================================================
+[2026.08.11-23.56.35:801][565]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.11-23.56.35:810][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.11-23.56.35:810][565]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.56.35:814][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003213s)
+[2026.08.11-23.56.35:814][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.003268s)
+[2026.08.11-23.56.35:853][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.08.11-23.56.35:858][565]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.56.35:860][565]LogPlayLevel: PIE: World Init took: (0.002085s)
+[2026.08.11-23.56.35:862][565]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.11-23.56.35:862][565]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.11-23.56.35:862][565]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.11-23.56.35:862][565]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.11-23.56.35:862][565]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.11-23.56.35:862][565]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.11-23.56.35:864][565]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.11-23.56.35:909][565]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.11-23.56.35:909][565]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.11-23.56.35:909][565]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.11-23.56.35:909][565]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.11-23.56.35:910][565]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.08.11-23.56.35:910][565]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.08.11-23.56.35:913][565]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.08.11-23.56.35:913][565]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.08.11-23.56.35:913][565]LogInit: FAudioDevice initialized with ID 6.
+[2026.08.11-23.56.35:913][565]LogAudio: Display: Audio Device (ID: 6) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.56.35:913][565]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.08.11-23.56.35:919][565]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.11-23.56.35:920][565]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-19.56.35
+[2026.08.11-23.56.35:920][565]LogWorld: Bringing up level for play took: 0.000885
+[2026.08.11-23.56.35:923][565]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.08.11-23.56.35:927][565]PIE: Server logged in
+[2026.08.11-23.56.35:930][565]PIE: Play in editor total start time 0.12 seconds.
+[2026.08.11-23.56.36:057][566]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.11-23.56.45:240][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.56.45:242][926]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.56.45:242][926]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.11-23.56.45:242][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.56.45:246][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.11-23.56.45:254][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.56.45:287][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.56.45:287][926]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.08.11-23.56.45:287][926]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.08.11-23.56.45:290][926]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.08.11-23.56.45:299][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.08.11-23.56.45:485][927]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.08.11-23.57.50:608][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.57.50:761][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.08.11-23.57.50:781][301]LogSavePackage: Moving output files for package: /Game/BluePrints/BluePrintTestingMap
+[2026.08.11-23.57.50:782][301]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BluePrintTestingMapC6B88F9F453F455885BEC9A89C76C83D.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap'
+[2026.08.11-23.57.50:795][301]LogFileHelpers: Saving map 'BluePrintTestingMap' took 0.095
+[2026.08.11-23.57.50:807][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 199.656 ms (total: 4.67 sec)
+[2026.08.11-23.57.50:943][301]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.57.50:943][301]LogContentValidation: Enabled validators:
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.57.50:943][301]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.57.50:943][301]AssetCheck: /Game/BluePrints/BluePrintTestingMap Validating asset
+[2026.08.11-23.58.05:294][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.11-23.58.05:301][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.11-23.58.05:301][159]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.58.05:304][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003101s)
+[2026.08.11-23.58.05:304][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.003148s)
+[2026.08.11-23.58.05:341][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.08.11-23.58.05:343][159]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.58.05:346][159]LogPlayLevel: PIE: World Init took: (0.002102s)
+[2026.08.11-23.58.05:347][159]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.11-23.58.05:347][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.11-23.58.05:347][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.11-23.58.05:347][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.11-23.58.05:347][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.11-23.58.05:347][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.11-23.58.05:349][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.11-23.58.05:392][159]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.11-23.58.05:392][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.11-23.58.05:392][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.11-23.58.05:392][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.11-23.58.05:392][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.08.11-23.58.05:392][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.08.11-23.58.05:396][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.08.11-23.58.05:396][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.08.11-23.58.05:396][159]LogInit: FAudioDevice initialized with ID 7.
+[2026.08.11-23.58.05:396][159]LogAudio: Display: Audio Device (ID: 7) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.58.05:396][159]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.08.11-23.58.05:400][159]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.11-23.58.05:401][159]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-19.58.05
+[2026.08.11-23.58.05:402][159]LogWorld: Bringing up level for play took: 0.001198
+[2026.08.11-23.58.05:404][159]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2026.08.11-23.58.05:409][159]PIE: Server logged in
+[2026.08.11-23.58.05:411][159]PIE: Play in editor total start time 0.11 seconds.
+[2026.08.11-23.58.05:482][160]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.11-23.58.19:012][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.58.19:012][896]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.58.19:012][896]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.11-23.58.19:013][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.58.19:016][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.11-23.58.19:023][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.58.19:056][896]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.11-23.58.19:056][896]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.08.11-23.58.19:057][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.08.11-23.58.19:059][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.08.11-23.58.19:065][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.58.19:069][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.08.11-23.58.19:253][897]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2026.08.11-23.59.45:648][211]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.08.11-23.59.45:668][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.59.45:768][211]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.59.46:030][211]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.11-23.59.46:030][211]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.59.46:032][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.59.46:049][211]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.59.46:050][211]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile7618596643C22D2D697342AE1874700A.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.59.46:061][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 393.400 ms (total: 5.06 sec)
+[2026.08.11-23.59.46:188][211]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.59.46:188][211]LogContentValidation: Enabled validators:
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.59.46:188][211]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.59.46:188][211]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.59.46:772][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.59.46:856][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.11-23.59.46:856][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.11-23.59.46:856][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.11-23.59.46:872][239]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.11-23.59.46:873][239]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile2DC736BD48EF99F84257A0B41F921FA4.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.11-23.59.46:883][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.467 ms (total: 5.18 sec)
+[2026.08.11-23.59.47:010][239]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.59.47:010][239]LogContentValidation: Enabled validators:
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.59.47:010][239]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.59.47:010][239]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.11-23.59.48:533][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.11-23.59.48:692][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.08.11-23.59.48:716][328]LogSavePackage: Moving output files for package: /Game/BluePrints/BluePrintTestingMap
+[2026.08.11-23.59.48:717][328]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BluePrintTestingMapD4CE16BF4B8E8469B11AE5BB26294C61.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap'
+[2026.08.11-23.59.48:730][328]LogFileHelpers: Saving map 'BluePrintTestingMap' took 0.099
+[2026.08.11-23.59.48:743][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 210.127 ms (total: 5.39 sec)
+[2026.08.11-23.59.48:882][328]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.11-23.59.48:882][328]LogContentValidation: Enabled validators:
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.11-23.59.48:882][328]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.11-23.59.48:882][328]AssetCheck: /Game/BluePrints/BluePrintTestingMap Validating asset
+[2026.08.11-23.59.50:031][393]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.11-23.59.50:039][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.11-23.59.50:039][393]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.59.50:043][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003051s)
+[2026.08.11-23.59.50:043][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.003119s)
+[2026.08.11-23.59.50:079][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.08.11-23.59.50:081][393]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.59.50:083][393]LogPlayLevel: PIE: World Init took: (0.002129s)
+[2026.08.11-23.59.50:084][393]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.11-23.59.50:084][393]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.11-23.59.50:084][393]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.11-23.59.50:084][393]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.11-23.59.50:084][393]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.11-23.59.50:084][393]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.11-23.59.50:087][393]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.11-23.59.50:131][393]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.11-23.59.50:132][393]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.11-23.59.50:132][393]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.11-23.59.50:132][393]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.11-23.59.50:132][393]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.08.11-23.59.50:132][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.08.11-23.59.50:135][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.08.11-23.59.50:136][393]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.08.11-23.59.50:136][393]LogInit: FAudioDevice initialized with ID 8.
+[2026.08.11-23.59.50:136][393]LogAudio: Display: Audio Device (ID: 8) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.59.50:136][393]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.11-23.59.50:141][393]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.11-23.59.50:142][393]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-19.59.50
+[2026.08.11-23.59.50:142][393]LogWorld: Bringing up level for play took: 0.000923
+[2026.08.11-23.59.50:146][393]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2026.08.11-23.59.50:150][393]PIE: Server logged in
+[2026.08.11-23.59.50:153][393]PIE: Play in editor total start time 0.114 seconds.
+[2026.08.11-23.59.50:264][394]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.11-23.59.54:551][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.59.54:551][565]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.59.54:551][565]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.11-23.59.54:553][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.59.54:556][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.11-23.59.54:563][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.59.54:597][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.59.54:597][565]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.11-23.59.54:597][565]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.08.11-23.59.54:600][565]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.08.11-23.59.54:610][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.08.11-23.59.54:785][566]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2026.08.11-23.59.55:620][567]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.11-23.59.55:630][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.11-23.59.55:651][567]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.59.55:654][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002533s)
+[2026.08.11-23.59.55:654][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002591s)
+[2026.08.11-23.59.55:688][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.08.11-23.59.55:690][567]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.59.55:693][567]LogPlayLevel: PIE: World Init took: (0.002126s)
+[2026.08.11-23.59.55:694][567]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.11-23.59.55:694][567]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.11-23.59.55:694][567]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.11-23.59.55:694][567]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.11-23.59.55:694][567]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.11-23.59.55:694][567]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.11-23.59.55:696][567]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.11-23.59.55:740][567]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.11-23.59.55:742][567]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.11-23.59.55:742][567]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.11-23.59.55:742][567]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.11-23.59.55:742][567]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.08.11-23.59.55:742][567]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.08.11-23.59.55:745][567]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.08.11-23.59.55:745][567]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.08.11-23.59.55:745][567]LogInit: FAudioDevice initialized with ID 9.
+[2026.08.11-23.59.55:745][567]LogAudio: Display: Audio Device (ID: 9) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.59.55:745][567]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.11-23.59.55:748][567]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.11-23.59.55:749][567]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-19.59.55
+[2026.08.11-23.59.55:750][567]LogWorld: Bringing up level for play took: 0.000876
+[2026.08.11-23.59.55:753][567]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2026.08.11-23.59.55:756][567]PIE: Server logged in
+[2026.08.11-23.59.55:758][567]PIE: Play in editor total start time 0.129 seconds.
+[2026.08.11-23.59.55:785][568]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.11-23.59.56:581][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.59.56:581][578]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.59.56:581][578]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.11-23.59.56:583][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.59.56:688][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.11-23.59.56:695][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.11-23.59.56:732][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.11-23.59.56:732][578]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.11-23.59.56:732][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.08.11-23.59.56:736][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.08.11-23.59.56:747][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.08.11-23.59.56:898][579]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2026.08.11-23.59.58:518][597]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.11-23.59.58:526][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.11-23.59.58:526][597]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.11-23.59.58:528][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002647s)
+[2026.08.11-23.59.58:528][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002696s)
+[2026.08.11-23.59.58:568][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2026.08.11-23.59.58:571][597]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.11-23.59.58:573][597]LogPlayLevel: PIE: World Init took: (0.002366s)
+[2026.08.11-23.59.58:575][597]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.11-23.59.58:575][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.11-23.59.58:575][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.11-23.59.58:575][597]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.11-23.59.58:575][597]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.11-23.59.58:575][597]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.11-23.59.58:578][597]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.11-23.59.58:626][597]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.11-23.59.58:627][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.11-23.59.58:627][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.11-23.59.58:627][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.11-23.59.58:627][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.08.11-23.59.58:627][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.08.11-23.59.58:632][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.08.11-23.59.58:632][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.08.11-23.59.58:632][597]LogInit: FAudioDevice initialized with ID 10.
+[2026.08.11-23.59.58:632][597]LogAudio: Display: Audio Device (ID: 10) registered with world 'BluePrintTestingMap'.
+[2026.08.11-23.59.58:632][597]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.08.11-23.59.58:687][597]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.11-23.59.58:688][597]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-19.59.58
+[2026.08.11-23.59.58:689][597]LogWorld: Bringing up level for play took: 0.001048
+[2026.08.11-23.59.58:692][597]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.08.11-23.59.58:695][597]PIE: Server logged in
+[2026.08.11-23.59.58:698][597]PIE: Play in editor total start time 0.173 seconds.
+[2026.08.11-23.59.58:789][598]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.00.01:412][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.00.01:412][639]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.00.01:412][639]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.00.01:412][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.00.01:459][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.00.01:467][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.00.01:506][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.00.01:506][639]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.08.12-00.00.01:506][639]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.08.12-00.00.01:508][639]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.08.12-00.00.01:519][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.08.12-00.00.01:628][640]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.08.12-00.00.02:758][655]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.00.02:768][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.00.02:768][655]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.00.02:772][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004345s)
+[2026.08.12-00.00.02:772][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.004397s)
+[2026.08.12-00.00.02:815][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.08.12-00.00.02:817][655]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.00.02:821][655]LogPlayLevel: PIE: World Init took: (0.003164s)
+[2026.08.12-00.00.02:822][655]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.00.02:822][655]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.00.02:822][655]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.00.02:822][655]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.00.02:822][655]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.00.02:822][655]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.00.02:826][655]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.00.02:879][655]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.00.02:879][655]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.00.02:879][655]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.00.02:879][655]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.00.02:880][655]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.08.12-00.00.02:880][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.08.12-00.00.02:884][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.08.12-00.00.02:884][655]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.08.12-00.00.02:884][655]LogInit: FAudioDevice initialized with ID 11.
+[2026.08.12-00.00.02:884][655]LogAudio: Display: Audio Device (ID: 11) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.00.02:884][655]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.08.12-00.00.02:912][655]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.00.02:913][655]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.00.02
+[2026.08.12-00.00.02:914][655]LogWorld: Bringing up level for play took: 0.001268
+[2026.08.12-00.00.02:917][655]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.08.12-00.00.02:921][655]PIE: Server logged in
+[2026.08.12-00.00.02:924][655]PIE: Play in editor total start time 0.157 seconds.
+[2026.08.12-00.00.03:023][656]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.00.05:550][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.00.05:552][687]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.00.05:552][687]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.00.05:552][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.00.05:656][687]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.00.05:664][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.00.05:700][687]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.00.05:700][687]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.08.12-00.00.05:700][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.08.12-00.00.05:704][687]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.08.12-00.00.05:717][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.08.12-00.00.05:899][688]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.08.12-00.00.57:135][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.00.57:144][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.00.57:144][967]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.00.57:148][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004229s)
+[2026.08.12-00.00.57:148][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.004300s)
+[2026.08.12-00.00.57:191][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.08.12-00.00.57:194][967]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.00.57:196][967]LogPlayLevel: PIE: World Init took: (0.002177s)
+[2026.08.12-00.00.57:196][967]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.00.57:196][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.00.57:196][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.00.57:196][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.00.57:196][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.00.57:196][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.00.57:199][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.00.57:244][967]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.00.57:244][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.00.57:244][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.00.57:244][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.00.57:244][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.08.12-00.00.57:244][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.08.12-00.00.57:248][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.08.12-00.00.57:248][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.08.12-00.00.57:248][967]LogInit: FAudioDevice initialized with ID 12.
+[2026.08.12-00.00.57:248][967]LogAudio: Display: Audio Device (ID: 12) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.00.57:248][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.08.12-00.00.57:253][967]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.00.57:254][967]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.00.57
+[2026.08.12-00.00.57:254][967]LogWorld: Bringing up level for play took: 0.000857
+[2026.08.12-00.00.57:256][967]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2026.08.12-00.00.57:260][967]PIE: Server logged in
+[2026.08.12-00.00.57:263][967]PIE: Play in editor total start time 0.119 seconds.
+[2026.08.12-00.00.57:338][968]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.01.05:072][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.01.05:072][ 79]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.01.05:072][ 79]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.01.05:072][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.01.05:076][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.01.05:084][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.01.05:119][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.01.05:120][ 79]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.08.12-00.01.05:120][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.08.12-00.01.05:122][ 79]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.08.12-00.01.05:133][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.08.12-00.01.05:215][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.08.12-00.01.06:108][ 94]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.01.06:116][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.01.06:116][ 94]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.01.06:118][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002502s)
+[2026.08.12-00.01.06:118][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002554s)
+[2026.08.12-00.01.06:154][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2026.08.12-00.01.06:156][ 94]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.01.06:158][ 94]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2026.08.12-00.01.06:159][ 94]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.01.06:159][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.01.06:159][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.01.06:159][ 94]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.01.06:159][ 94]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.01.06:160][ 94]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.01.06:162][ 94]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.01.06:205][ 94]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.01.06:205][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.01.06:205][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.01.06:205][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.01.06:206][ 94]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.08.12-00.01.06:206][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.08.12-00.01.06:209][ 94]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.08.12-00.01.06:209][ 94]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.08.12-00.01.06:209][ 94]LogInit: FAudioDevice initialized with ID 13.
+[2026.08.12-00.01.06:209][ 94]LogAudio: Display: Audio Device (ID: 13) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.01.06:209][ 94]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.08.12-00.01.06:214][ 94]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.01.06:214][ 94]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.01.06
+[2026.08.12-00.01.06:215][ 94]LogWorld: Bringing up level for play took: 0.000865
+[2026.08.12-00.01.06:217][ 94]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2026.08.12-00.01.06:220][ 94]PIE: Server logged in
+[2026.08.12-00.01.06:224][ 94]PIE: Play in editor total start time 0.107 seconds.
+[2026.08.12-00.01.06:296][ 95]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.01.13:912][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.01.13:912][452]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.01.13:912][452]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.01.13:913][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.01.13:915][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.01.13:922][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.01.13:954][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.01.13:954][452]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.08.12-00.01.13:954][452]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2026.08.12-00.01.13:955][452]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2026.08.12-00.01.13:966][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.08.12-00.01.14:050][453]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.08.12-00.01.40:943][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.12-00.01.41:116][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.08.12-00.01.41:136][859]LogSavePackage: Moving output files for package: /Game/BluePrints/BluePrintTestingMap
+[2026.08.12-00.01.41:136][859]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BluePrintTestingMapFEB7991E44CFA72FB6A0ADA0DB3136C8.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap'
+[2026.08.12-00.01.41:149][859]LogFileHelpers: Saving map 'BluePrintTestingMap' took 0.095
+[2026.08.12-00.01.41:160][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 217.718 ms (total: 5.61 sec)
+[2026.08.12-00.01.41:298][859]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.12-00.01.41:298][859]LogContentValidation: Enabled validators:
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.12-00.01.41:298][859]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.12-00.01.41:298][859]AssetCheck: /Game/BluePrints/BluePrintTestingMap Validating asset
+[2026.08.12-00.01.56:529][760]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.01.56:536][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.01.56:536][760]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.01.56:540][760]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003357s)
+[2026.08.12-00.01.56:540][760]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.003416s)
+[2026.08.12-00.01.56:577][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.08.12-00.01.56:579][760]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.01.56:582][760]LogPlayLevel: PIE: World Init took: (0.002244s)
+[2026.08.12-00.01.56:583][760]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.01.56:583][760]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.01.56:583][760]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.01.56:583][760]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.01.56:583][760]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.01.56:583][760]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.01.56:585][760]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.01.56:631][760]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.01.56:631][760]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.01.56:631][760]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.01.56:631][760]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.01.56:632][760]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.08.12-00.01.56:632][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.08.12-00.01.56:635][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.08.12-00.01.56:635][760]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.08.12-00.01.56:635][760]LogInit: FAudioDevice initialized with ID 14.
+[2026.08.12-00.01.56:635][760]LogAudio: Display: Audio Device (ID: 14) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.01.56:635][760]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.08.12-00.01.56:640][760]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.01.56:642][760]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.01.56
+[2026.08.12-00.01.56:642][760]LogWorld: Bringing up level for play took: 0.001213
+[2026.08.12-00.01.56:645][760]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.08.12-00.01.56:649][760]PIE: Server logged in
+[2026.08.12-00.01.56:651][760]PIE: Play in editor total start time 0.115 seconds.
+[2026.08.12-00.01.56:779][761]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.02.00:351][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.00:351][900]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.02.00:351][900]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.02.00:352][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.00:356][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.02.00:363][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.00:397][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.12-00.02.00:398][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.08.12-00.02.00:398][900]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2026.08.12-00.02.00:402][900]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2026.08.12-00.02.00:410][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.00:415][900]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2026.08.12-00.02.00:588][901]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.08.12-00.02.01:735][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.02.01:745][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.02.01:770][902]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.02.01:774][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2026.08.12-00.02.01:774][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002932s)
+[2026.08.12-00.02.01:813][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2026.08.12-00.02.01:815][902]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.02.01:817][902]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2026.08.12-00.02.01:818][902]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.02.01:818][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.02.01:818][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.02.01:818][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.02.01:818][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.02.01:818][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.02.01:821][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.02.01:868][902]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.02.01:868][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.02.01:868][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.02.01:868][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.02.01:869][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.08.12-00.02.01:869][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.08.12-00.02.01:872][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.08.12-00.02.01:873][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.08.12-00.02.01:873][902]LogInit: FAudioDevice initialized with ID 15.
+[2026.08.12-00.02.01:873][902]LogAudio: Display: Audio Device (ID: 15) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.02.01:873][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.08.12-00.02.01:877][902]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.02.01:879][902]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.02.01
+[2026.08.12-00.02.01:879][902]LogWorld: Bringing up level for play took: 0.001122
+[2026.08.12-00.02.01:882][902]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.08.12-00.02.01:886][902]PIE: Server logged in
+[2026.08.12-00.02.01:888][902]PIE: Play in editor total start time 0.143 seconds.
+[2026.08.12-00.02.01:911][903]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.02.04:562][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.04:562][976]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.02.04:562][976]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.02.04:562][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.04:566][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.02.04:577][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.04:613][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.04:613][976]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.08.12-00.02.04:613][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2026.08.12-00.02.04:616][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2026.08.12-00.02.04:626][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.08.12-00.02.04:736][977]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.08.12-00.02.05:802][982]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-00.02.05:811][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-00.02.05:850][982]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.02.05:854][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002682s)
+[2026.08.12-00.02.05:854][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002745s)
+[2026.08.12-00.02.05:894][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2026.08.12-00.02.05:896][982]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.12-00.02.05:898][982]LogPlayLevel: PIE: World Init took: (0.002011s)
+[2026.08.12-00.02.05:900][982]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-00.02.05:900][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-00.02.05:900][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-00.02.05:900][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-00.02.05:900][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-00.02.05:900][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-00.02.05:903][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-00.02.05:957][982]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-00.02.05:957][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-00.02.05:957][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-00.02.05:957][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-00.02.05:958][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.08.12-00.02.05:958][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.08.12-00.02.05:962][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.08.12-00.02.05:962][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.08.12-00.02.05:962][982]LogInit: FAudioDevice initialized with ID 16.
+[2026.08.12-00.02.05:962][982]LogAudio: Display: Audio Device (ID: 16) registered with world 'BluePrintTestingMap'.
+[2026.08.12-00.02.05:962][982]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.08.12-00.02.05:970][982]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.12-00.02.05:972][982]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.11-20.02.05
+[2026.08.12-00.02.05:972][982]LogWorld: Bringing up level for play took: 0.001246
+[2026.08.12-00.02.05:976][982]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.08.12-00.02.05:981][982]PIE: Server logged in
+[2026.08.12-00.02.05:988][982]PIE: Play in editor total start time 0.177 seconds.
+[2026.08.12-00.02.06:097][983]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-00.02.08:252][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.08:252][ 37]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.12-00.02.08:252][ 37]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-00.02.08:252][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.08:256][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-00.02.08:264][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-00.02.08:299][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-00.02.08:299][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.08.12-00.02.08:299][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2026.08.12-00.02.08:301][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2026.08.12-00.02.08:313][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.08.12-00.02.08:427][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.08.12-00.02.10:022][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.12-00.02.10:383][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.08.12-00.02.10:402][ 50]LogSavePackage: Moving output files for package: /Game/BluePrints/BluePrintTestingMap
+[2026.08.12-00.02.10:403][ 50]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BluePrintTestingMap241237D4482813B8A72771874635865A.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap'
+[2026.08.12-00.02.10:417][ 50]LogFileHelpers: Saving map 'BluePrintTestingMap' took 0.100
+[2026.08.12-00.02.10:428][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 406.581 ms (total: 6.01 sec)
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: Enabled validators:
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.12-00.02.10:564][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.12-00.02.10:565][ 50]AssetCheck: /Game/BluePrints/BluePrintTestingMap Validating asset

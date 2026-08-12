@@ -1,50 +1,50 @@
 {
   "version": 2,
-  "dgSpecHash": "b9rPKnd9C48=",
+  "dgSpecHash": "C/EegJR+g74=",
   "success": false,
   "projectFilePath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "message": "Unable to find project information for 'C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
       "projectPath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
       "filePath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
-      "libraryId": "C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net8.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
+      "message": "Unable to find project information for 'C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
       "projectPath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
       "filePath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
-      "libraryId": "C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
+      "message": "Unable to find project information for 'C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
       "projectPath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
       "filePath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
-      "libraryId": "C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net8.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
+      "message": "Unable to find project information for 'C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
       "projectPath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
       "filePath": "C:\\UnrealProjects\\Unreal-Experience---END2608\\END2608\\Intermediate\\Build\\BuildRulesProjects\\END2608ModuleRules\\END2608ModuleRules.csproj",
-      "libraryId": "C:\\UnrealProjects\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net8.0"
       ]

@@ -18,6 +18,9 @@
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
@@ -51,6 +54,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\Projectile.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
     <Filter Include="Source\END2608\Private\Both">
       <UniqueIdentifier>{95C9E63F-5697-38C7-8FBD-EF4363D88672}</UniqueIdentifier>
     </Filter>
@@ -73,6 +79,9 @@
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h">
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <Filter Include="Source\END2608\Public\Both">
