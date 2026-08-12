@@ -16,6 +16,7 @@ AProjectile::AProjectile()
 	SphereCollision = CreateDefaultSubobject<USphereComponent>("SphereCollision");
 	SetRootComponent(SphereCollision);
 	SphereCollision->OnComponentHit.AddDynamic(this, &AProjectile::HandleHit);
+	SphereCollision->SetCollisionProfileName("BlockAllDynamic");
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>Asset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
 
