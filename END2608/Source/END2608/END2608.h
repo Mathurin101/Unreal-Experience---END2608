@@ -4,4 +4,4 @@
 
 #include "CoreMinimal.h"
 
-DEFINE_LOG_CATEGORY_EXTERN(Game, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(Game, Log, All);

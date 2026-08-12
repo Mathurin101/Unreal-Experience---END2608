@@ -24,9 +24,13 @@
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\characteranimation.gen.cpp",
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\both\\characteranimation.h",
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\characteranimation.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\end2608.init.gen.cpp",
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\examplevariable.gen.cpp",
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\example\\examplevariable.h",
-            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\examplevariable.generated.h"
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\examplevariable.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\projectile.gen.cpp",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\actors\\projectile.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\projectile.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

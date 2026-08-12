@@ -53,6 +53,7 @@ void AProjectile::Tick(float DeltaTime)
 
 void AProjectile::HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector OtherImpulse, const FHitResult& Hit)
 {
+	UE_LOG(Game, Log, TEXT("Destroy on the code side"));
 	Destroy();
 }
 
