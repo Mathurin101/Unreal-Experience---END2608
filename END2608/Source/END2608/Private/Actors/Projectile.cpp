@@ -5,6 +5,7 @@
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFrameWork/ProjectileMovementComponent.h"
+#include "../END2608.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -38,6 +39,9 @@ void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	FTimerHandle ProjectileTimer;
+
+	GetWorld()->GetTimerManager().SetTimer(ProjectileTimer, this, &AProjectile::K2_DestroyActor, DestroyTimer);
 }
 
 // Called every frame
