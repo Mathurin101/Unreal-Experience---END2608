@@ -1195,3 +1195,131 @@ Detoured run took 1.7s
 [2026.08.12-03.36.33:524][565]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.08.12-03.36.33:524][565]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.12-03.36.33:524][565]AssetCheck: /Game/C++/Actors/BP_CodeProjectile Validating asset
+[2026.08.12-03.37.23:321][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.08.12-03.37.23:859][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.12-03.37.23:945][881]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/C++/Actors/BP_CodeProjectile] ([2] browsable assets)...
+[2026.08.12-03.37.23:988][881]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile]
+[2026.08.12-03.37.23:988][881]OBJ SavePackage: Finished generating thumbnails for package [/Game/C++/Actors/BP_CodeProjectile]
+[2026.08.12-03.37.23:988][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/C++/Actors/BP_CodeProjectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeProjectile.uasset" SILENT=true
+[2026.08.12-03.37.23:991][881]LogWorldPartition: Can't find class descriptor '/Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C' for saving '/Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C'
+[2026.08.12-03.37.23:991][881]LogWorldPartition: Can't find class descriptor '/Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C' for saving '/Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C'
+[2026.08.12-03.37.24:001][881]LogSavePackage: Moving output files for package: /Game/C++/Actors/BP_CodeProjectile
+[2026.08.12-03.37.24:002][881]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_CodeProjectileD7850B37407627B3D8F569984BF480D6.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeProjectile.uasset'
+[2026.08.12-03.37.24:011][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.253 ms (total: 448.056 ms)
+[2026.08.12-03.37.24:127][881]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.12-03.37.24:128][881]LogContentValidation: Enabled validators:
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.12-03.37.24:128][881]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.12-03.37.24:128][881]AssetCheck: /Game/C++/Actors/BP_CodeProjectile Validating asset
+[2026.08.12-03.37.24:644][897]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.08.12-03.37.30:122][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.08.12-03.37.30:123][220]LogStreaming: Display: FlushAsyncLoading(526): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.12-03.37.30:131][220]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-03.37.30:134][220]LogAssetEditorSubsystem: Opening Asset editor for World /Game/C++/CodeTestingMap.CodeTestingMap
+[2026.08.12-03.37.30:134][220]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.12-03.37.30:158][220]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-03.37.30:158][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-03.37.30:182][220]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.12-03.37.30:187][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.08.12-03.37.30:188][220]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-03.37.30:190][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-03.37.30:216][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.08.12-03.37.30:330][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.08.12-03.37.30:333][220]LogAudio: Display: Audio Device (ID: 1) registered with world 'CodeTestingMap'.
+[2026.08.12-03.37.30:333][220]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-03.37.30:397][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.12-03.37.30:424][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.08.12-03.37.30:433][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.12-03.37.30:433][220]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.071ms to complete.
+[2026.08.12-03.37.30:541][222]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-03.37.31:190][232]LogSlate: External Image Picker: DecompressImage failed
+[2026.08.12-03.37.45:439][362]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.08.12-03.37.46:433][399]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C
+[2026.08.12-03.37.46:433][399]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C
+[2026.08.12-03.37.46:434][399]LogActorFactory: Actor Factory spawned Blueprint /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile as actor: BP_CodeProjectile_C /Game/C++/CodeTestingMap.CodeTestingMap:PersistentLevel.BP_CodeProjectile_C_0
+[2026.08.12-03.37.46:435][399]LogActorFactory: Actor Factory spawned Blueprint /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile as actor: BP_CodeProjectile_C /Game/C++/CodeTestingMap.CodeTestingMap:PersistentLevel.BP_CodeProjectile_C_0
+[2026.08.12-03.37.46:437][399]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.08.12-03.37.47:221][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.08.12-03.37.47:224][443]LogEditorActor: Deleted 0 Actors (0.028 secs)
+[2026.08.12-03.37.47:227][443]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C
+[2026.08.12-03.37.47:227][443]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile_C
+[2026.08.12-03.37.47:230][443]LogActorFactory: Actor Factory spawned Blueprint /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile as actor: BP_CodeProjectile_C /Game/C++/CodeTestingMap.CodeTestingMap:PersistentLevel.BP_CodeProjectile_C_1
+[2026.08.12-03.37.47:230][443]LogActorFactory: Actor Factory spawned Blueprint /Game/C++/Actors/BP_CodeProjectile.BP_CodeProjectile as actor: BP_CodeProjectile_C /Game/C++/CodeTestingMap.CodeTestingMap:PersistentLevel.BP_CodeProjectile_C_1
+[2026.08.12-03.38.02:208][305]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.12-03.38.02:345][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.08.12-03.38.02:362][305]LogSavePackage: Moving output files for package: /Game/C++/CodeTestingMap
+[2026.08.12-03.38.02:363][305]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/CodeTestingMap1D23129E44D91065DC8AED85FF42E254.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap'
+[2026.08.12-03.38.02:376][305]LogFileHelpers: Saving map 'CodeTestingMap' took 0.080
+[2026.08.12-03.38.02:390][305]LogFileHelpers: InternalPromptForCheckoutAndSave took 181.297 ms (total: 629.353 ms)
+[2026.08.12-03.38.02:503][305]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.12-03.38.02:503][305]LogContentValidation: Enabled validators:
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.12-03.38.02:503][305]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.12-03.38.02:503][305]AssetCheck: /Game/C++/CodeTestingMap Validating asset
+[2026.08.12-03.38.02:528][305]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.12-03.38.04:649][432]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-03.38.04:662][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-03.38.04:668][432]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.08.12-03.38.04:668][432]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.08.12-03.38.04:668][432]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-03.38.04:671][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002550s)
+[2026.08.12-03.38.04:671][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.002633s)
+[2026.08.12-03.38.04:697][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.08.12-03.38.04:698][432]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-03.38.04:700][432]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2026.08.12-03.38.04:701][432]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-03.38.04:702][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-03.38.04:702][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-03.38.04:702][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-03.38.04:702][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-03.38.04:702][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-03.38.04:704][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-03.38.04:745][432]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-03.38.04:745][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-03.38.04:745][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-03.38.04:746][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-03.38.04:746][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.08.12-03.38.04:746][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.08.12-03.38.04:749][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.08.12-03.38.04:749][432]LogInit: FAudioDevice initialized with ID 2.
+[2026.08.12-03.38.04:749][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.08.12-03.38.04:749][432]LogAudio: Display: Audio Device (ID: 2) registered with world 'CodeTestingMap'.
+[2026.08.12-03.38.04:749][432]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.08.12-03.38.04:755][432]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.12-03.38.04:757][432]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.11-23.38.04
+[2026.08.12-03.38.04:758][432]LogWorld: Bringing up level for play took: 0.001265
+[2026.08.12-03.38.04:760][432]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.08.12-03.38.04:780][432]PIE: Server logged in
+[2026.08.12-03.38.04:783][432]PIE: Play in editor total start time 0.126 seconds.
+[2026.08.12-03.38.04:888][433]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-03.38.10:335][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-03.38.10:335][702]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-03.38.10:335][702]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-03.38.10:337][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-03.38.10:339][702]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-03.38.10:346][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-03.38.10:373][702]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.12-03.38.10:373][702]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.08.12-03.38.10:373][702]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.08.12-03.38.10:376][702]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.08.12-03.38.10:382][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-03.38.10:385][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.08.12-03.38.10:623][703]LogPlayLevel: Display: Destroying online subsystem :Context_11
