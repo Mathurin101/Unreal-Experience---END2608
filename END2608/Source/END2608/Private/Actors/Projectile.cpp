@@ -17,7 +17,8 @@ AProjectile::AProjectile()
 	SphereCollision = CreateDefaultSubobject<USphereComponent>("SphereCollision");
 	SetRootComponent(SphereCollision);
 	SphereCollision->OnComponentHit.AddDynamic(this, &AProjectile::HandleHit);
-	SphereCollision->SetCollisionProfileName("BlockAllDynamic");
+	//SphereCollision->SetCollisionProfileName("BlockAllDynamic");
+	SphereCollision->SetCollisionProfileName("OverlapAllDynamic");
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>Asset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
 

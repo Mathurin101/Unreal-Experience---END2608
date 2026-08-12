@@ -3484,3 +3484,157 @@ Detoured run took 998ms
 [2026.08.12-04.39.41:899][445]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.08.12-04.39.41:899][445]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.12-04.39.41:899][445]AssetCheck: /Game/C++/CodeTestingMap Validating asset
+[2026.08.12-04.44.38:351][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.08.12-04.44.39:105][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.12-04.44.39:208][755]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_Projectile] ([2] browsable assets)...
+[2026.08.12-04.44.39:294][755]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_Projectile.BP_Projectile]
+[2026.08.12-04.44.39:294][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_Projectile]
+[2026.08.12-04.44.39:294][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_Projectile" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset" SILENT=true
+[2026.08.12-04.44.39:313][755]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_Projectile
+[2026.08.12-04.44.39:314][755]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_Projectile3DFBAC65484D647344D59D80BB14949B.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset'
+[2026.08.12-04.44.39:325][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 220.773 ms (total: 7.36 sec)
+[2026.08.12-04.44.39:465][755]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.12-04.44.39:465][755]LogContentValidation: Enabled validators:
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.12-04.44.39:465][755]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.12-04.44.39:465][755]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.12-04.44.43:804][  3]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.12-04.46.10:388][181]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugc668d5f3-f075-4212-a992-0a767ea3f1fa ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\F01A.tmp
+   Creating library C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_5.lib and object C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_5.exp
+Detoured run took 1.4s
+[2026.08.12-04.46.10:810][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.08.12-04.46.11:560][187]Display: Reload/Re-instancing Complete: 1 package changed, 5 classes unchanged, 1 function remapped
+[2026.08.12-04.46.11:560][187]LogLiveCoding: Display: Live coding succeeded
+[2026.08.12-04.49.07:587][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.08.12-04.49.07:689][264]LogAssetEditorSubsystem: Opening Asset editor for World /Game/C++/CodeTestingMap.CodeTestingMap
+[2026.08.12-04.49.07:689][264]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.12-04.49.07:715][264]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-04.49.07:715][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-04.49.07:764][264]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.12-04.49.07:785][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.08.12-04.49.07:797][264]LogStreaming: Display: FlushAsyncLoading(538): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.12-04.49.07:802][264]LogAudio: Display: Audio Device (ID: 1) registered with world 'CodeTestingMap'.
+[2026.08.12-04.49.07:802][264]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-04.49.07:862][264]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.12-04.49.07:892][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.08.12-04.49.07:906][264]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.12-04.49.07:906][264]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.072ms to complete.
+[2026.08.12-04.49.07:978][266]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-04.49.08:388][266]LogSlate: External Image Picker: DecompressImage failed
+[2026.08.12-04.49.09:088][292]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-04.49.09:096][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-04.49.09:096][292]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-04.49.09:099][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002832s)
+[2026.08.12-04.49.09:099][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.002882s)
+[2026.08.12-04.49.09:130][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.08.12-04.49.09:143][292]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-04.49.09:145][292]LogPlayLevel: PIE: World Init took: (0.001808s)
+[2026.08.12-04.49.09:145][292]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-04.49.09:145][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-04.49.09:147][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-04.49.09:147][292]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-04.49.09:147][292]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-04.49.09:147][292]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-04.49.09:148][292]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-04.49.09:194][292]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-04.49.09:194][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-04.49.09:194][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-04.49.09:194][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-04.49.09:195][292]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2026.08.12-04.49.09:195][292]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2026.08.12-04.49.09:198][292]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2026.08.12-04.49.09:198][292]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2026.08.12-04.49.09:198][292]LogInit: FAudioDevice initialized with ID 28.
+[2026.08.12-04.49.09:198][292]LogAudio: Display: Audio Device (ID: 28) registered with world 'CodeTestingMap'.
+[2026.08.12-04.49.09:198][292]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2026.08.12-04.49.09:203][292]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.12-04.49.09:204][292]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.12-00.49.09
+[2026.08.12-04.49.09:204][292]LogWorld: Bringing up level for play took: 0.000999
+[2026.08.12-04.49.09:207][292]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.08.12-04.49.09:211][292]PIE: Server logged in
+[2026.08.12-04.49.09:213][292]PIE: Play in editor total start time 0.118 seconds.
+[2026.08.12-04.49.09:321][293]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-04.49.10:274][302]Game: Destroy on the code side
+[2026.08.12-04.49.14:618][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-04.49.14:618][535]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-04.49.14:618][535]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-04.49.14:618][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-04.49.14:620][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-04.49.14:626][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-04.49.14:655][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-04.49.14:655][535]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2026.08.12-04.49.14:655][535]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=4
+[2026.08.12-04.49.14:658][535]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28, StreamState=2
+[2026.08.12-04.49.14:668][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.08.12-04.49.14:740][536]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.08.12-04.49.19:985][762]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.12-04.49.19:992][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.12-04.49.19:992][762]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-04.49.19:995][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002500s)
+[2026.08.12-04.49.19:995][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.002542s)
+[2026.08.12-04.49.20:025][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.08.12-04.49.20:028][762]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.12-04.49.20:030][762]LogPlayLevel: PIE: World Init took: (0.001905s)
+[2026.08.12-04.49.20:030][762]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2026.08.12-04.49.20:030][762]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.12-04.49.20:030][762]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.12-04.49.20:030][762]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.12-04.49.20:030][762]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.12-04.49.20:031][762]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.12-04.49.20:031][762]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.12-04.49.20:031][762]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.12-04.49.20:031][762]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.12-04.49.20:031][762]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.12-04.49.20:031][762]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.12-04.49.20:031][762]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.12-04.49.20:033][762]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.12-04.49.20:073][762]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.12-04.49.20:074][762]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.12-04.49.20:074][762]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.12-04.49.20:074][762]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.12-04.49.20:074][762]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2026.08.12-04.49.20:074][762]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2026.08.12-04.49.20:078][762]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2026.08.12-04.49.20:078][762]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2026.08.12-04.49.20:078][762]LogInit: FAudioDevice initialized with ID 29.
+[2026.08.12-04.49.20:078][762]LogAudio: Display: Audio Device (ID: 29) registered with world 'CodeTestingMap'.
+[2026.08.12-04.49.20:078][762]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2026.08.12-04.49.20:082][762]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.12-04.49.20:082][762]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.12-00.49.20
+[2026.08.12-04.49.20:082][762]LogWorld: Bringing up level for play took: 0.000721
+[2026.08.12-04.49.20:085][762]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.08.12-04.49.20:089][762]PIE: Server logged in
+[2026.08.12-04.49.20:091][762]PIE: Play in editor total start time 0.099 seconds.
+[2026.08.12-04.49.20:171][763]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.12-04.49.21:201][774]Game: Destroy on the code side
+[2026.08.12-04.49.35:738][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-04.49.35:738][615]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.12-04.49.35:738][615]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.12-04.49.35:739][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-04.49.35:740][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.12-04.49.35:746][615]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.12-04.49.35:773][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.12-04.49.35:773][615]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2026.08.12-04.49.35:773][615]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=4
+[2026.08.12-04.49.35:775][615]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29, StreamState=2
+[2026.08.12-04.49.35:784][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.08.12-04.49.35:867][616]LogPlayLevel: Display: Destroying online subsystem :Context_43
