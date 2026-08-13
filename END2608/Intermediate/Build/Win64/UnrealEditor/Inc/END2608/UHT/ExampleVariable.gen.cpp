@@ -12,10 +12,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeExampleVariable() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 END2608_API UClass* Z_Construct_UClass_AExampleVariable();
 END2608_API UClass* Z_Construct_UClass_AExampleVariable_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
@@ -107,6 +109,10 @@ struct Z_Construct_UClass_AExampleVariable_Statics
 		{ "Category", "Variable|ReadWrite" },
 		{ "ModuleRelativePath", "Public/Example/ExampleVariable.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClassType_MetaData[] = {
+		{ "Category", "Variable| ClassReference" },
+		{ "ModuleRelativePath", "Public/Example/ExampleVariable.h" },
+	};
 #endif // WITH_METADATA
 	static void NewProp_VisibleAnywhere_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_VisibleAnywhere;
@@ -118,6 +124,7 @@ struct Z_Construct_UClass_AExampleVariable_Statics
 	static const UECodeGen_Private::FStrPropertyParams NewProp_EditInstanceOdd;
 	static const UECodeGen_Private::FTextPropertyParams NewProp_EditDefaultsOnly;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EditInstanceOnly;
+	static const UECodeGen_Private::FClassPropertyParams NewProp_ClassType;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -138,6 +145,7 @@ const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_AExampleVariable
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOdd = { "EditInstanceOdd", nullptr, (EPropertyFlags)0x0020080000000805, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, EditInstanceOdd), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EditInstanceOdd_MetaData), NewProp_EditInstanceOdd_MetaData) };
 const UECodeGen_Private::FTextPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditDefaultsOnly = { "EditDefaultsOnly", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, EditDefaultsOnly), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EditDefaultsOnly_MetaData), NewProp_EditDefaultsOnly_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOnly = { "EditInstanceOnly", nullptr, (EPropertyFlags)0x0020080000000801, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, EditInstanceOnly), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EditInstanceOnly_MetaData), NewProp_EditInstanceOnly_MetaData) };
+const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_ClassType = { "ClassType", nullptr, (EPropertyFlags)0x0024080000010015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, ClassType), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassType_MetaData), NewProp_ClassType_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExampleVariable_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_VisibleAnywhere,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_VisibleDefaultsOnly,
@@ -148,6 +156,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExampleV
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOdd,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditDefaultsOnly,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOnly,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_ClassType,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AExampleVariable_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AExampleVariable_Statics::DependentSingletons[])() = {
@@ -186,10 +195,10 @@ AExampleVariable::~AExampleVariable() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 1343040088U) },
+		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 141666401U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_1012546735(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_3167856634(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

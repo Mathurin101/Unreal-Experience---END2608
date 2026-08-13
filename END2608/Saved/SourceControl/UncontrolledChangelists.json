@@ -14,7 +14,14 @@
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeProjectile.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SKM_Manny.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SK_Mannequin.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleVariable.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/ExampleTestingMap.umap",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset"
 			]
 		}
 	]

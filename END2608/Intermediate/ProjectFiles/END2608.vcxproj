@@ -275,6 +275,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Both\CharacterAnimation.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleFunctions.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleVariable.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -282,6 +285,7 @@
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h"/>
+    <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleFunctions.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleVariable.h"/>
   </ItemGroup>
   <PropertyGroup>

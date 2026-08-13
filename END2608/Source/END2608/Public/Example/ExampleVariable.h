@@ -49,6 +49,9 @@ protected:
 	UPROPERTY(EditInstanceOnly, Category = "Variable|ReadWrite")
 	FVector EditInstanceOnly;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Variable| ClassReference")
+	TSubclassOf<AActor> ClassType;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

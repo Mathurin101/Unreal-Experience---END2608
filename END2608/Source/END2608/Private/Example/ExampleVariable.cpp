@@ -2,12 +2,15 @@
 
 
 #include "Example/ExampleVariable.h"
+#include "../END2608.h"
 
 // Sets default values
 AExampleVariable::AExampleVariable()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
+
+	ClassType = AExampleVariable::StaticClass();
 
 }
 
@@ -16,6 +19,20 @@ void AExampleVariable::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//Up Cast
+	AActor* Actor = this;
+
+	//Down Cast
+	APawn* Pawn = Cast<APawn>(Actor);
+
+	if (Pawn) {
+		//valid
+		UE_LOG(Game, Warning, TEXT("Actor %s"), *Pawn->GetName())
+	}
+	else {
+		//Not valid
+		UE_LOG(Game, Log, TEXT("Numbers are %d or %f"), 4,7.1f)
+	}
 }
 
 // Called every frame
