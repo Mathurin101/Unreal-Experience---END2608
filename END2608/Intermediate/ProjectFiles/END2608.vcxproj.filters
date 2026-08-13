@@ -66,6 +66,9 @@
     <Filter Include="Source\END2608\Private\Example">
       <UniqueIdentifier>{9949A978-4755-3CBF-A9B0-1F571947232B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleDefaultPawn.cpp">
+      <Filter>Source\END2608\Private\Example</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleFunctions.cpp">
       <Filter>Source\END2608\Private\Example</Filter>
     </ClCompile>
@@ -96,6 +99,9 @@
     <Filter Include="Source\END2608\Public\Example">
       <UniqueIdentifier>{277B71C7-A75C-3F36-B440-12AB88361126}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleDefaultPawn.h">
+      <Filter>Source\END2608\Public\Example</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleFunctions.h">
       <Filter>Source\END2608\Public\Example</Filter>
     </ClInclude>
