@@ -18,13 +18,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void BlueprintCallable();
 
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void ImplementableEvent();
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	void BlueprintNativeEvent();
+	void BlueprintNativeEvent();// calls only childrens
 
-	virtual void BlueprintNativeEvent_Implementation();
+	virtual void BlueprintNativeEvent_Implementation();//calls only c++
 
 protected:
 	// Called when the game starts or when spawned
