@@ -3373,3 +3373,251 @@ Detoured run took 943ms
 [2026.08.13-23.05.23:920][916]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.08.13-23.05.23:920][916]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.13-23.05.23:921][916]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.06.15:506][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2026.08.13-23.06.15:783][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.06.15:871][251]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.06.15:880][251]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn]
+[2026.08.13-23.06.15:880][251]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.06.15:884][251]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.06.15:884][251]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.06.15:892][251]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.06.15:894][251]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawn6A75AE574EEA78AC6E85CBBF190FA0A3.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.06.15:905][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.520 ms (total: 11.4 sec)
+[2026.08.13-23.06.16:038][251]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.06.16:038][251]LogContentValidation: Enabled validators:
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.06.16:039][251]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.06.16:039][251]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.07.03:270][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.08.13-23.07.03:642][272]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.07.03:734][272]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.07.03:744][272]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn]
+[2026.08.13-23.07.03:744][272]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.07.03:748][272]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.07.03:748][272]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.07.03:756][272]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.07.03:757][272]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawn4EAACC4346526975D21E70B28C7157A6.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.07.03:768][272]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.138 ms (total: 11.5 sec)
+[2026.08.13-23.07.03:900][272]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.07.03:901][272]LogContentValidation: Enabled validators:
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.07.03:901][272]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.07.03:901][272]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.07.06:608][418]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.13-23.08.27:963][270]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugb8fc8877-0b93-4127-846e-20ce59904f27 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\6EBE.tmp
+   Creating library C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_12.lib and object C:\UnrealProjects\END2608\Binaries\Win64\UnrealEditor-END2608.patch_12.exp
+Detoured run took 1.3s
+[2026.08.13-23.08.28:376][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2026.08.13-23.08.29:149][275]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 3 functions remapped
+[2026.08.13-23.08.29:149][275]LogLiveCoding: Display: Live coding succeeded
+[2026.08.13-23.08.36:750][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.08.13-23.08.37:111][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.08.37:198][676]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.08.37:206][676]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn]
+[2026.08.13-23.08.37:206][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.08.37:211][676]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.08.37:211][676]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.08.37:221][676]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.08.37:222][676]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawnF08858D64E2526EF1611E29286B8A27D.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.08.37:232][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.421 ms (total: 11.6 sec)
+[2026.08.13-23.08.37:358][676]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.08.37:358][676]LogContentValidation: Enabled validators:
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.08.37:358][676]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.08.37:358][676]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.08.39:737][809]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2026.08.13-23.08.39:737][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.13-23.08.39:842][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.08.13-23.08.41:829][912]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn
+[2026.08.13-23.08.41:829][912]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.08.13-23.08.43:777][992]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.08.13-23.08.43:777][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.13-23.08.43:802][992]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn
+[2026.08.13-23.08.43:802][992]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2026.08.13-23.08.44:290][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.08.13-23.09.36:568][224]LogStreaming: Display: FlushAsyncLoading(704): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.13-23.09.38:431][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.08.13-23.09.38:456][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.09.38:555][326]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.09.38:617][326]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn]
+[2026.08.13-23.09.38:617][326]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.09.38:620][326]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.38:620][326]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.38:631][326]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.09.38:632][326]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawn2EE02C924ED67E66B0920CA1C62C2E8A.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.09.38:643][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.082 ms (total: 11.8 sec)
+[2026.08.13-23.09.38:773][326]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.09.38:773][326]LogContentValidation: Enabled validators:
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.09.38:773][326]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.09.38:774][326]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.09.39:152][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.09.39:247][346]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.09.39:247][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.09.39:251][346]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.39:251][346]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.39:260][346]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.09.39:261][346]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawn13E7D63D44B9F9A98955F59FF8B293E6.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.09.39:271][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.273 ms (total: 11.9 sec)
+[2026.08.13-23.09.39:402][346]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.09.39:403][346]LogContentValidation: Enabled validators:
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.09.39:403][346]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.09.39:403][346]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.09.57:129][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2026.08.13-23.09.57:438][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.09.57:532][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Example/Actors/BP_ExampleDefaultPawn] ([2] browsable assets)...
+[2026.08.13-23.09.57:541][621]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn]
+[2026.08.13-23.09.57:541][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleDefaultPawn]
+[2026.08.13-23.09.57:543][621]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.57:543][621]LogWorldPartition: Can't find class descriptor '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C' for saving '/Game/Example/Actors/BP_ExampleDefaultPawn.BP_ExampleDefaultPawn_C'
+[2026.08.13-23.09.57:553][621]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleDefaultPawn
+[2026.08.13-23.09.57:554][621]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleDefaultPawn84244B984FDA96084D01C3A0F60624A9.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset'
+[2026.08.13-23.09.57:566][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.436 ms (total: 12.1 sec)
+[2026.08.13-23.09.57:697][621]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.09.57:697][621]LogContentValidation: Enabled validators:
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.09.57:697][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.09.57:698][621]AssetCheck: /Game/Example/Actors/BP_ExampleDefaultPawn Validating asset
+[2026.08.13-23.10.01:886][838]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Example/BP_ExamplesGameMode.BP_ExamplesGameMode
+[2026.08.13-23.10.01:886][838]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.08.13-23.10.43:322][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.08.13-23.10.43:329][885]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Example/ExampleTestingMap' took 0.055
+[2026.08.13-23.10.43:330][885]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/BP_ExamplesGameMode] ([2] browsable assets)...
+[2026.08.13-23.10.43:330][885]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/BP_ExamplesGameMode]
+[2026.08.13-23.10.43:347][885]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Example/BP_ExamplesGameMode_Auto9
+[2026.08.13-23.10.43:347][885]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExamplesGameMode_Auto9D964FC834681259CFC515D92E26F8A17.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Example/BP_ExamplesGameMode_Auto9.uasset'
+[2026.08.13-23.10.43:348][885]LogFileHelpers: Auto-saving content packages took 0.019
+[2026.08.13-23.12.46:854][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2026.08.13-23.12.46:867][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.12.46:969][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/BP_ExamplesGameMode] ([2] browsable assets)...
+[2026.08.13-23.12.46:969][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/BP_ExamplesGameMode]
+[2026.08.13-23.12.46:969][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Example/BP_ExamplesGameMode" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/BP_ExamplesGameMode.uasset" SILENT=true
+[2026.08.13-23.12.46:981][304]LogSavePackage: Moving output files for package: /Game/Example/BP_ExamplesGameMode
+[2026.08.13-23.12.46:981][304]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExamplesGameMode20AC427C46F4F9E4D2D2B6BEACA803AE.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/BP_ExamplesGameMode.uasset'
+[2026.08.13-23.12.46:999][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.823 ms (total: 12.2 sec)
+[2026.08.13-23.12.47:123][304]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.12.47:123][304]LogContentValidation: Enabled validators:
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.12.47:123][304]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.12.47:124][304]AssetCheck: /Game/Example/BP_ExamplesGameMode Validating asset
+[2026.08.13-23.12.47:170][304]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.13-23.12.47:609][330]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.13-23.12.47:701][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/BP_ExamplesGameMode] ([2] browsable assets)...
+[2026.08.13-23.12.47:701][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/BP_ExamplesGameMode]
+[2026.08.13-23.12.47:701][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Example/BP_ExamplesGameMode" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/BP_ExamplesGameMode.uasset" SILENT=true
+[2026.08.13-23.12.47:713][330]LogSavePackage: Moving output files for package: /Game/Example/BP_ExamplesGameMode
+[2026.08.13-23.12.47:714][330]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExamplesGameMode8379B60C42334A05562810B1954B3940.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/BP_ExamplesGameMode.uasset'
+[2026.08.13-23.12.47:727][330]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.295 ms (total: 12.3 sec)
+[2026.08.13-23.12.47:852][330]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.13-23.12.47:852][330]LogContentValidation: Enabled validators:
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.13-23.12.47:852][330]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.13-23.12.47:852][330]AssetCheck: /Game/Example/BP_ExamplesGameMode Validating asset
+[2026.08.13-23.13.49:629][327]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.13-23.13.49:641][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.13-23.13.49:641][327]LogPlayLevel: Creating play world package: /Game/Example/UEDPIE_0_ExampleTestingMap
+[2026.08.13-23.13.49:644][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2026.08.13-23.13.49:644][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Example/ExampleTestingMap.ExampleTestingMap to /Game/Example/UEDPIE_0_ExampleTestingMap.ExampleTestingMap (0.002445s)
+[2026.08.13-23.13.49:675][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.08.13-23.13.49:681][327]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.13-23.13.49:683][327]LogPlayLevel: PIE: World Init took: (0.001920s)
+[2026.08.13-23.13.49:684][327]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.13-23.13.49:684][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.13-23.13.49:684][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.13-23.13.49:684][327]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.13-23.13.49:684][327]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.13-23.13.49:684][327]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.13-23.13.49:686][327]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.13-23.13.49:730][327]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.13-23.13.49:731][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.13-23.13.49:731][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.13-23.13.49:731][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.13-23.13.49:731][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.08.13-23.13.49:731][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.08.13-23.13.49:734][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.08.13-23.13.49:734][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.08.13-23.13.49:734][327]LogInit: FAudioDevice initialized with ID 9.
+[2026.08.13-23.13.49:734][327]LogAudio: Display: Audio Device (ID: 9) registered with world 'ExampleTestingMap'.
+[2026.08.13-23.13.49:735][327]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.13-23.13.49:739][327]LogLoad: Game class is 'BP_ExamplesGameMode_C'
+[2026.08.13-23.13.49:740][327]LogWorld: Bringing World /Game/Example/UEDPIE_0_ExampleTestingMap.ExampleTestingMap up for play (max tick rate 60) at 2026.08.13-19.13.49
+[2026.08.13-23.13.49:740][327]LogWorld: Bringing up level for play took: 0.000764
+[2026.08.13-23.13.49:743][327]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.08.13-23.13.49:746][327]Game: In C++ BlueprintCallable
+[2026.08.13-23.13.49:746][327]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint callable was called
+[2026.08.13-23.13.49:746][327]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.13-23.13.49:746][327]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint Native Event was called
+[2026.08.13-23.13.49:746][327]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] Implementable Event was called
+[2026.08.13-23.13.49:746][327]Game: Error: Begin In Play
+[2026.08.13-23.13.49:746][327]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.13-23.13.49:746][327]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint Native Event was called
+[2026.08.13-23.13.49:746][327]Game: Error: Just Called BlueprintNativeEvent
+[2026.08.13-23.13.49:746][327]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.13-23.13.49:746][327]Game: Error: Just Called BlueprintNativeEvent_Implementation
+[2026.08.13-23.13.49:747][327]PIE: Server logged in
+[2026.08.13-23.13.49:749][327]PIE: Play in editor total start time 0.112 seconds.
+[2026.08.13-23.13.49:862][328]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.13-23.13.54:580][531]Set new viewmode: Wireframe
+[2026.08.13-23.13.55:330][533]LogRenderer: Using fallback RTPSO
+[2026.08.13-23.13.55:338][533]LogRenderer: Using fallback RTPSO
+[2026.08.13-23.13.55:904][533]LogD3D12RHI: Compiled LumenReflectionHardwareRayTracingRGS for RTPSO in 1296.01 ms.
+[2026.08.13-23.13.56:034][533]LogD3D12RHI: Compiled LumenReflectionHardwareRayTracingRGS for RTPSO in 1425.66 ms.
+[2026.08.13-23.13.56:043][533]LogD3D12RHI: Compiled LumenReflectionHardwareRayTracingRGS for RTPSO in 1434.90 ms.
+[2026.08.13-23.13.56:201][533]LogD3D12RHI: Compiled LumenReflectionHardwareRayTracingRGS for RTPSO in 1592.24 ms.
+[2026.08.13-23.13.56:217][533]LogD3D12RHI: Creating RTPSO with 20 shaders (0 cached, 20 new) took 1608.44 ms. Compile time 1592.42 ms, link time 15.99 ms.
+[2026.08.13-23.13.56:255][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.13-23.13.56:255][534]LogWorld: BeginTearingDown for /Game/Example/UEDPIE_0_ExampleTestingMap
+[2026.08.13-23.13.56:256][534]LogWorld: UWorld::CleanupWorld for ExampleTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.13-23.13.56:256][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.13-23.13.56:263][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.13-23.13.56:274][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.13-23.13.56:309][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.13-23.13.56:309][534]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.13-23.13.56:310][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.08.13-23.13.56:313][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.08.13-23.13.56:324][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.08.13-23.13.56:472][535]LogPlayLevel: Display: Destroying online subsystem :Context_34
