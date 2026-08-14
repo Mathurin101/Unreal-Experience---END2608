@@ -20,7 +20,6 @@ protected:
 	class USpringArmComponent* SpringArm;
 	class UCameraComponent* Camera;
 
-
 public: 
 	ABasePlayer();
 	

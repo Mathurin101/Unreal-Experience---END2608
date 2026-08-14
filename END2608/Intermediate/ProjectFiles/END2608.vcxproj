@@ -269,6 +269,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseRifle.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\Projectile.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -286,6 +289,7 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h"/>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseRifle.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Example\ExampleDefaultPawn.h"/>

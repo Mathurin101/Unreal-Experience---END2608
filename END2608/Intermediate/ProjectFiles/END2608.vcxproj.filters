@@ -54,6 +54,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseRifle.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\Projectile.cpp">
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
@@ -85,6 +88,9 @@
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseRifle.h">
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h">

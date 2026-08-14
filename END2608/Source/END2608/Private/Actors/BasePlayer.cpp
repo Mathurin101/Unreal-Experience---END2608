@@ -16,8 +16,6 @@ ABasePlayer::ABasePlayer()
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(SpringArm);
 	Camera->SetRelativeLocation(FVector(0.0,0.0,0.0));
-
-
 }
 
 void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

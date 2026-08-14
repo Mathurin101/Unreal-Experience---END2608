@@ -23,7 +23,13 @@ struct Z_Construct_UFunction_AExampleFunctions_BlueprintCallable_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//This one lets you calls the functions from blueprints\n" },
+#endif
 		{ "ModuleRelativePath", "Public/Example/ExampleFunctions.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "This one lets you calls the functions from blueprints" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -100,7 +106,13 @@ struct Z_Construct_UFunction_AExampleFunctions_ImplementableEvent_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//BlueprintImplementableEvent - Declare in Blueprint \n" },
+#endif
 		{ "ModuleRelativePath", "Public/Example/ExampleFunctions.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "BlueprintImplementableEvent - Declare in Blueprint" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -166,9 +178,9 @@ struct Z_Construct_UClass_AExampleFunctions_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintCallable, "BlueprintCallable" }, // 2942406293
+		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintCallable, "BlueprintCallable" }, // 2341161542
 		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintNativeEvent, "BlueprintNativeEvent" }, // 3512330251
-		{ &Z_Construct_UFunction_AExampleFunctions_ImplementableEvent, "ImplementableEvent" }, // 3937049743
+		{ &Z_Construct_UFunction_AExampleFunctions_ImplementableEvent, "ImplementableEvent" }, // 2551761049
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -212,10 +224,10 @@ AExampleFunctions::~AExampleFunctions() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 1799731748U) },
+		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 2935675010U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_3702009847(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_942173666(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

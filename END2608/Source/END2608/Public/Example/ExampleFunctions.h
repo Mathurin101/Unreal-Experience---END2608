@@ -15,9 +15,11 @@ public:
 	// Sets default values for this actor's properties
 	AExampleFunctions();
 
+	//This one lets you calls the functions from blueprints
 	UFUNCTION(BlueprintCallable)
 	void BlueprintCallable();
 
+	//BlueprintImplementableEvent - Declare in Blueprint 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 	void ImplementableEvent();
 
