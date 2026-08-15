@@ -24,10 +24,10 @@ void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 
 		Direction = UKismetAnimationLibrary::CalculateDirection(VelocityVector, BaseRotation);
 		
-		PreviewWindowUpdate();
 	}
 	else {//is not vaild
 
+		PreviewWindowUpdate();
 	}
 }
 

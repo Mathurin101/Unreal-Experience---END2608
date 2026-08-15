@@ -2522,3 +2522,106 @@ Detoured run took 1.6s
 [2026.08.15-22.13.43:868][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
 [2026.08.15-22.13.44:840][892]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 4 functions remapped
 [2026.08.15-22.13.44:840][892]LogLiveCoding: Display: Live coding succeeded
+[2026.08.15-22.14.58:809][ 20]LogStreaming: Display: FlushAsyncLoading(654): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.14.58:830][ 20]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Example/BP_ExamplesGameMode.BP_ExamplesGameMode
+[2026.08.15-22.14.58:830][ 20]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.08.15-22.15.01:550][145]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-22.15.01:551][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-22.15.01:746][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.08.15-22.15.03:512][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.08.15-22.15.05:109][235]LogSlate: Window 'Save Content' being destroyed
+[2026.08.15-22.15.05:123][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-22.15.05:243][235]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/END_Starter/Mannequin/Meshes/SK_Mannequin] ([1] browsable assets)...
+[2026.08.15-22.15.05:243][235]OBJ SavePackage: Finished generating thumbnails for package [/Game/END_Starter/Mannequin/Meshes/SK_Mannequin]
+[2026.08.15-22.15.05:265][235]LogSavePackage: Moving output files for package: /Game/END_Starter/Mannequin/Meshes/SK_Mannequin
+[2026.08.15-22.15.05:266][235]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SK_Mannequin94FF9F5E44A12A07B4505EB956721BB7.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SK_Mannequin.uasset'
+[2026.08.15-22.15.05:401][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 278.446 ms (total: 6.34 sec)
+[2026.08.15-22.15.05:401][235]LogStreaming: Display: FlushAsyncLoading(655): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.15.05:429][235]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.15-22.15.05:433][235]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Example/ExampleTestingMap.ExampleTestingMap
+[2026.08.15-22.15.05:433][235]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/ExampleTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.15-22.15.05:465][235]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-22.15.05:465][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-22.15.05:491][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.15-22.15.05:497][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.08.15-22.15.05:503][235]LogWorld: UWorld::CleanupWorld for ExampleTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-22.15.05:503][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-22.15.05:528][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.08.15-22.15.05:556][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.08.15-22.15.05:560][235]LogAudio: Display: Audio Device (ID: 1) registered with world 'ExampleTestingMap'.
+[2026.08.15-22.15.05:560][235]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.15-22.15.05:628][235]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.15-22.15.05:658][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.08.15-22.15.05:668][235]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.15-22.15.05:669][235]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.08ms to complete.
+[2026.08.15-22.15.05:822][235]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-22.15.05:822][235]LogContentValidation: Enabled validators:
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-22.15.05:822][235]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-22.15.05:822][235]AssetCheck: /Game/END_Starter/Mannequin/Meshes/SK_Mannequin Validating asset
+[2026.08.15-22.15.05:880][235]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.15-22.15.05:958][237]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.15-22.15.05:993][237]LogStreaming: Display: FlushAsyncLoading(657): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.15.07:383][311]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.15-22.15.07:393][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.15-22.15.07:393][311]BlueprintLog: Warning: Blueprint failed to compile:  ABP_CharacterAnimation
+[2026.08.15-22.15.11:243][311]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2026.08.15-22.15.13:336][329]LogSlate: Window 'Message Log' being destroyed
+[2026.08.15-22.15.13:343][329]LogSlate: Window 'Message Log' being destroyed
+[2026.08.15-22.16.38:932][115]LogStreaming: Display: FlushAsyncLoading(659): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.17.20:951][565]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.17.21:012][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.08.15-22.17.21:531][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-22.17.21:617][592]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-22.17.21:627][592]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-22.17.21:627][592]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-22.17.21:627][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-22.17.21:652][592]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-22.17.21:654][592]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation7AC3A385442BFBAAF915029875892AB5.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-22.17.21:666][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.550 ms (total: 6.48 sec)
+[2026.08.15-22.17.21:792][592]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-22.17.21:792][592]LogContentValidation: Enabled validators:
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-22.17.21:792][592]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-22.17.21:792][592]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-22.22.41:847][914]LogStreaming: Display: FlushAsyncLoading(661): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.22.41:907][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2026.08.15-22.22.44:670][ 61]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.15-22.22.53:145][248]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug514398d7-ff13-4935-8fb9-297f9ce98af1 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\B726.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.exp
+Detoured run took 937ms
+[2026.08.15-22.22.53:603][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2026.08.15-22.22.54:345][249]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 4 functions remapped
+[2026.08.15-22.22.54:345][249]LogLiveCoding: Display: Live coding succeeded
+[2026.08.15-22.23.01:615][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-22.23.01:724][630]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-22.23.01:736][630]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-22.23.01:737][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-22.23.01:737][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-22.23.01:763][630]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-22.23.01:764][630]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation588BCFF74509C655E392F4B7B72BF426.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-22.23.01:780][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.962 ms (total: 6.64 sec)
+[2026.08.15-22.23.01:912][630]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-22.23.01:913][630]LogContentValidation: Enabled validators:
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-22.23.01:913][630]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-22.23.01:913][630]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-22.23.02:220][646]LogStreaming: Display: FlushAsyncLoading(663): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-22.23.02:361][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
