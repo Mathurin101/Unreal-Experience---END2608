@@ -2433,3 +2433,56 @@ Detoured run took 1.8s
 [2026.08.15-21.49.04:237][311]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.08.15-21.49.04:237][311]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.15-21.49.04:237][311]AssetCheck: /Game/BluePrints/Actors/BP_BasePlayer Validating asset
+[2026.08.15-21.49.32:863][689]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.15-21.49.32:872][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.15-21.49.32:873][689]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.49.32:875][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002529s)
+[2026.08.15-21.49.32:875][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002576s)
+[2026.08.15-21.49.32:909][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.08.15-21.49.32:913][689]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.15-21.49.32:916][689]LogPlayLevel: PIE: World Init took: (0.002190s)
+[2026.08.15-21.49.32:917][689]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.15-21.49.32:917][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.15-21.49.32:917][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.15-21.49.32:917][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.15-21.49.32:917][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.15-21.49.32:917][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.15-21.49.32:919][689]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.15-21.49.32:966][689]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.15-21.49.32:966][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.15-21.49.32:966][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.15-21.49.32:966][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.15-21.49.32:966][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.08.15-21.49.32:966][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.08.15-21.49.32:969][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.08.15-21.49.32:969][689]LogInit: FAudioDevice initialized with ID 8.
+[2026.08.15-21.49.32:969][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.08.15-21.49.32:969][689]LogAudio: Display: Audio Device (ID: 8) registered with world 'BluePrintTestingMap'.
+[2026.08.15-21.49.32:969][689]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.15-21.49.32:973][689]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.15-21.49.32:974][689]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.15-17.49.32
+[2026.08.15-21.49.32:974][689]LogWorld: Bringing up level for play took: 0.000895
+[2026.08.15-21.49.32:976][689]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.08.15-21.49.32:981][689]PIE: Server logged in
+[2026.08.15-21.49.32:985][689]PIE: Play in editor total start time 0.113 seconds.
+[2026.08.15-21.49.33:231][690]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.15-21.49.43:010][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.49.43:010][ 68]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.49.43:010][ 68]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-21.49.43:013][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.49.43:029][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.15-21.49.43:036][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.49.43:064][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.49.43:065][ 68]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.15-21.49.43:065][ 68]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.08.15-21.49.43:067][ 68]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.08.15-21.49.43:076][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2026.08.15-21.49.43:313][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_33
