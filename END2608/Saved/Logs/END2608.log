@@ -2175,3 +2175,206 @@ Detoured run took 1.8s
 [2026.08.15-21.29.47:450][138]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.08.15-21.29.47:450][138]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.15-21.29.47:450][138]AssetCheck: /Game/BluePrints/Actors/BP_Projectile Validating asset
+[2026.08.15-21.31.10:393][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.31.10:477][425]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.31.10:490][425]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.31.10:490][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.31.10:490][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.31.10:511][425]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.31.10:512][425]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation669D429D43A8E2E6EE3649A95980ABE5.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.31.10:522][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.998 ms (total: 4.37 sec)
+[2026.08.15-21.31.10:642][425]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.31.10:642][425]LogContentValidation: Enabled validators:
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.31.10:643][425]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.31.10:643][425]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.31.10:814][433]LogStreaming: Display: FlushAsyncLoading(599): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.31.10:868][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.08.15-21.32.56:789][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.08.15-21.32.56:798][381]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BluePrints/BluePrintTestingMap' took 0.040
+[2026.08.15-21.32.56:799][381]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.32.56:980][381]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.32.56:980][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.32.57:002][381]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Both/ABP_CharacterAnimation_Auto3
+[2026.08.15-21.32.57:002][381]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation_Auto343F6BFD54E648E29CD8F0D98CCFCA91F.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Both/ABP_CharacterAnimation_Auto3.uasset'
+[2026.08.15-21.32.57:003][381]LogFileHelpers: Auto-saving content packages took 0.205
+[2026.08.15-21.33.09:526][486]LogStreaming: Display: FlushAsyncLoading(601): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.09:573][488]LogStreaming: Display: FlushAsyncLoading(611): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.09:592][489]LogStreaming: Display: FlushAsyncLoading(618): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.09:612][490]LogStreaming: Display: FlushAsyncLoading(626): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.09:630][491]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2026.08.15-21.33.37:188][715]LogStreaming: Display: FlushAsyncLoading(630): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.37:212][717]LogStreaming: Display: FlushAsyncLoading(633): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.33.37:232][718]LogStreaming: Display: FlushAsyncLoading(636): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.34.18:343][937]LogStreaming: Display: FlushAsyncLoading(639): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.34.25:114][335]LogStreaming: Display: FlushAsyncLoading(643): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.34.25:168][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.08.15-21.34.25:586][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.34.25:683][357]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.34.25:690][357]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.34.25:691][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.34.25:691][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.34.25:711][357]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.34.25:712][357]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimationB1585CEA4979FEBFABA4C8B8FBBBF670.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.34.25:723][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.286 ms (total: 4.50 sec)
+[2026.08.15-21.34.25:882][357]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.34.25:882][357]LogContentValidation: Enabled validators:
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.34.25:882][357]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.34.25:882][357]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.35.13:018][852]LogStreaming: Display: FlushAsyncLoading(644): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.35.13:074][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.08.15-21.35.14:120][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.35.14:205][912]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.35.14:215][912]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.35.14:215][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.35.14:215][912]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.35.14:239][912]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.35.14:240][912]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation479AC1E24C87A8F1F78C1EA0345CAF46.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.35.14:253][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.049 ms (total: 4.64 sec)
+[2026.08.15-21.35.14:378][912]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.35.14:378][912]LogContentValidation: Enabled validators:
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.35.14:378][912]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.35.14:378][912]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.38.44:470][750]LogStreaming: Display: FlushAsyncLoading(646): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.38.44:533][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2026.08.15-21.38.45:489][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.38.45:565][801]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.38.45:575][801]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.38.45:575][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.38.45:575][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.38.45:599][801]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.38.45:600][801]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation91BB2C244E612749E364DB902564846C.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.38.45:610][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.367 ms (total: 4.76 sec)
+[2026.08.15-21.38.45:738][801]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.38.45:738][801]LogContentValidation: Enabled validators:
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.38.45:738][801]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.38.45:739][801]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.40.13:695][620]LogStreaming: Display: FlushAsyncLoading(648): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.40.13:754][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.08.15-21.40.14:276][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.40.14:363][647]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.40.14:372][647]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.40.14:372][647]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.40.14:372][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.40.14:399][647]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.40.14:400][647]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation9AD19E3644C8D377A948CA96AA2F9765.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.40.14:410][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.026 ms (total: 4.89 sec)
+[2026.08.15-21.40.14:530][647]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.40.14:530][647]LogContentValidation: Enabled validators:
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.40.14:530][647]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.40.14:530][647]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.41.01:577][733]LogStreaming: Display: FlushAsyncLoading(650): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.41.01:636][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.08.15-21.41.02:035][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.41.02:115][752]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.15-21.41.02:125][752]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.15-21.41.02:125][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.15-21.41.02:125][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.15-21.41.02:151][752]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.15-21.41.02:151][752]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation3AED27594CF89756584C488DC2BF2B2F.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.15-21.41.02:162][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.445 ms (total: 5.02 sec)
+[2026.08.15-21.41.02:288][752]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.41.02:288][752]LogContentValidation: Enabled validators:
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.41.02:288][752]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.41.02:288][752]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.15-21.41.41:881][939]LogPSOHitching: Encountered 50 PSO creation hitches so far (5 graphics, 45 compute). 0 of them were precached.
+[2026.08.15-21.41.42:756][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.08.15-21.41.42:756][979]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-21.41.42:756][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.41.42:859][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.08.15-21.41.46:527][153]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_BasePlayer.BP_BasePlayer
+[2026.08.15-21.41.46:527][153]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2026.08.15-21.42.24:817][409]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-21.42.24:817][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.42.24:912][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.08.15-21.42.26:448][466]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter
+[2026.08.15-21.42.26:450][466]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.08.15-21.42.57:881][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.08.15-21.42.57:883][896]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/BluePrints/BluePrintTestingMap' took 0.051
+[2026.08.15-21.42.57:884][896]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/END_Starter/Mannequin/Meshes/SK_Mannequin] ([1] browsable assets)...
+[2026.08.15-21.42.57:886][896]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2026.08.15-21.42.58:222][896]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/END_Starter/Mannequin/Meshes/SK_Mannequin.SK_Mannequin]
+[2026.08.15-21.42.58:223][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/END_Starter/Mannequin/Meshes/SK_Mannequin]
+[2026.08.15-21.42.58:246][896]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/END_Starter/Mannequin/Meshes/SK_Mannequin_Auto4
+[2026.08.15-21.42.58:246][896]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SK_Mannequin_Auto49D6AAC9E4F23080537075BA63665A4D7.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/END_Starter/Mannequin/Meshes/SK_Mannequin_Auto4.uasset'
+[2026.08.15-21.42.58:247][896]LogFileHelpers: Auto-saving content packages took 0.363
+[2026.08.15-21.45.42:625][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.45.42:719][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_BaseCharacter] ([2] browsable assets)...
+[2026.08.15-21.45.42:783][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter]
+[2026.08.15-21.45.42:784][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseCharacter]
+[2026.08.15-21.45.42:798][507]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseCharacter
+[2026.08.15-21.45.42:799][507]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseCharacter6F56B3CB47DF06B706F17293E928F855.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset'
+[2026.08.15-21.45.42:809][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.495 ms (total: 5.20 sec)
+[2026.08.15-21.45.42:937][507]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.45.42:937][507]LogContentValidation: Enabled validators:
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.45.42:937][507]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.45.42:937][507]AssetCheck: /Game/BluePrints/Actors/BP_BaseCharacter Validating asset
+[2026.08.15-21.45.43:003][507]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.15-21.45.44:083][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.08.15-21.45.44:586][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.45.44:663][593]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_BaseCharacter] ([2] browsable assets)...
+[2026.08.15-21.45.44:725][593]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter]
+[2026.08.15-21.45.44:725][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseCharacter]
+[2026.08.15-21.45.44:739][593]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseCharacter
+[2026.08.15-21.45.44:740][593]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseCharacter68956C744CE955A645AC7C82779A3E41.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset'
+[2026.08.15-21.45.44:753][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.283 ms (total: 5.37 sec)
+[2026.08.15-21.45.44:870][593]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.45.44:870][593]LogContentValidation: Enabled validators:
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.45.44:870][593]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.45.44:872][593]AssetCheck: /Game/BluePrints/Actors/BP_BaseCharacter Validating asset
+[2026.08.15-21.46.11:686][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.08.15-21.46.12:316][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.46.12:407][384]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_BaseCharacter] ([2] browsable assets)...
+[2026.08.15-21.46.12:448][384]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseCharacter.BP_BaseCharacter]
+[2026.08.15-21.46.12:448][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseCharacter]
+[2026.08.15-21.46.12:465][384]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseCharacter
+[2026.08.15-21.46.12:466][384]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseCharacterF972F96047920EED716785AF1CB7273F.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset'
+[2026.08.15-21.46.12:476][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.199 ms (total: 5.53 sec)
+[2026.08.15-21.46.12:600][384]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.46.12:600][384]LogContentValidation: Enabled validators:
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.46.12:600][384]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.46.12:600][384]AssetCheck: /Game/BluePrints/Actors/BP_BaseCharacter Validating asset
