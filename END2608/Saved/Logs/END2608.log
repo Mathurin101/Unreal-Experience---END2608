@@ -1801,3 +1801,107 @@ Detoured run took 1.8s
 [2026.08.15-21.08.16:732][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.08.15-21.08.16:735][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
 [2026.08.15-21.08.16:811][466]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.08.15-21.08.46:262][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.08.46:341][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/END_Starter/Props/Rifle/SK_Rifle] ([1] browsable assets)...
+[2026.08.15-21.08.46:342][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/END_Starter/Props/Rifle/SK_Rifle]
+[2026.08.15-21.08.46:378][679]LogSavePackage: Moving output files for package: /Game/END_Starter/Props/Rifle/SK_Rifle
+[2026.08.15-21.08.46:379][679]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SK_RifleFC59C1AF4E5732E627847FBB19356888.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Props/Rifle/SK_Rifle.uasset'
+[2026.08.15-21.08.46:388][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.278 ms (total: 2.43 sec)
+[2026.08.15-21.08.46:511][679]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.08.46:511][679]LogContentValidation: Enabled validators:
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.08.46:511][679]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.08.46:511][679]AssetCheck: /Game/END_Starter/Props/Rifle/SK_Rifle Validating asset
+[2026.08.15-21.08.46:530][679]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.15-21.11.03:854][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.08.15-21.11.04:638][162]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.11.04:716][162]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_BaseRifle] ([2] browsable assets)...
+[2026.08.15-21.11.04:806][162]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseRifle.BP_BaseRifle]
+[2026.08.15-21.11.04:806][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseRifle]
+[2026.08.15-21.11.04:806][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_BaseRifle" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset" SILENT=true
+[2026.08.15-21.11.04:822][162]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseRifle
+[2026.08.15-21.11.04:823][162]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseRifleFE2C964E414230E4E63BDFBECFAEA1C1.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset'
+[2026.08.15-21.11.04:834][162]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.525 ms (total: 2.62 sec)
+[2026.08.15-21.11.04:945][162]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.11.04:945][162]LogContentValidation: Enabled validators:
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.11.04:945][162]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.11.04:945][162]AssetCheck: /Game/BluePrints/Actors/BP_BaseRifle Validating asset
+[2026.08.15-21.11.18:048][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.11.18:131][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Actors/BP_BaseRifle] ([2] browsable assets)...
+[2026.08.15-21.11.18:131][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseRifle]
+[2026.08.15-21.11.18:131][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_BaseRifle" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset" SILENT=true
+[2026.08.15-21.11.18:147][393]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseRifle
+[2026.08.15-21.11.18:148][393]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseRifleCF6B65204ABA52954D5E4294F397CC4E.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset'
+[2026.08.15-21.11.18:158][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.983 ms (total: 2.73 sec)
+[2026.08.15-21.11.18:276][393]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.11.18:276][393]LogContentValidation: Enabled validators:
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.11.18:276][393]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.11.18:277][393]AssetCheck: /Game/BluePrints/Actors/BP_BaseRifle Validating asset
+[2026.08.15-21.11.20:729][528]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.15-21.11.20:736][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.15-21.11.20:736][528]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.11.20:739][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002566s)
+[2026.08.15-21.11.20:739][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.002608s)
+[2026.08.15-21.11.20:770][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.08.15-21.11.20:774][528]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.15-21.11.20:776][528]LogPlayLevel: PIE: World Init took: (0.002043s)
+[2026.08.15-21.11.20:777][528]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.15-21.11.20:777][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.15-21.11.20:777][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.15-21.11.20:777][528]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.15-21.11.20:777][528]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.15-21.11.20:777][528]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.15-21.11.20:779][528]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.15-21.11.20:821][528]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.15-21.11.20:822][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.15-21.11.20:822][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.15-21.11.20:822][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.15-21.11.20:822][528]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.08.15-21.11.20:822][528]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.08.15-21.11.20:825][528]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.08.15-21.11.20:825][528]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.08.15-21.11.20:825][528]LogInit: FAudioDevice initialized with ID 7.
+[2026.08.15-21.11.20:825][528]LogAudio: Display: Audio Device (ID: 7) registered with world 'BluePrintTestingMap'.
+[2026.08.15-21.11.20:825][528]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.08.15-21.11.20:829][528]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.15-21.11.20:831][528]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.15-17.11.20
+[2026.08.15-21.11.20:831][528]LogWorld: Bringing up level for play took: 0.000912
+[2026.08.15-21.11.20:833][528]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.08.15-21.11.20:837][528]PIE: Server logged in
+[2026.08.15-21.11.20:839][528]PIE: Play in editor total start time 0.103 seconds.
+[2026.08.15-21.11.20:927][529]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.15-21.11.32:000][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.11.32:000][864]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.11.32:000][864]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-21.11.32:001][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.11.32:018][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.15-21.11.32:024][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.11.32:052][864]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.15-21.11.32:054][864]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.08.15-21.11.32:054][864]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.08.15-21.11.32:056][864]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.08.15-21.11.32:061][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.11.32:064][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.08.15-21.11.32:272][865]LogPlayLevel: Display: Destroying online subsystem :Context_22
