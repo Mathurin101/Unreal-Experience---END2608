@@ -2,6 +2,7 @@
 
 
 #include "Actors/BaseRifle.h"
+#include "Actors/BasePlayer.h"
 
 // Sets default values
 ABaseRifle::ABaseRifle()

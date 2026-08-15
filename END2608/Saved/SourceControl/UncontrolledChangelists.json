@@ -5,28 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/UnrealProjects/END2608/Content/C++/Actors/BP_CodeBasePlayer.uasset",
-				"C:/UnrealProjects/END2608/Content/Both/ABP_CharacterAnimation.uasset",
-				"C:/UnrealProjects/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseCharacter.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/DoNotConvert/M_FlatColor.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeProjectile.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/CodeBaseRifle.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBasePlayer.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SKM_Manny.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SK_Mannequin.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleVariable.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/ExampleTestingMap.umap",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleDefaultPawn.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/BP_ExamplesGameMode.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseRifle.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBasePlayer.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/CodeBaseRifle.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap"
 			]
 		}
 	]

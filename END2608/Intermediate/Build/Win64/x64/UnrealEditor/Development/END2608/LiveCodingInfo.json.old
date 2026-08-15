@@ -1,16 +1,5 @@
 {
 	"RemapUnityFiles": 
 	{
-		"Module.END2608.gen.cpp.obj": [
-			"BaseCharacter.gen.cpp.obj",
-			"BasePlayer.gen.cpp.obj",
-			"BaseRifle.gen.cpp.obj",
-			"CharacterAnimation.gen.cpp.obj",
-			"ExampleDefaultPawn.gen.cpp.obj",
-			"ExampleVariable.gen.cpp.obj",
-			"Projectile.gen.cpp.obj",
-			"END2608.init.gen.cpp.obj",
-			"ExampleFunctions.gen.cpp.obj"
-		]
 	}
 }
