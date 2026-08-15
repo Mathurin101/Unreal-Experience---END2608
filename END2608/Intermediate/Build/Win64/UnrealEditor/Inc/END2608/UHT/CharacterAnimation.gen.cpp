@@ -19,9 +19,56 @@ ENGINE_API UClass* Z_Construct_UClass_UAnimInstance();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class UCharacterAnimation Function PreviewWindowUpdate *************************
+static FName NAME_UCharacterAnimation_PreviewWindowUpdate = FName(TEXT("PreviewWindowUpdate"));
+void UCharacterAnimation::PreviewWindowUpdate()
+{
+	UFunction* Func = FindFunctionChecked(NAME_UCharacterAnimation_PreviewWindowUpdate);
+	if (!Func->GetOwnerClass()->HasAnyClassFlags(CLASS_Native))
+	{
+	ProcessEvent(Func,NULL);
+	}
+	else
+	{
+		PreviewWindowUpdate_Implementation();
+	}
+}
+struct Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UCharacterAnimation, nullptr, "PreviewWindowUpdate", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080C00, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate_Statics::Function_MetaDataParams), Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UCharacterAnimation::execPreviewWindowUpdate)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->PreviewWindowUpdate_Implementation();
+	P_NATIVE_END;
+}
+// ********** End Class UCharacterAnimation Function PreviewWindowUpdate ***************************
+
 // ********** Begin Class UCharacterAnimation ******************************************************
 void UCharacterAnimation::StaticRegisterNativesUCharacterAnimation()
 {
+	UClass* Class = UCharacterAnimation::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "PreviewWindowUpdate", &UCharacterAnimation::execPreviewWindowUpdate },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 FClassRegistrationInfo Z_Registration_Info_UClass_UCharacterAnimation;
 UClass* UCharacterAnimation::GetPrivateStaticClass()
@@ -76,6 +123,10 @@ struct Z_Construct_UClass_UCharacterAnimation_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Direction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate, "PreviewWindowUpdate" }, // 2718223656
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCharacterAnimation>::IsAbstract,
 	};
@@ -98,11 +149,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UCharacterAnimation_Sta
 	nullptr,
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_UCharacterAnimation_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterAnimation_Statics::PropPointers),
 	0,
 	0x009000A8u,
@@ -125,10 +176,10 @@ UCharacterAnimation::~UCharacterAnimation() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 1970263772U) },
+		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 2752274087U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_1862759787(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_1898497967(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

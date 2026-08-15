@@ -2486,3 +2486,23 @@ Detoured run took 1.8s
 [2026.08.15-21.49.43:067][ 68]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
 [2026.08.15-21.49.43:076][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
 [2026.08.15-21.49.43:313][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.08.15-21.58.02:571][524]LogDerivedDataCache: C:/Users/mathu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.08.15-21.58.46:384][818]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.15-21.58.54:251][946]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debuga6d03ca6-4cbb-47dd-8237-88bdcd3c8b6b ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\C27A.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.exp
+Detoured run took 944ms
+[2026.08.15-21.58.54:569][946]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.15-21.58.54:571][946]LogClass: UClass CharacterAnimation Reload.
+[2026.08.15-21.58.54:571][946]LogClass: Could not find existing class CharacterAnimation in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.15-21.58.54:571][946]LogClass: Function PreviewWindowUpdate is new or belongs to a modified class.
+[2026.08.15-21.58.54:602][946]Re-instancing CharacterAnimation after reload.
+[2026.08.15-21.58.54:616][946]LogBlueprint: Error: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] The function name in node  PreviewWindowUpdate  is already used
+[2026.08.15-21.58.54:617][946]LogBlueprint: Error: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Access specifier is not compatible the parent function  PreviewWindowUpdate
+[2026.08.15-21.58.54:617][946]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Access specifier is not compatible the parent function  PreviewWindowUpdate
+[2026.08.15-21.58.54:626][946]LogStreaming: Display: FlushAsyncLoading(652): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.58.54:933][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.08.15-21.58.55:933][947]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 7 classes unchanged, 3 functions remapped
+[2026.08.15-21.58.55:933][947]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types

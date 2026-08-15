@@ -5,3 +5,15 @@
 #include "CoreMinimal.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(Game, Log, All);
+
+/*
+(Game, ..., All)
+
+...:
+Fatal
+Error
+Warning
+Display
+Log
+Verbose
+*/

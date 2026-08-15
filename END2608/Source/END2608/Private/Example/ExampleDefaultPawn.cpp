@@ -3,6 +3,7 @@
 
 #include "Example/ExampleDefaultPawn.h"
 #include "GameFramework/PlayerInput.h"
+#include "../END2608.h"
 
 // Sets default values
 AExampleDefaultPawn::AExampleDefaultPawn()
@@ -16,7 +17,7 @@ AExampleDefaultPawn::AExampleDefaultPawn()
 void AExampleDefaultPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	UE_LOG(GAME, Error, TEXT("It is %s"), true ? TEXT("TRUE") : TEXT("FALSE"));
 }
 
 // Called every frame

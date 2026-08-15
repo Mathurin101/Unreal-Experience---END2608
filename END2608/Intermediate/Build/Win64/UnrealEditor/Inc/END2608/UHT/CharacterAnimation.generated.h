@@ -17,6 +17,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UCharacterAnimation ******************************************************
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execPreviewWindowUpdate);
+
+
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_CALLBACK_WRAPPERS
 END2608_API UClass* Z_Construct_UClass_UCharacterAnimation_NoRegister();
 
 #define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
@@ -46,6 +51,8 @@ public: \
 #define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_CALLBACK_WRAPPERS \
 	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_INCLASS_NO_PURE_DECLS \
 	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_ENHANCED_CONSTRUCTORS \
 private: \
