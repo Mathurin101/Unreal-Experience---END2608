@@ -1679,3 +1679,125 @@ Detoured run took 1.8s
 [2026.08.15-21.02.00:050][757]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
 [2026.08.15-21.02.00:059][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2026.08.15-21.02.00:306][758]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.08.15-21.04.31:202][577]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.08.15-21.04.32:870][664]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.08.15-21.04.33:054][666]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.08.15-21.04.33:141][669]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.08.15-21.04.54:788][279]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/END_Starter/Props/Rifle/SK_Rifle.SK_Rifle
+[2026.08.15-21.04.54:817][279]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.08.15-21.04.54:823][279]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.15-21.04.55:018][279]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: ================================================
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: Total job queries 500, among them cache hits 45 (9.00%), DDC hits 369 (73.80%), Duplicates 66 (13.20%)
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: Tracking 389 distinct input hashes that result in 278 distinct outputs (71.47%)
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: RAM used: 3.53 MiB of 1.60 GiB budget. Usage: 0.22%
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: Shaders Compiled: 20
+[2026.08.15-21.05.46:967][999]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Average time worker was idle: 1.59 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Job execution time: average 1.03 s, max 2.48 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Job life time (pending + execution): average 1.08 s, max 2.51
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Shader code size: total 161.895 KiB, numShaders 20, average 8.095 KiB, min 4.289 KiB, max 11.867 KiB
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.47 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Average processing rate: 2.36 jobs/sec
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Total thread time: 16.468 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Total thread preprocess time: 10.052 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Percentage time preprocessing: 61.04%
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Effective parallelization: 1.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.243060
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 1.39 sec, max 1.80 sec, min 1.19 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.78 sec, max 0.90 sec, min 0.65 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.58 sec, max 0.60 sec, min 0.55 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    5 times, average 0.55 sec, max 0.62 sec, min 0.46 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.54 sec, max 0.55 sec, min 0.54 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 42.27% of total time (compiled    5 times, average 1.39 sec, max 1.80 sec, min 1.19 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.76% of total time (compiled    5 times, average 0.78 sec, max 0.90 sec, min 0.65 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.75% of total time (compiled    5 times, average 0.55 sec, max 0.62 sec, min 0.46 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.60% of total time (compiled    3 times, average 0.58 sec, max 0.60 sec, min 0.55 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.61% of total time (compiled    2 times, average 0.54 sec, max 0.55 sec, min 0.54 sec)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: === Material stats ===
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Materials Translated:    151
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Material Translation Only: 0.08 s (46%)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: Material Cache Hits: 31 (21%)
+[2026.08.15-21.05.46:968][999]LogShaderCompilers: Display: ================================================
+[2026.08.15-21.07.12:931][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.08.15-21.08.04:546][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.08.15-21.08.05:184][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.15-21.08.05:270][ 73]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/BluePrints/Actors/BP_BaseRifle] ([2] browsable assets)...
+[2026.08.15-21.08.05:322][ 73]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Actors/BP_BaseRifle.BP_BaseRifle]
+[2026.08.15-21.08.05:322][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Actors/BP_BaseRifle]
+[2026.08.15-21.08.05:322][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Actors/BP_BaseRifle" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset" SILENT=true
+[2026.08.15-21.08.05:335][ 73]LogSavePackage: Moving output files for package: /Game/BluePrints/Actors/BP_BaseRifle
+[2026.08.15-21.08.05:336][ 73]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_BaseRifle77CA1FC644EE57416FCB8DBBA36C79E6.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseRifle.uasset'
+[2026.08.15-21.08.05:346][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.405 ms (total: 2.30 sec)
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: Enabled validators:
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.15-21.08.05:471][ 73]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.15-21.08.05:471][ 73]AssetCheck: /Game/BluePrints/Actors/BP_BaseRifle Validating asset
+[2026.08.15-21.08.09:515][283]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.15-21.08.09:523][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.15-21.08.09:523][283]LogPlayLevel: Creating play world package: /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.08.09:526][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003486s)
+[2026.08.15-21.08.09:526][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BluePrints/BluePrintTestingMap.BluePrintTestingMap to /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap (0.003541s)
+[2026.08.15-21.08.09:561][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.08.15-21.08.09:565][283]LogChaosDD: Creating Chaos Debug Draw Scene for world BluePrintTestingMap
+[2026.08.15-21.08.09:567][283]LogPlayLevel: PIE: World Init took: (0.002297s)
+[2026.08.15-21.08.09:568][283]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.15-21.08.09:568][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.15-21.08.09:568][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.15-21.08.09:568][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.15-21.08.09:568][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.15-21.08.09:568][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.15-21.08.09:571][283]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.15-21.08.09:613][283]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.15-21.08.09:613][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.15-21.08.09:613][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.15-21.08.09:613][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.15-21.08.09:614][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.08.15-21.08.09:614][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.08.15-21.08.09:617][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.08.15-21.08.09:617][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.08.15-21.08.09:617][283]LogInit: FAudioDevice initialized with ID 6.
+[2026.08.15-21.08.09:617][283]LogAudio: Display: Audio Device (ID: 6) registered with world 'BluePrintTestingMap'.
+[2026.08.15-21.08.09:617][283]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.08.15-21.08.09:621][283]LogLoad: Game class is 'BP_BluePrintGameMode_C'
+[2026.08.15-21.08.09:622][283]LogWorld: Bringing World /Game/BluePrints/UEDPIE_0_BluePrintTestingMap.BluePrintTestingMap up for play (max tick rate 60) at 2026.08.15-17.08.09
+[2026.08.15-21.08.09:622][283]LogWorld: Bringing up level for play took: 0.000884
+[2026.08.15-21.08.09:625][283]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.08.15-21.08.09:629][283]PIE: Server logged in
+[2026.08.15-21.08.09:632][283]PIE: Play in editor total start time 0.108 seconds.
+[2026.08.15-21.08.09:842][284]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.15-21.08.16:680][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.08.16:680][465]LogWorld: BeginTearingDown for /Game/BluePrints/UEDPIE_0_BluePrintTestingMap
+[2026.08.15-21.08.16:680][465]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.15-21.08.16:681][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.08.16:688][465]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.15-21.08.16:695][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.15-21.08.16:725][465]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.15-21.08.16:725][465]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.08.15-21.08.16:725][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.08.15-21.08.16:727][465]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.08.15-21.08.16:732][465]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.15-21.08.16:735][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2026.08.15-21.08.16:811][466]LogPlayLevel: Display: Destroying online subsystem :Context_21
