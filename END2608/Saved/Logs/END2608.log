@@ -2506,3 +2506,19 @@ Detoured run took 944ms
 [2026.08.15-21.58.54:933][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
 [2026.08.15-21.58.55:933][947]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 7 classes unchanged, 3 functions remapped
 [2026.08.15-21.58.55:933][947]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.15-22.12.26:825][532]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.15-22.12.37:390][111]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.08.15-22.12.37:390][111]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2026.08.15-22.12.43:379][411]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.15-22.12.47:743][640]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.08.15-22.12.47:744][640]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2026.08.15-22.13.25:775][937]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.15-22.13.43:185][888]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug0cf8fd14-2ed1-4bfa-93b1-a26948a1ebce ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\4FE6.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.exp
+Detoured run took 1.6s
+[2026.08.15-22.13.43:868][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.08.15-22.13.44:840][892]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 4 functions remapped
+[2026.08.15-22.13.44:840][892]LogLiveCoding: Display: Live coding succeeded

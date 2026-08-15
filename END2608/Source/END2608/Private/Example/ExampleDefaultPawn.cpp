@@ -17,7 +17,7 @@ AExampleDefaultPawn::AExampleDefaultPawn()
 void AExampleDefaultPawn::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(GAME, Error, TEXT("It is %s"), true ? TEXT("TRUE") : TEXT("FALSE"));
+	UE_LOG(Game, Error, TEXT("It is %s"), true ? TEXT("TRUE") : TEXT("FALSE"));
 }
 
 // Called every frame
