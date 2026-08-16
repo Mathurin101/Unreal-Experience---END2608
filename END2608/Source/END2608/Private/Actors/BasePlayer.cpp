@@ -10,13 +10,16 @@ ABasePlayer::ABasePlayer()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 	SpringArm->bUsePawnControlRotation = true;
 	SpringArm->SetupAttachment(GetRootComponent()/*, not needed unless we have to set something by it's socket */);
-	SpringArm->SetRelativeLocation(FVector(0.0,0.0,60.0));
-	
+	SpringArm->SetRelativeLocation(FVector(0.0,80.0,90.0));
+	SpringArm->TargetArmLength = 205.0f;
 	
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(SpringArm);
 	Camera->SetRelativeLocation(FVector(0.0,0.0,0.0));
 
+	
+	ChildMesh = CreateDefaultSubobject<UChildActorComponent>("ChildMesh");
+	ChildMesh->SetupAttachment(GetMesh(), "CodePlaceWeaponHere");
 	
 }
 
