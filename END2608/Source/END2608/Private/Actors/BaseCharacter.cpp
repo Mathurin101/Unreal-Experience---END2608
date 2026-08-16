@@ -2,6 +2,7 @@
 
 
 #include "Actors/BaseCharacter.h"
+#include "../END2608.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
@@ -14,6 +15,9 @@ ABaseCharacter::ABaseCharacter()
 	GetMesh()->SetRelativeLocation(FVector(0.0, 0.0, -90.0));
 
 	GetMesh()->SetRelativeRotation(FRotator(0.0, -90.0, 0.0));
+
+	ChildActor = CreateDefaultSubobject<UChildActorComponent>("ChildActor");
+	ChildActor->SetupAttachment(GetMesh(), "CodePlaceWeaponHere");
 }
 
 // Called when the game starts or when spawned
@@ -21,6 +25,20 @@ void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	
+	ChildActor->SetChildActorClass(WeaponClass);
+
+	Rifle = Cast<ABaseRifle>(ChildActor->GetChildActor());
+
+	if (Rifle) {
+
+		UE_LOG(Game, Log, TEXT("Weapon is Here!!!"));
+	}
+	else {
+		UE_LOG(Game, Error, TEXT("Weapon is needed!!!"));
+	}
+
+
 }
 
 // Called every frame

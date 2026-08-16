@@ -19,7 +19,7 @@ protected:
 
 	class USpringArmComponent* SpringArm;
 	class UCameraComponent* Camera;
-	class UChildActorComponent* ChildMesh;
+	
 
 public: 
 	ABasePlayer();

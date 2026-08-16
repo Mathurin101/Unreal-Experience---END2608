@@ -2,7 +2,7 @@
 
 
 #include "Actors/BaseRifle.h"
-#include "Actors/BasePlayer.h"
+
 
 // Sets default values
 ABaseRifle::ABaseRifle()
@@ -18,15 +18,17 @@ void ABaseRifle::BeginPlay()
 	Super::BeginPlay();
 
 	// Define the location and rotation
-	FVector Location = FVector(4.0f, 4.0f, -1.5f);
-	FRotator Rotation = FRotator(-5.0f, 0.0f, 97.0f);
+	//FVector Location = FVector(4.0f, 4.0f, -1.5f);
+	//FRotator Rotation = FRotator(-5.0f, 0.0f, 97.0f);
 
-	FActorSpawnParameters Params;
-	Params.Owner = GetInstigatorController();
-	Params.Instigator = GetInstigator();
+	//FActorSpawnParameters Params;
+	//Params.Owner = GetInstigatorController();
+	//Params.Instigator = GetInstigator();
+
+	
 
 	//spawn 
-	 GetWorld()->SpawnActor<ABaseRifle>(ABaseRifle::StaticClass(), Location, Rotation, Params);
+	 //GetWorld()->SpawnActor<ABaseRifle>(ABaseRifle::StaticClass(), Location, Rotation, Params);
 }
 
 // Called every frame

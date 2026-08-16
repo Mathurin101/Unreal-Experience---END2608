@@ -17,9 +17,7 @@ ABasePlayer::ABasePlayer()
 	Camera->SetupAttachment(SpringArm);
 	Camera->SetRelativeLocation(FVector(0.0,0.0,0.0));
 
-	
-	ChildMesh = CreateDefaultSubobject<UChildActorComponent>("ChildMesh");
-	ChildMesh->SetupAttachment(GetMesh(), "CodePlaceWeaponHere");
+
 	
 }
 

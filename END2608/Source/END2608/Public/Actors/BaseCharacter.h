@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Actors/BaseRifle.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS(Abstract)
@@ -19,7 +20,13 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UChildActorComponent* ChildAct;
+	UChildActorComponent* ChildActor;
+
+	ABaseRifle* Rifle;
+
+	UPROPERTY(EditAnywhere, Category = Default)
+	TSubclassOf<AActor> WeaponClass;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

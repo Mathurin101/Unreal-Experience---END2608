@@ -252,7 +252,6 @@
     <None Include="..\..\END2608.uproject"/>
     <None Include="..\..\Source\END2608.Target.cs"/>
     <None Include="..\..\Source\END2608Editor.Target.cs"/>
-    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
