@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Actors/BaseRifle.h"
+#include "Both/CharacterAnimation.h"
 #include "BaseCharacter.generated.h"
+
 
 UCLASS(Abstract)
 class END2608_API ABaseCharacter : public ACharacter
@@ -19,10 +21,13 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	
+	UPROPERTY(EditAnywhere, Category = Default)
 	UChildActorComponent* ChildActor;
 
 	ABaseRifle* Rifle;
+
+	UCharacterAnimation* RifleAnimation;
 
 	UPROPERTY(EditAnywhere, Category = Default)
 	TSubclassOf<AActor> WeaponClass;

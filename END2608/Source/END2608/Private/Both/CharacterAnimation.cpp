@@ -3,6 +3,7 @@
 
 #include "Both/CharacterAnimation.h"
 #include "KismetAnimationLibrary.h"
+#include "../END2608.h"
 
 void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 	Super::NativeThreadSafeUpdateAnimation(DeltaSeconds);
@@ -30,8 +31,18 @@ void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 		PreviewWindowUpdate();
 	}
 }
+void UCharacterAnimation::FireAnimation() {
+	PlaySlotAnimationAsDynamicMontage(FireAsset, ActionSlotName);
+}
 
 void UCharacterAnimation::PreviewWindowUpdate_Implementation()
 {
 	//log shoot/fire
+	if (DebugFire) {
+		FireAnimation();
+		DebugFire = false;
+	}
+	else {
+	
+	}
 }

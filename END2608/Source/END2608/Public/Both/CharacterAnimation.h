@@ -17,12 +17,24 @@ class END2608_API UCharacterAnimation : public UAnimInstance
 public:
 	void NativeThreadSafeUpdateAnimation(float DeltaSeconds);
 
+	UFUNCTION(BlueprintCallable)
+	void FireAnimation();
+
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default);
 	float Velocity; 
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default);
 	float Direction;
+
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	bool DebugFire;
+
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	UAnimSequence* FireAsset;
+
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	FName ActionSlotName;
 
 protected:
 	UFUNCTION(BlueprintNativeEvent)

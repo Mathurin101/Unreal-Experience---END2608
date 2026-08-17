@@ -17,7 +17,7 @@ ABaseCharacter::ABaseCharacter()
 	GetMesh()->SetRelativeRotation(FRotator(0.0, -90.0, 0.0));
 
 	ChildActor = CreateDefaultSubobject<UChildActorComponent>("ChildActor");
-	ChildActor->SetupAttachment(GetMesh(), "CodePlaceWeaponHere");
+	ChildActor->SetupAttachment(GetMesh(), "PlaceWeaponHere");
 }
 
 // Called when the game starts or when spawned
@@ -38,7 +38,15 @@ void ABaseCharacter::BeginPlay()
 		UE_LOG(Game, Error, TEXT("Weapon is needed!!!"));
 	}
 
+	RifleAnimation = Cast<UCharacterAnimation>(GetMesh()->GetAnimInstance());
 
+	if (RifleAnimation) {
+		UE_LOG(Game, Log, TEXT("Shoot Animation is Here!!!"));
+	}
+	else {
+
+		UE_LOG(Game, Log, TEXT("Shoot Animation is NOT Here!!!"));
+	}
 }
 
 // Called every frame

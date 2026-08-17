@@ -2,7 +2,7 @@
 
 
 #include "Actors/BaseRifle.h"
-
+#include "../END2608.h"
 
 // Sets default values
 ABaseRifle::ABaseRifle()
@@ -10,6 +10,8 @@ ABaseRifle::ABaseRifle()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	SkellyMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkellyMesh");
+	SetRootComponent(SkellyMesh);
 }
 
 // Called when the game starts or when spawned
@@ -17,18 +19,14 @@ void ABaseRifle::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// Define the location and rotation
-	//FVector Location = FVector(4.0f, 4.0f, -1.5f);
-	//FRotator Rotation = FRotator(-5.0f, 0.0f, 97.0f);
+	PawnParent = Cast<APawn>(GetParentActor());
 
-	//FActorSpawnParameters Params;
-	//Params.Owner = GetInstigatorController();
-	//Params.Instigator = GetInstigator();
+	if (PawnParent) {
 
-	
-
-	//spawn 
-	 //GetWorld()->SpawnActor<ABaseRifle>(ABaseRifle::StaticClass(), Location, Rotation, Params);
+	}
+	else {
+		UE_LOG(Game, Error, TEXT("Need PawnParent"));
+	}
 }
 
 // Called every frame
@@ -37,4 +35,20 @@ void ABaseRifle::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+void ABaseRifle::SpawnBullet()
+{
+	// Define the location and rotation
+	FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
+	FRotator Rotation = PawnParent->GetBaseAimRotation();
+	
+	FActorSpawnParameters Params;
+	Params.Owner = PawnParent->GetController();
+	Params.Instigator = PawnParent;
+	
+	//spawn 
+	GetWorld()->SpawnActor<AActor>(ProjectileClass, Location, Rotation, Params);
+}
+
+
 

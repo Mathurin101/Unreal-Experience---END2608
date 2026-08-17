@@ -28,6 +28,8 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	class UProjectileMovementComponent* ProjectileMovement; 
 
+	UPROPERTY(EditAnywhere, Category = Default)
+	FVector Size = FVector(0.18f,0.18f, 0.18f);
 
 public:	
 	// Called every frame
@@ -38,5 +40,5 @@ public:
 
 private:
 	UFUNCTION()
-	void HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector OtherImpulse, const FHitResult& Hit);
+	void HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBody, bool FromSweep, const FHitResult& Hit);
 };

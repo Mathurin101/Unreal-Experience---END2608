@@ -17,8 +17,6 @@ ABasePlayer::ABasePlayer()
 	Camera->SetupAttachment(SpringArm);
 	Camera->SetRelativeLocation(FVector(0.0,0.0,0.0));
 
-
-	
 }
 
 void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -32,6 +30,10 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	//Bind Movement Functions
 	PlayerInputComponent->BindAxis("MoveForward",this, &ABasePlayer::InputAxisMoveForward);
 	PlayerInputComponent->BindAxis("Strafe",this, &ABasePlayer::MovingLeftAndRight);
+
+	//Gun Function 
+	PlayerInputComponent->BindAction("AttackInput", EInputEvent::IE_Pressed,this, &ABasePlayer::Attack);
+
 }
 
 void ABasePlayer::InputAxisMoveForward(float AxisValue)
@@ -61,4 +63,7 @@ void ABasePlayer::MovingLeftAndRight(float AxisValue)
 
 }
 
-
+void ABasePlayer::Attack() {
+	Rifle->SpawnBullet();
+	RifleAnimation->FireAnimation();
+}

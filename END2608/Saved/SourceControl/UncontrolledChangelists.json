@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/END_Starter/Mannequin/Meshes/SKM_Manny.uasset"
+			]
+		}
+	]
+}

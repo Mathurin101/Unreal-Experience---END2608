@@ -19,9 +19,17 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere, Category = Default)
+	TSubclassOf<AActor> ProjectileClass;
+
+	UPROPERTY(EditAnywhere, Category = Default)
+	USkeletalMeshComponent* SkellyMesh;
+
+	APawn* PawnParent;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void SpawnBullet();
 };

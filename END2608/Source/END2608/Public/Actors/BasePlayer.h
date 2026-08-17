@@ -20,6 +20,7 @@ protected:
 	class USpringArmComponent* SpringArm;
 	class UCameraComponent* Camera;
 	
+	
 
 public: 
 	ABasePlayer();
@@ -32,4 +33,6 @@ private:
 	void InputAxisMoveForward(float AxisValue);
 
 	void MovingLeftAndRight(float AxisValue);
+
+	void Attack();
 };

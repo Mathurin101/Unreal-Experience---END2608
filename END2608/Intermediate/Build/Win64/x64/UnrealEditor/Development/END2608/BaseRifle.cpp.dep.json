@@ -7,7 +7,8 @@
         "Includes": [
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\end2608\\definitions.end2608.h",
             "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\actors\\baserifle.h",
-            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\baserifle.generated.h"
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\baserifle.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\end2608.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -16,9 +16,11 @@ AProjectile::AProjectile()
 
 	SphereCollision = CreateDefaultSubobject<USphereComponent>("SphereCollision");
 	SetRootComponent(SphereCollision);
-	SphereCollision->OnComponentHit.AddDynamic(this, &AProjectile::HandleHit);
+	SphereCollision->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::HandleHit);
 	//SphereCollision->SetCollisionProfileName("BlockAllDynamic");
 	SphereCollision->SetCollisionProfileName("OverlapAllDynamic");
+	
+	SphereCollision->SetWorldScale3D(Size);
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>Asset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
 
@@ -52,8 +54,8 @@ void AProjectile::Tick(float DeltaTime)
 
 }
 
-void AProjectile::HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector OtherImpulse, const FHitResult& Hit)
-{
+void AProjectile::HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBody, bool FromSweep, const FHitResult& Hit)
+{                         
 	UE_LOG(Game, Log, TEXT("Destroy on the code side"));
 	Destroy();
 }
