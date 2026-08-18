@@ -38,6 +38,8 @@ public:
 
 
 private:
+	float RestTimer = 2.0f;
+
 	bool ActionHappening = false;
 
 	const bool CanShoot();//pure function

@@ -3,6 +3,7 @@
 
 #include "Actors/BaseRifle.h"
 #include "../END2608.h"
+#include "UKismetSystemLibrary.h"
 
 // Sets default values
 ABaseRifle::ABaseRifle()
@@ -59,6 +60,8 @@ void ABaseRifle::SpawnBullet()
 		GetWorld()->SpawnActor<AActor>(ProjectileClass, Location, Rotation, Params);
 
 		ActionHappening = true;
+
+		K2_SetTimerDelegate(FTimerDynamicDelegate Delegate, float Time)
 	}
 }
 
