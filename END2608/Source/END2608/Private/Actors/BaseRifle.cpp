@@ -7,12 +7,12 @@
 // Sets default values
 ABaseRifle::ABaseRifle()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
 	//creating the mesh for the rifle 
 	SkellyMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkellyMesh");
-	
+
 	//making it the root component
 	SetRootComponent(SkellyMesh);
 }
@@ -44,16 +44,27 @@ void ABaseRifle::Tick(float DeltaTime)
 
 void ABaseRifle::SpawnBullet()
 {
-	// Define the location and rotation
-	FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
-	FRotator Rotation = PawnParent->GetBaseAimRotation();
-	
-	FActorSpawnParameters Params;
-	Params.Owner = PawnParent->GetController();
-	Params.Instigator = PawnParent;
-	
-	//spawn 
-	GetWorld()->SpawnActor<AActor>(ProjectileClass, Location, Rotation, Params);
+	//branch? : if statment
+	if (CanShoot() == true) {
+
+		// Define the location and rotation
+		FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
+		FRotator Rotation = PawnParent->GetBaseAimRotation();
+
+		FActorSpawnParameters Params;
+		Params.Owner = PawnParent->GetController();
+		Params.Instigator = PawnParent;
+
+		//spawn 
+		GetWorld()->SpawnActor<AActor>(ProjectileClass, Location, Rotation, Params);
+
+		ActionHappening = true;
+	}
+}
+
+const bool ABaseRifle::CanShoot()
+{
+	return ActionHappening;
 }
 
 

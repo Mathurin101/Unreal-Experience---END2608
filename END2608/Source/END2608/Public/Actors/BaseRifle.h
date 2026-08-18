@@ -35,4 +35,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	void SpawnBullet();
+
+
+private:
+	bool ActionHappening = false;
+
+	const bool CanShoot();//pure function
 };
