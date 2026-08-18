@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "../END2608.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "BaseRifle.generated.h"
 
 UCLASS()
@@ -30,6 +32,8 @@ protected:
 	//get the main or self in this case
 	APawn* PawnParent;
 
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -43,4 +47,15 @@ private:
 	bool ActionHappening = false;
 
 	const bool CanShoot();//pure function
+
+
+	//Timer things
+	//call this method in the 
+	UFUNCTION()
+	void ActionStopped();
+
+	//FTimerHandle RestTimerHandler;
+
+	//need this object to bind the function that will be called when the timer rests
+	FTimerDynamicDelegate TimeDelegateObject;
 };

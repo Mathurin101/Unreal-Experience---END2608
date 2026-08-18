@@ -21,9 +21,49 @@ ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class ABaseRifle Function ActionStopped ****************************************
+struct Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//Timer things\n//call this method in the \n" },
+#endif
+		{ "ModuleRelativePath", "Public/Actors/BaseRifle.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Timer things\ncall this method in the" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ABaseRifle, nullptr, "ActionStopped", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ABaseRifle_ActionStopped()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABaseRifle::execActionStopped)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->ActionStopped();
+	P_NATIVE_END;
+}
+// ********** End Class ABaseRifle Function ActionStopped ******************************************
+
 // ********** Begin Class ABaseRifle ***************************************************************
 void ABaseRifle::StaticRegisterNativesABaseRifle()
 {
+	UClass* Class = ABaseRifle::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "ActionStopped", &ABaseRifle::execActionStopped },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 FClassRegistrationInfo Z_Registration_Info_UClass_ABaseRifle;
 UClass* ABaseRifle::GetPrivateStaticClass()
@@ -87,6 +127,10 @@ struct Z_Construct_UClass_ABaseRifle_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SkellyMesh;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABaseRifle_ActionStopped, "ActionStopped" }, // 2552076759
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABaseRifle>::IsAbstract,
 	};
@@ -109,11 +153,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ABaseRifle_Statics::Cla
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_ABaseRifle_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_ABaseRifle_Statics::PropPointers),
 	0,
 	0x009001A4u,
@@ -135,10 +179,10 @@ ABaseRifle::~ABaseRifle() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 1766716973U) },
+		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 232853098U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_272720422(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_4018637928(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

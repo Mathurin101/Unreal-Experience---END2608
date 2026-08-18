@@ -2,8 +2,8 @@
 
 
 #include "Actors/BaseRifle.h"
-#include "../END2608.h"
-#include "UKismetSystemLibrary.h"
+
+
 
 // Sets default values
 ABaseRifle::ABaseRifle()
@@ -61,13 +61,32 @@ void ABaseRifle::SpawnBullet()
 
 		ActionHappening = true;
 
-		K2_SetTimerDelegate(FTimerDynamicDelegate Delegate, float Time)
+
+
+		//FTimerHandle MyTimerHandle;
+		//FTimerDynamicDelegate MyDynamicDelegate;
+		//
+		//// 2. Bind your function by name (the function must be a UFUNCTION)
+		//MyDynamicDelegate.BindUFunction(this, FName("MyTimerFunction"));
+		//
+		//// 3. Set the timer using the dynamic delegate
+		//GetWorld()->GetTimerManager().SetTimer(MyTimerHandle, MyDynamicDelegate, 2.0f, true);
+
+		TimeDelegateObject.BindUFunction(this, FName("ActionStopped"));
+
+		//GetWorld()->GetTimerManager().SetTimer(RestTimerHandler, TimeDelegateObject, RestTimer);
+		
+		UKismetSystemLibrary::K2_SetTimerDelegate(TimeDelegateObject, RestTimer, true);
 	}
 }
 
 const bool ABaseRifle::CanShoot()
 {
 	return !ActionHappening;
+}
+void ABaseRifle::ActionStopped()
+{
+	ActionHappening = false;
 }
 
 
