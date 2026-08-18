@@ -19,12 +19,15 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	//create the Projectile class (prefab of the projectile) here to be casted and spawned in  
 	UPROPERTY(EditAnywhere, Category = Default)
 	TSubclassOf<AActor> ProjectileClass;
 
+	//needed to give and get the mesh from the editor/code 
 	UPROPERTY(EditAnywhere, Category = Default)
 	USkeletalMeshComponent* SkellyMesh;
 
+	//get the main or self in this case
 	APawn* PawnParent;
 
 public:	

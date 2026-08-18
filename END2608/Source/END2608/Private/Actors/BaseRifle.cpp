@@ -10,7 +10,10 @@ ABaseRifle::ABaseRifle()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	//creating the mesh for the rifle 
 	SkellyMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkellyMesh");
+	
+	//making it the root component
 	SetRootComponent(SkellyMesh);
 }
 
@@ -19,6 +22,9 @@ void ABaseRifle::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//geting the parent actor 
+	//casting it to a APawn for the PawnParent
+	//and setting it to the PawnParent
 	PawnParent = Cast<APawn>(GetParentActor());
 
 	if (PawnParent) {

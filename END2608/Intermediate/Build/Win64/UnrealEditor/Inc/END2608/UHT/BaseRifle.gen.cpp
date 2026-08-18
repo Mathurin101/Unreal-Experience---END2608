@@ -63,12 +63,24 @@ struct Z_Construct_UClass_ABaseRifle_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Default" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//create the Projectile class (prefab of the projectile) here to be casted and spawned in  \n" },
+#endif
 		{ "ModuleRelativePath", "Public/Actors/BaseRifle.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "create the Projectile class (prefab of the projectile) here to be casted and spawned in" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SkellyMesh_MetaData[] = {
 		{ "Category", "Default" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//needed to give and get the mesh from the editor/code \n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Actors/BaseRifle.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "needed to give and get the mesh from the editor/code" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
@@ -123,10 +135,10 @@ ABaseRifle::~ABaseRifle() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 3934662024U) },
+		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 1766716973U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_208215490(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_272720422(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

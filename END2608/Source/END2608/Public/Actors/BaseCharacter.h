@@ -22,13 +22,17 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
+	//UPROPERTY() : allow to fill in the ChildActor in the editor as well
 	UPROPERTY(EditAnywhere, Category = Default)
 	UChildActorComponent* ChildActor;
 
+	//need the rifle include to cast later
 	ABaseRifle* Rifle;
 
+	//get a rifle animation from the character mesh
 	UCharacterAnimation* RifleAnimation;
 
+	//UPROPERTY() : allow to fill in the weapon class in the editor
 	UPROPERTY(EditAnywhere, Category = Default)
 	TSubclassOf<AActor> WeaponClass;
 

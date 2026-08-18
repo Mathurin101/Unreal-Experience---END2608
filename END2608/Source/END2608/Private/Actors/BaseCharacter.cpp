@@ -25,9 +25,14 @@ void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	
+	//setting weapon to childactor
 	ChildActor->SetChildActorClass(WeaponClass);
 
+	//target(ing): ChildActor->GetChildActor()
+
+	//cast the childActor to a BaseRifle = Cast<ABaseRifle>
+
+	//and set the cast the childActor to the rifle
 	Rifle = Cast<ABaseRifle>(ChildActor->GetChildActor());
 
 	if (Rifle) {
@@ -38,6 +43,12 @@ void ABaseCharacter::BeginPlay()
 		UE_LOG(Game, Error, TEXT("Weapon is needed!!!"));
 	}
 
+	//something similar happens here as well
+
+	//getting the main mesh component's  AnimInstance = GetMesh()->GetAnimInstance() 
+		//and casting it to the UCharacterAnimation
+
+	//set the RifleAnimation to the casted AnimInstance of the mesh to get the shoot animation
 	RifleAnimation = Cast<UCharacterAnimation>(GetMesh()->GetAnimInstance());
 
 	if (RifleAnimation) {
