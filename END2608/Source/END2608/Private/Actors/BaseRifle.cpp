@@ -61,21 +61,10 @@ void ABaseRifle::SpawnBullet()
 
 		ActionHappening = true;
 
-
-
-		//FTimerHandle MyTimerHandle;
-		//FTimerDynamicDelegate MyDynamicDelegate;
-		//
-		//// 2. Bind your function by name (the function must be a UFUNCTION)
-		//MyDynamicDelegate.BindUFunction(this, FName("MyTimerFunction"));
-		//
-		//// 3. Set the timer using the dynamic delegate
-		//GetWorld()->GetTimerManager().SetTimer(MyTimerHandle, MyDynamicDelegate, 2.0f, true);
-
+		//create Events bind the ActionStopped method
 		TimeDelegateObject.BindUFunction(this, FName("ActionStopped"));
 
-		//GetWorld()->GetTimerManager().SetTimer(RestTimerHandler, TimeDelegateObject, RestTimer);
-		
+		//set timer by event
 		UKismetSystemLibrary::K2_SetTimerDelegate(TimeDelegateObject, RestTimer, true);
 	}
 }

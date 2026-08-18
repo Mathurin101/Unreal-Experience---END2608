@@ -1214,3 +1214,22 @@ Detoured run took 1.2s
 [2026.08.18-21.00.09:023][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.08.18-21.00.09:025][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
 [2026.08.18-21.00.09:165][596]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.08.18-21.01.10:555][796]LogDerivedDataCache: C:/Users/mathu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.08.18-21.01.58:216][233]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.08.18-21.01.58:420][237]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.08.18-21.01.58:467][238]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.08.18-21.01.58:494][239]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.08.18-21.01.59:245][261]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_BaseRifle.BP_BaseRifle
+[2026.08.18-21.01.59:246][261]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.08.18-21.01.59:276][261]LogStreaming: Display: FlushAsyncLoading(331): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.18-21.02.00:637][261]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.08.18-21.05.19:229][ 78]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.18-21.05.29:040][646]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug5f21a0e5-a37a-4c90-af39-79ac70b338f5 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\B89B.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.exp
+Detoured run took 1.3s
+[2026.08.18-21.05.29:467][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.08.18-21.05.30:254][650]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 6 functions remapped
+[2026.08.18-21.05.30:254][650]LogLiveCoding: Display: Live coding succeeded

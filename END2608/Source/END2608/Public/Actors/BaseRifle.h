@@ -42,19 +42,19 @@ public:
 
 
 private:
-	float RestTimer = 2.0f;
 
+	//controlls the projectile
 	bool ActionHappening = false;
 
 	const bool CanShoot();//pure function
-
 
 	//Timer things
 	//call this method in the 
 	UFUNCTION()
 	void ActionStopped();
-
-	//FTimerHandle RestTimerHandler;
+	
+	
+	float RestTimer = 2.0f;
 
 	//need this object to bind the function that will be called when the timer rests
 	FTimerDynamicDelegate TimeDelegateObject;
