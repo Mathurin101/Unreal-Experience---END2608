@@ -44,17 +44,17 @@ void ABaseRifle::Tick(float DeltaTime)
 
 void ABaseRifle::SpawnBullet()
 {
+
+	// Define the location and rotation
+	FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
+	FRotator Rotation = PawnParent->GetBaseAimRotation();
+
+	FActorSpawnParameters Params;
+	Params.Owner = PawnParent->GetController();
+	Params.Instigator = PawnParent;
+
 	//branch? : if statment
-	if (CanShoot() == true) {
-
-		// Define the location and rotation
-		FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
-		FRotator Rotation = PawnParent->GetBaseAimRotation();
-
-		FActorSpawnParameters Params;
-		Params.Owner = PawnParent->GetController();
-		Params.Instigator = PawnParent;
-
+	if (CanShoot()) {
 		//spawn 
 		GetWorld()->SpawnActor<AActor>(ProjectileClass, Location, Rotation, Params);
 
@@ -64,7 +64,7 @@ void ABaseRifle::SpawnBullet()
 
 const bool ABaseRifle::CanShoot()
 {
-	return ActionHappening;
+	return !ActionHappening;
 }
 
 
