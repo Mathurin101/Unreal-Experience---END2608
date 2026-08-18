@@ -28,6 +28,10 @@ public:
 
 	virtual void BlueprintNativeEvent_Implementation();//calls only c++
 
+private:
+	UFUNCTION(BlueprintCallable)
+	float PureFunction() const;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

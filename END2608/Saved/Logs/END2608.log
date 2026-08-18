@@ -1233,3 +1233,210 @@ Detoured run took 1.3s
 [2026.08.18-21.05.29:467][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2026.08.18-21.05.30:254][650]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 6 functions remapped
 [2026.08.18-21.05.30:254][650]LogLiveCoding: Display: Live coding succeeded
+[2026.08.18-21.41.39:821][654]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.18-21.41.47:745][817]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug5620c20d-8af7-432f-ad3e-845547dbc55b ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\F844.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.exp
+Detoured run took 1.0s
+[2026.08.18-21.41.48:121][817]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.18-21.41.48:121][817]LogClass: UClass ExampleFunctions Reload.
+[2026.08.18-21.41.48:121][817]LogClass: Could not find existing class ExampleFunctions in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.18-21.41.48:121][817]LogClass: Function BlueprintCallable is new or belongs to a modified class.
+[2026.08.18-21.41.48:121][817]LogClass: Function BlueprintNativeEvent is new or belongs to a modified class.
+[2026.08.18-21.41.48:121][817]LogClass: Function PureFunction is new or belongs to a modified class.
+[2026.08.18-21.41.48:160][817]Re-instancing ExampleFunctions after reload.
+[2026.08.18-21.41.48:496][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.08.18-21.41.49:237][818]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 7 classes unchanged, 4 functions remapped
+[2026.08.18-21.41.49:237][818]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.18-21.43.43:655][292]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.18-21.43.49:493][639]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug1a12aa98-717f-403f-bbae-c229c8fac61a ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\D300.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_3.exp
+Detoured run took 1.2s
+[2026.08.18-21.43.50:072][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.08.18-21.43.50:808][643]Display: Reload/Re-instancing Complete: 1 package changed, 8 classes unchanged, 7 functions remapped
+[2026.08.18-21.43.50:808][643]LogLiveCoding: Display: Live coding succeeded
+[2026.08.18-21.46.17:686][116]LogStreaming: Display: FlushAsyncLoading(528): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.18-21.46.17:694][116]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Example/Actors/BP_ExampleFunctions.BP_ExampleFunctions
+[2026.08.18-21.46.17:695][116]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.08.18-21.47.28:953][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2026.08.18-21.47.28:955][732]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/C++/CodeTestingMap' took 0.154
+[2026.08.18-21.47.28:957][732]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.47.28:957][732]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.47.28:973][732]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Example/Actors/BP_ExampleFunctions_Auto1
+[2026.08.18-21.47.28:973][732]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctions_Auto1C3BCF01D457CD7C8964C82B629373AF3.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Example/Actors/BP_ExampleFunctions_Auto1.uasset'
+[2026.08.18-21.47.28:974][732]LogFileHelpers: Auto-saving content packages took 0.019
+[2026.08.18-21.48.22:734][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.08.18-21.48.22:754][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.18-21.48.22:839][239]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.48.22:839][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.48.22:854][239]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleFunctions
+[2026.08.18-21.48.22:855][239]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctionsE86C623C4A3013A329A78AB1354CB0E3.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset'
+[2026.08.18-21.48.22:865][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.112 ms
+[2026.08.18-21.48.22:988][239]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.18-21.48.22:988][239]LogContentValidation: Enabled validators:
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.18-21.48.22:988][239]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.18-21.48.22:988][239]AssetCheck: /Game/Example/Actors/BP_ExampleFunctions Validating asset
+[2026.08.18-21.48.23:051][239]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.18-21.48.23:454][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.18-21.48.23:545][264]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.48.23:545][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.48.23:560][264]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleFunctions
+[2026.08.18-21.48.23:560][264]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctions5CA7E19A48BB301BD967E09B730E5B9D.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset'
+[2026.08.18-21.48.23:571][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.211 ms (total: 229.323 ms)
+[2026.08.18-21.48.23:699][264]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.18-21.48.23:699][264]LogContentValidation: Enabled validators:
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.18-21.48.23:699][264]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.18-21.48.23:699][264]AssetCheck: /Game/Example/Actors/BP_ExampleFunctions Validating asset
+[2026.08.18-21.48.34:472][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.08.18-21.48.34:476][872]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.18-21.48.34:485][872]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.18-21.48.34:487][872]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Example/ExampleTestingMap.ExampleTestingMap
+[2026.08.18-21.48.34:487][872]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/ExampleTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.18-21.48.34:510][872]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.18-21.48.34:510][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.18-21.48.34:543][872]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.18-21.48.34:547][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.08.18-21.48.34:549][872]LogWorld: UWorld::CleanupWorld for ExampleTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.18-21.48.34:549][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.18-21.48.34:582][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.08.18-21.48.34:708][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.08.18-21.48.34:712][872]LogAudio: Display: Audio Device (ID: 1) registered with world 'ExampleTestingMap'.
+[2026.08.18-21.48.34:712][872]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.18-21.48.34:783][872]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.18-21.48.34:813][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.08.18-21.48.34:822][872]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.18-21.48.34:822][872]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.065ms to complete.
+[2026.08.18-21.48.34:941][874]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.18-21.48.39:751][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.08.18-21.48.40:536][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.18-21.48.40:641][197]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.48.40:641][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.48.40:656][197]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleFunctions
+[2026.08.18-21.48.40:656][197]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctions7209D6634E5858BD4A9A84843FB141B8.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset'
+[2026.08.18-21.48.40:669][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.079 ms (total: 362.403 ms)
+[2026.08.18-21.48.40:793][197]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.18-21.48.40:793][197]LogContentValidation: Enabled validators:
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.18-21.48.40:793][197]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.18-21.48.40:793][197]AssetCheck: /Game/Example/Actors/BP_ExampleFunctions Validating asset
+[2026.08.18-21.49.00:497][420]LogSlate: Window 'Color Picker' being destroyed
+[2026.08.18-21.49.01:764][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.08.18-21.49.01:778][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.18-21.49.01:865][492]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.49.01:865][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.49.01:880][492]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleFunctions
+[2026.08.18-21.49.01:881][492]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctionsB46DDEE245FC652A18F1B19CE2282536.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset'
+[2026.08.18-21.49.01:892][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.467 ms (total: 475.870 ms)
+[2026.08.18-21.49.02:017][492]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.18-21.49.02:017][492]LogContentValidation: Enabled validators:
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.18-21.49.02:017][492]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.18-21.49.02:017][492]AssetCheck: /Game/Example/Actors/BP_ExampleFunctions Validating asset
+[2026.08.18-21.49.02:262][504]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.18-21.49.02:350][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Example/Actors/BP_ExampleFunctions] ([2] browsable assets)...
+[2026.08.18-21.49.02:350][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/Example/Actors/BP_ExampleFunctions]
+[2026.08.18-21.49.02:367][504]LogSavePackage: Moving output files for package: /Game/Example/Actors/BP_ExampleFunctions
+[2026.08.18-21.49.02:368][504]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/BP_ExampleFunctions5772F5004F2D3E25544E728BE4EAF6C8.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Example/Actors/BP_ExampleFunctions.uasset'
+[2026.08.18-21.49.02:378][504]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.582 ms (total: 591.453 ms)
+[2026.08.18-21.49.02:504][504]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.18-21.49.02:504][504]LogContentValidation: Enabled validators:
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.18-21.49.02:504][504]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.18-21.49.02:504][504]AssetCheck: /Game/Example/Actors/BP_ExampleFunctions Validating asset
+[2026.08.18-21.49.04:176][590]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.08.18-21.49.10:448][943]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.18-21.49.10:462][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.18-21.49.10:499][943]LogPlayLevel: Creating play world package: /Game/Example/UEDPIE_0_ExampleTestingMap
+[2026.08.18-21.49.10:503][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002211s)
+[2026.08.18-21.49.10:503][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Example/ExampleTestingMap.ExampleTestingMap to /Game/Example/UEDPIE_0_ExampleTestingMap.ExampleTestingMap (0.002273s)
+[2026.08.18-21.49.10:531][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.08.18-21.49.10:536][943]LogChaosDD: Creating Chaos Debug Draw Scene for world ExampleTestingMap
+[2026.08.18-21.49.10:538][943]LogPlayLevel: PIE: World Init took: (0.002030s)
+[2026.08.18-21.49.10:539][943]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.18-21.49.10:539][943]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.18-21.49.10:539][943]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.18-21.49.10:539][943]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.18-21.49.10:539][943]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.18-21.49.10:539][943]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.18-21.49.10:542][943]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.18-21.49.10:586][943]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.18-21.49.10:586][943]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.18-21.49.10:586][943]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.18-21.49.10:586][943]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.18-21.49.10:587][943]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.08.18-21.49.10:587][943]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.08.18-21.49.10:589][943]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.08.18-21.49.10:589][943]LogInit: FAudioDevice initialized with ID 3.
+[2026.08.18-21.49.10:589][943]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.08.18-21.49.10:589][943]LogAudio: Display: Audio Device (ID: 3) registered with world 'ExampleTestingMap'.
+[2026.08.18-21.49.10:589][943]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.08.18-21.49.10:594][943]LogLoad: Game class is 'BP_ExamplesGameMode_C'
+[2026.08.18-21.49.10:595][943]LogWorld: Bringing World /Game/Example/UEDPIE_0_ExampleTestingMap.ExampleTestingMap up for play (max tick rate 60) at 2026.08.18-17.49.10
+[2026.08.18-21.49.10:595][943]LogWorld: Bringing up level for play took: 0.000703
+[2026.08.18-21.49.10:598][943]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.08.18-21.49.10:601][943]Game: In C++ BlueprintCallable
+[2026.08.18-21.49.10:602][943]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint callable was called
+[2026.08.18-21.49.10:602][943]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.18-21.49.10:602][943]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint Native Event was called
+[2026.08.18-21.49.10:602][943]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] Implementable Event was called
+[2026.08.18-21.49.10:602][943]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] 3.14
+[2026.08.18-21.49.10:602][943]Game: Error: Begin In Play
+[2026.08.18-21.49.10:602][943]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.18-21.49.10:602][943]LogBlueprintUserMessages: [BP_ExampleFunctions_C_1] BluePrint Native Event was called
+[2026.08.18-21.49.10:602][943]Game: Error: Just Called BlueprintNativeEvent
+[2026.08.18-21.49.10:602][943]Game: Warning: In C++ BlueprintNativeEvent
+[2026.08.18-21.49.10:602][943]Game: Error: Just Called BlueprintNativeEvent_Implementation
+[2026.08.18-21.49.10:603][943]Game: Error: It is TRUE
+[2026.08.18-21.49.10:603][943]PIE: Server logged in
+[2026.08.18-21.49.10:606][943]PIE: Play in editor total start time 0.152 seconds.
+[2026.08.18-21.49.10:708][944]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.18-21.49.13:061][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.18-21.49.13:061][ 23]LogWorld: BeginTearingDown for /Game/Example/UEDPIE_0_ExampleTestingMap
+[2026.08.18-21.49.13:061][ 23]LogWorld: UWorld::CleanupWorld for ExampleTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.18-21.49.13:061][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.18-21.49.13:064][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.18-21.49.13:069][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.18-21.49.13:096][ 23]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.18-21.49.13:096][ 23]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.08.18-21.49.13:096][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.08.18-21.49.13:099][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.08.18-21.49.13:103][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.18-21.49.13:106][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.08.18-21.49.13:159][ 24]LogPlayLevel: Display: Destroying online subsystem :Context_9

@@ -129,6 +129,47 @@ UFunction* Z_Construct_UFunction_AExampleFunctions_ImplementableEvent()
 }
 // ********** End Class AExampleFunctions Function ImplementableEvent ******************************
 
+// ********** Begin Class AExampleFunctions Function PureFunction **********************************
+struct Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics
+{
+	struct ExampleFunctions_eventPureFunction_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Example/ExampleFunctions.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleFunctions_eventPureFunction_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AExampleFunctions, nullptr, "PureFunction", Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::ExampleFunctions_eventPureFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::ExampleFunctions_eventPureFunction_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AExampleFunctions_PureFunction()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AExampleFunctions::execPureFunction)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->PureFunction();
+	P_NATIVE_END;
+}
+// ********** End Class AExampleFunctions Function PureFunction ************************************
+
 // ********** Begin Class AExampleFunctions ********************************************************
 void AExampleFunctions::StaticRegisterNativesAExampleFunctions()
 {
@@ -136,6 +177,7 @@ void AExampleFunctions::StaticRegisterNativesAExampleFunctions()
 	static const FNameNativePtrPair Funcs[] = {
 		{ "BlueprintCallable", &AExampleFunctions::execBlueprintCallable },
 		{ "BlueprintNativeEvent", &AExampleFunctions::execBlueprintNativeEvent },
+		{ "PureFunction", &AExampleFunctions::execPureFunction },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -181,6 +223,7 @@ struct Z_Construct_UClass_AExampleFunctions_Statics
 		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintCallable, "BlueprintCallable" }, // 2341161542
 		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintNativeEvent, "BlueprintNativeEvent" }, // 3512330251
 		{ &Z_Construct_UFunction_AExampleFunctions_ImplementableEvent, "ImplementableEvent" }, // 2551761049
+		{ &Z_Construct_UFunction_AExampleFunctions_PureFunction, "PureFunction" }, // 42946192
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -224,10 +267,10 @@ AExampleFunctions::~AExampleFunctions() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 2935675010U) },
+		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 1183474912U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_942173666(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_105756289(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -22,6 +22,11 @@ void AExampleFunctions::BlueprintNativeEvent_Implementation()
 	UE_LOG(Game, Warning, TEXT("In C++ BlueprintNativeEvent"));
 }
 
+float AExampleFunctions::PureFunction() const
+{
+	return 3.14f;
+}
+
 // Called when the game starts or when spawned
 void AExampleFunctions::BeginPlay()
 {

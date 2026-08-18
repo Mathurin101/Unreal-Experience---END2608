@@ -18,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AExampleFunctions ********************************************************
 #define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execPureFunction); \
 	DECLARE_FUNCTION(execBlueprintNativeEvent); \
 	DECLARE_FUNCTION(execBlueprintCallable);
 
