@@ -58,6 +58,9 @@ void ABaseCharacter::BeginPlay()
 
 		UE_LOG(Game, Log, TEXT("Shoot Animation is NOT Here!!!"));
 	}
+
+
+	Rifle->BindOnRifleAttack.BindUFunction(RifleAnimation, FName("FireAnimation"));
 }
 
 // Called every frame

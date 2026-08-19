@@ -40,13 +40,18 @@ public:
 
 	void SpawnBullet();
 
+	const bool CanShoot();//pure function
+
+	//need this to bind the function 
+	FTimerDynamicDelegate BindOnRifleAttack;
+
+	void OnRifleAttack();
 
 private:
 
 	//controlls the projectile
 	bool ActionHappening = false;
 
-	const bool CanShoot();//pure function
 
 	//Timer things
 	//call this method in the 

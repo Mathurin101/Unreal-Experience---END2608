@@ -10,12 +10,12 @@ ABasePlayer::ABasePlayer()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>("SpringArm");
 	SpringArm->bUsePawnControlRotation = true;
 	SpringArm->SetupAttachment(GetRootComponent()/*, not needed unless we have to set something by it's socket */);
-	SpringArm->SetRelativeLocation(FVector(0.0,80.0,90.0));
+	SpringArm->SetRelativeLocation(FVector(0.0, 80.0, 90.0));
 	SpringArm->TargetArmLength = 205.0f;
-	
+
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(SpringArm);
-	Camera->SetRelativeLocation(FVector(0.0,0.0,0.0));
+	Camera->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
 
 }
 
@@ -24,15 +24,15 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	//Bind Rotation Functions
-	PlayerInputComponent->BindAxis("TurnRight",this, &ABasePlayer::AddControllerYawInput);
-	PlayerInputComponent->BindAxis("LookUp",this, &ABasePlayer::AddControllerPitchInput);//camera
-	
+	PlayerInputComponent->BindAxis("TurnRight", this, &ABasePlayer::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &ABasePlayer::AddControllerPitchInput);//camera
+
 	//Bind Movement Functions
-	PlayerInputComponent->BindAxis("MoveForward",this, &ABasePlayer::InputAxisMoveForward);
-	PlayerInputComponent->BindAxis("Strafe",this, &ABasePlayer::MovingLeftAndRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &ABasePlayer::InputAxisMoveForward);
+	PlayerInputComponent->BindAxis("Strafe", this, &ABasePlayer::MovingLeftAndRight);
 
 	//Gun Function 
-	PlayerInputComponent->BindAction("AttackInput", EInputEvent::IE_Pressed,this, &ABasePlayer::Attack);
+	PlayerInputComponent->BindAction("AttackInput", EInputEvent::IE_Pressed, this, &ABasePlayer::Attack);
 
 }
 
@@ -65,5 +65,8 @@ void ABasePlayer::MovingLeftAndRight(float AxisValue)
 
 void ABasePlayer::Attack() {
 	Rifle->SpawnBullet();
-	RifleAnimation->FireAnimation();
+	Rifle->OnRifleAttack();
+
+	//	RifleAnimation->FireAnimation();//No longer used
+
 }

@@ -36,6 +36,7 @@ protected:
 	UPROPERTY(EditAnywhere, Category = Default)
 	TSubclassOf<AActor> WeaponClass;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
