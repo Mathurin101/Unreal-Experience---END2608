@@ -65,8 +65,7 @@ void ABasePlayer::MovingLeftAndRight(float AxisValue)
 
 void ABasePlayer::Attack() {
 	Rifle->SpawnBullet();
-	Rifle->OnRifleAttack();
-
+	
 	//	RifleAnimation->FireAnimation();//No longer used
 
 }

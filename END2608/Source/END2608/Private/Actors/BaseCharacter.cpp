@@ -59,7 +59,9 @@ void ABaseCharacter::BeginPlay()
 		UE_LOG(Game, Log, TEXT("Shoot Animation is NOT Here!!!"));
 	}
 
-
+	//bind event on Rifle Attack to BindOnRifleAttack 
+	//From the Rifle class 
+	//and get the RifleAnimation and bind to the Rifle
 	Rifle->BindOnRifleAttack.BindUFunction(RifleAnimation, FName("FireAnimation"));
 }
 
