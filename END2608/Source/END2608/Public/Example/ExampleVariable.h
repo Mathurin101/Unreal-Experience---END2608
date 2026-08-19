@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "ExampleVariable.generated.h"
 
+//Create delegate class and sets the signature
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDelegateType, AActor*, OtherActor);
+
 UCLASS(abstract)
 class END2608_API AExampleVariable : public AActor
 {
@@ -52,8 +55,18 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Variable| ClassReference")
 	TSubclassOf<AActor> ClassType;
 
+	//create variable of delegate / event dispatcher
+	UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = Variable)
+	FDelegateType OnDelegateInstance;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+
+private:
+
+	UFUNCTION()
+	void ExampleBindFunction(AActor* Actor);
 
 };

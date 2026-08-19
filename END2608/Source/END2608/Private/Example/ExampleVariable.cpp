@@ -33,6 +33,15 @@ void AExampleVariable::BeginPlay()
 		//Not valid
 		UE_LOG(Game, Log, TEXT("Numbers are %d or %f"), 4,7.1f)
 	}
+
+	//Params sent into AddDynamic are the same thing as create event in Blueprint
+	// As seen in base character begin play
+	// This is how C++ does the bind as seen in Blueprints
+	OnDelegateInstance.AddDynamic(this, &AExampleVariable::ExampleBindFunction);
+
+	//Same thing as Call in Blueprint
+	//As seen in BP_BaseRifle
+	OnDelegateInstance.Broadcast(this);
 }
 
 // Called every frame
@@ -42,3 +51,7 @@ void AExampleVariable::Tick(float DeltaTime)
 
 }
 
+void AExampleVariable::ExampleBindFunction(AActor* Actor) {
+
+	UE_LOG(Game, Error,TEXT("Function Called by delegate"))
+}
