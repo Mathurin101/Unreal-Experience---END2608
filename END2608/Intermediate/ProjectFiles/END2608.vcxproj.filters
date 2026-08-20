@@ -11,6 +11,7 @@
     <None Include="..\..\Source\END2608Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -71,6 +72,9 @@
     <ClCompile Include="..\..\Source\END2608\Private\Both\CharacterAnimation.cpp">
       <Filter>Source\END2608\Private\Both</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Both\PlayerHUD.cpp">
+      <Filter>Source\END2608\Private\Both</Filter>
+    </ClCompile>
     <Filter Include="Source\END2608\Private\Example">
       <UniqueIdentifier>{9949A978-4755-3CBF-A9B0-1F571947232B}</UniqueIdentifier>
     </Filter>
@@ -111,6 +115,9 @@
       <UniqueIdentifier>{2DC861EA-AEFC-394C-AE96-C2CBD9555D1E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h">
+      <Filter>Source\END2608\Public\Both</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\END2608\Public\Both\PlayerHUD.h">
       <Filter>Source\END2608\Public\Both</Filter>
     </ClInclude>
     <Filter Include="Source\END2608\Public\Example">

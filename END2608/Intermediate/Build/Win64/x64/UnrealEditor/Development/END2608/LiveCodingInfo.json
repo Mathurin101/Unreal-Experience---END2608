@@ -2,17 +2,18 @@
 	"RemapUnityFiles": 
 	{
 		"Module.END2608.gen.cpp.obj": [
+			"BaseAgent.gen.cpp.obj",
+			"BaseCharacter.gen.cpp.obj",
+			"BaseHealthComponent.gen.cpp.obj",
+			"BasePlayer.gen.cpp.obj",
 			"BaseRifle.gen.cpp.obj",
 			"CharacterAnimation.gen.cpp.obj",
 			"ExampleDefaultPawn.gen.cpp.obj",
 			"ExampleFunctions.gen.cpp.obj",
 			"ExampleVariable.gen.cpp.obj",
 			"Projectile.gen.cpp.obj",
-			"BaseAgent.gen.cpp.obj",
-			"BaseCharacter.gen.cpp.obj",
-			"BaseHealthComponent.gen.cpp.obj",
-			"BasePlayer.gen.cpp.obj",
-			"END2608.init.gen.cpp.obj"
+			"END2608.init.gen.cpp.obj",
+			"PlayerHUD.gen.cpp.obj"
 		]
 	}
 }
