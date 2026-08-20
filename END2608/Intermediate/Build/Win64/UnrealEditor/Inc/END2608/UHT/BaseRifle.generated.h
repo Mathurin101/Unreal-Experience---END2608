@@ -16,14 +16,21 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+// ********** Begin Delegate FDelegateEvent ********************************************************
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_12_DELEGATE \
+END2608_API void FDelegateEvent_DelegateWrapper(const FMulticastScriptDelegate& DelegateEvent);
+
+
+// ********** End Delegate FDelegateEvent **********************************************************
+
 // ********** Begin Class ABaseRifle ***************************************************************
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execActionStopped);
 
 
 END2608_API UClass* Z_Construct_UClass_ABaseRifle_NoRegister();
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseRifle(); \
 	friend struct Z_Construct_UClass_ABaseRifle_Statics; \
@@ -34,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseRifle)
 
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ABaseRifle(ABaseRifle&&) = delete; \
 	ABaseRifle(const ABaseRifle&) = delete; \
@@ -44,13 +51,13 @@ public: \
 	NO_API virtual ~ABaseRifle();
 
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_11_PROLOG
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_GENERATED_BODY \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_PROLOG
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_14_ENHANCED_CONSTRUCTORS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_INCLASS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

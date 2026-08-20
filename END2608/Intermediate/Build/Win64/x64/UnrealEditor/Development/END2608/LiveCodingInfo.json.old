@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.END2608.gen.cpp.obj": [
+			"BaseAgent.gen.cpp.obj",
 			"BaseCharacter.gen.cpp.obj",
 			"BasePlayer.gen.cpp.obj",
 			"BaseRifle.gen.cpp.obj",

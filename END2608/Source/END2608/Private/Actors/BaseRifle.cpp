@@ -68,7 +68,8 @@ void ABaseRifle::SpawnBullet()
 		UKismetSystemLibrary::K2_SetTimerDelegate(TimeDelegateObject, RestTimer, true);
 		
 		//call OnRifleAttack
-		OnRifleAttack();	
+		OnRifleAttack.Broadcast();
+
 	}
 }
 
@@ -77,15 +78,9 @@ const bool ABaseRifle::CanShoot()
 	return !ActionHappening;
 }
 
-void ABaseRifle::OnRifleAttack()
-{
-	UKismetSystemLibrary::K2_SetTimerDelegate(BindOnRifleAttack, RestTimer, true);
-}
-
 void ABaseRifle::ActionStopped()
 {
 	ActionHappening = false;
-
 }
 
 

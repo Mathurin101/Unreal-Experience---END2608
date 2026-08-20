@@ -62,7 +62,7 @@ void ABaseCharacter::BeginPlay()
 	//bind event on Rifle Attack to BindOnRifleAttack 
 	//From the Rifle class 
 	//and get the RifleAnimation and bind to the Rifle
-	Rifle->BindOnRifleAttack.BindUFunction(RifleAnimation, FName("FireAnimation"));
+	Rifle->OnRifleAttack.AddDynamic(RifleAnimation, &UCharacterAnimation::FireAnimation);
 }
 
 // Called every frame

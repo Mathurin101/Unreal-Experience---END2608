@@ -15,11 +15,44 @@ void EmptyLinkFunctionForGeneratedCodeBaseRifle() {}
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 END2608_API UClass* Z_Construct_UClass_ABaseRifle();
 END2608_API UClass* Z_Construct_UClass_ABaseRifle_NoRegister();
+END2608_API UFunction* Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin Delegate FDelegateEvent ********************************************************
+struct Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//Create delegate class and sets the signature\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Actors/BaseRifle.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Create delegate class and sets the signature" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_END2608, nullptr, "DelegateEvent__DelegateSignature", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_END2608_DelegateEvent__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FDelegateEvent_DelegateWrapper(const FMulticastScriptDelegate& DelegateEvent)
+{
+	DelegateEvent.ProcessMulticastDelegate<UObject>(NULL);
+}
+// ********** End Delegate FDelegateEvent **********************************************************
 
 // ********** Begin Class ABaseRifle Function ActionStopped ****************************************
 struct Z_Construct_UFunction_ABaseRifle_ActionStopped_Statics

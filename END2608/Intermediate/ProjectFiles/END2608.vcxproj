@@ -262,6 +262,9 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\END2608\END2608.h"/>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseAgent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -286,6 +289,7 @@
     <ClCompile Include="..\..\Source\END2608\Private\Example\ExampleVariable.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseAgent.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseRifle.h"/>

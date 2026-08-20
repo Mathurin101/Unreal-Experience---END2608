@@ -47,6 +47,9 @@
     <Filter Include="Source\END2608\Private\Actors">
       <UniqueIdentifier>{CE21D4B5-7E86-37FB-807A-B741123DA1D4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseAgent.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseCharacter.cpp">
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
@@ -83,6 +86,9 @@
     <Filter Include="Source\END2608\Public\Actors">
       <UniqueIdentifier>{BF03F6EF-1F18-32E9-AF47-066C25BB5D48}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseAgent.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h">
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>

@@ -8,6 +8,9 @@
 #include "Kismet/KismetSystemLibrary.h"
 #include "BaseRifle.generated.h"
 
+//Create delegate class and sets the signature
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDelegateEvent);
+
 UCLASS()
 class END2608_API ABaseRifle : public AActor
 {
@@ -43,9 +46,9 @@ public:
 	const bool CanShoot();//pure function
 
 	//need this to bind the function 
-	FTimerDynamicDelegate BindOnRifleAttack;
+	FDelegateEvent OnRifleAttack;
 
-	void OnRifleAttack();
+	
 
 private:
 
