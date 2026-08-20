@@ -19,6 +19,7 @@ ABaseCharacter::ABaseCharacter()
 	ChildActor = CreateDefaultSubobject<UChildActorComponent>("ChildActor");
 	ChildActor->SetupAttachment(GetMesh(), "PlaceWeaponHere");
 
+	
 	HealthComponent = CreateDefaultSubobject<ABaseHealthComponent>("HealthComponent");
 }
 
@@ -27,7 +28,7 @@ void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	//setting weapon to childactor
+	//setting weapon to ChildActor
 	ChildActor->SetChildActorClass(WeaponClass);
 
 	//target(ing): ChildActor->GetChildActor()
@@ -66,16 +67,8 @@ void ABaseCharacter::BeginPlay()
 	//and get the RifleAnimation and bind to the Rifle
 	Rifle->OnRifleAttack.AddDynamic(RifleAnimation, &UCharacterAnimation::FireAnimation);
 
-
 	//setting the HealthComponent
-	//HealthComponent = CreateDefaultSubobject<ABaseHealthComponent>("HealthComponent");
-	//SetRootComponent(HealthComponent);
-	//SetRootComponent(HealthComponent);
 	
-	//Rifle = Cast<ABaseRifle>(ChildActor->GetChildActor());
-	//Cast<ABaseHealthComponent>(HealthComponent);
-	
-	HealthComponent->TakeDamageEvent.AddDynamic(this, &ABaseHealthComponent::OnTakeAnyDamage);
 
 }
 

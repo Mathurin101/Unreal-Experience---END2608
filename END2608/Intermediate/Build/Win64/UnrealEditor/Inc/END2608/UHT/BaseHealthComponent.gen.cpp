@@ -51,9 +51,56 @@ void FDelegateBindEvent_DelegateWrapper(const FMulticastScriptDelegate& Delegate
 }
 // ********** End Delegate FDelegateBindEvent ******************************************************
 
+// ********** Begin Class ABaseHealthComponent Function OnTakeAnyDamage ****************************
+struct Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics
+{
+	struct BaseHealthComponent_eventOnTakeAnyDamage_Parms
+	{
+		float DamageTaken;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Actors/BaseHealthComponent.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DamageTaken;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageTaken = { "DamageTaken", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseHealthComponent_eventOnTakeAnyDamage_Parms, DamageTaken), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageTaken,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ABaseHealthComponent, nullptr, "OnTakeAnyDamage", Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::BaseHealthComponent_eventOnTakeAnyDamage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::BaseHealthComponent_eventOnTakeAnyDamage_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABaseHealthComponent::execOnTakeAnyDamage)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_DamageTaken);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->OnTakeAnyDamage(Z_Param_DamageTaken);
+	P_NATIVE_END;
+}
+// ********** End Class ABaseHealthComponent Function OnTakeAnyDamage ******************************
+
 // ********** Begin Class ABaseHealthComponent *****************************************************
 void ABaseHealthComponent::StaticRegisterNativesABaseHealthComponent()
 {
+	UClass* Class = ABaseHealthComponent::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "OnTakeAnyDamage", &ABaseHealthComponent::execOnTakeAnyDamage },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 FClassRegistrationInfo Z_Registration_Info_UClass_ABaseHealthComponent;
 UClass* ABaseHealthComponent::GetPrivateStaticClass()
@@ -93,6 +140,10 @@ struct Z_Construct_UClass_ABaseHealthComponent_Statics
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABaseHealthComponent_OnTakeAnyDamage, "OnTakeAnyDamage" }, // 197687618
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABaseHealthComponent>::IsAbstract,
 	};
@@ -108,11 +159,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ABaseHealthComponent_St
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	nullptr,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	0,
 	0,
 	0x009001A4u,
@@ -134,10 +185,10 @@ ABaseHealthComponent::~ABaseHealthComponent() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseHealthComponent_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseHealthComponent, ABaseHealthComponent::StaticClass, TEXT("ABaseHealthComponent"), &Z_Registration_Info_UClass_ABaseHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseHealthComponent), 1833402912U) },
+		{ Z_Construct_UClass_ABaseHealthComponent, ABaseHealthComponent::StaticClass, TEXT("ABaseHealthComponent"), &Z_Registration_Info_UClass_ABaseHealthComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseHealthComponent), 4179861159U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseHealthComponent_h__Script_END2608_201755822(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseHealthComponent_h__Script_END2608_4114051084(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseHealthComponent_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseHealthComponent_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

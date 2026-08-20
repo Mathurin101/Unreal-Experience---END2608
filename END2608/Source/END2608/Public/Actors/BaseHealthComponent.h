@@ -27,6 +27,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION()
 	void OnTakeAnyDamage(float DamageTaken);
 
 	FDelegateBindEvent TakeDamageEvent;
@@ -36,5 +37,5 @@ private:
 
 	float CurrentHealth;
 
-	APawn* ParentPawn;
+
 };

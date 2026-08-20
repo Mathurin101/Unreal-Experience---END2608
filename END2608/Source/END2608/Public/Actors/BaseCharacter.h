@@ -38,8 +38,10 @@ protected:
 	TSubclassOf<AActor> WeaponClass;
 
 	//Adding HealthComponent to character
-	UPROPERTY(EditAnywhere, Category = Default)
 	ABaseHealthComponent* HealthComponent;
+
+	UPROPERTY(EditAnywhere,Category = Default)
+	TSubclassOf<AActor> HPComponent;
 
 public:	
 	// Called every frame

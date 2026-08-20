@@ -7,7 +7,8 @@
 			"files": [
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseCharacter.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Utility/AC_HealthComponent.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset"
 			]
 		}
 	]
