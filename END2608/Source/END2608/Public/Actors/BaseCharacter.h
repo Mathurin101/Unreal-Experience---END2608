@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Actors/BaseRifle.h"
+#include "../Actors/BaseHealthComponent.h"
 #include "Both/CharacterAnimation.h"
 #include "BaseCharacter.generated.h"
 
@@ -36,6 +37,8 @@ protected:
 	UPROPERTY(EditAnywhere, Category = Default)
 	TSubclassOf<AActor> WeaponClass;
 
+	//Adding HealthComponent to character
+	ABaseHealthComponent* HealthComponent;
 
 public:	
 	// Called every frame
