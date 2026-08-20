@@ -38,6 +38,7 @@ void AExampleVariable::BeginPlay()
 	// As seen in base character begin play
 	// This is how C++ does the bind as seen in Blueprints
 	OnDelegateInstance.AddDynamic(this, &AExampleVariable::ExampleBindFunction);
+	OnDelegateInstance.AddDynamic(this, &AExampleVariable::OtherExampleBindFunction);
 
 	//Same thing as Call in Blueprint
 	//As seen in BP_BaseRifle
@@ -53,5 +54,9 @@ void AExampleVariable::Tick(float DeltaTime)
 
 void AExampleVariable::ExampleBindFunction(AActor* Actor) {
 
-	UE_LOG(Game, Error,TEXT("Function Called by delegate"))
+	UE_LOG(Game, Error, TEXT("Function Called by delegate"))
+}
+
+void AExampleVariable::OtherExampleBindFunction(AActor* MyActor) {
+	UE_LOG(Game, Error, TEXT("Other Function Called by delegate"))
 }

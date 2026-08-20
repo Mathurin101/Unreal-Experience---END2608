@@ -27,6 +27,7 @@ END2608_API void FDelegateType_DelegateWrapper(const FMulticastScriptDelegate& D
 
 // ********** Begin Class AExampleVariable *********************************************************
 #define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOtherExampleBindFunction); \
 	DECLARE_FUNCTION(execExampleBindFunction);
 
 

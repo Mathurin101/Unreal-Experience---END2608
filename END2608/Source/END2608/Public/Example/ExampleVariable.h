@@ -68,5 +68,8 @@ private:
 
 	UFUNCTION()
 	void ExampleBindFunction(AActor* Actor);
+	
+	UFUNCTION()
+	void OtherExampleBindFunction(AActor* MyActor);
 
 };

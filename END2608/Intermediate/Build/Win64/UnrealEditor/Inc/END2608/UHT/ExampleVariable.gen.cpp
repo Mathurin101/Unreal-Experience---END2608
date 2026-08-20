@@ -114,12 +114,55 @@ DEFINE_FUNCTION(AExampleVariable::execExampleBindFunction)
 }
 // ********** End Class AExampleVariable Function ExampleBindFunction ******************************
 
+// ********** Begin Class AExampleVariable Function OtherExampleBindFunction ***********************
+struct Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics
+{
+	struct ExampleVariable_eventOtherExampleBindFunction_Parms
+	{
+		AActor* MyActor;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Example/ExampleVariable.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MyActor;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::NewProp_MyActor = { "MyActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleVariable_eventOtherExampleBindFunction_Parms, MyActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::NewProp_MyActor,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AExampleVariable, nullptr, "OtherExampleBindFunction", Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::PropPointers), sizeof(Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::ExampleVariable_eventOtherExampleBindFunction_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::Function_MetaDataParams), Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::ExampleVariable_eventOtherExampleBindFunction_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(AExampleVariable::execOtherExampleBindFunction)
+{
+	P_GET_OBJECT(AActor,Z_Param_MyActor);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->OtherExampleBindFunction(Z_Param_MyActor);
+	P_NATIVE_END;
+}
+// ********** End Class AExampleVariable Function OtherExampleBindFunction *************************
+
 // ********** Begin Class AExampleVariable *********************************************************
 void AExampleVariable::StaticRegisterNativesAExampleVariable()
 {
 	UClass* Class = AExampleVariable::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "ExampleBindFunction", &AExampleVariable::execExampleBindFunction },
+		{ "OtherExampleBindFunction", &AExampleVariable::execOtherExampleBindFunction },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -238,6 +281,7 @@ struct Z_Construct_UClass_AExampleVariable_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_AExampleVariable_ExampleBindFunction, "ExampleBindFunction" }, // 2977828499
+		{ &Z_Construct_UFunction_AExampleVariable_OtherExampleBindFunction, "OtherExampleBindFunction" }, // 27150714
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -310,10 +354,10 @@ AExampleVariable::~AExampleVariable() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 3217833232U) },
+		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 403941659U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_1669424332(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_884117546(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
