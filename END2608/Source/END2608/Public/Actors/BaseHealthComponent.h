@@ -35,4 +35,6 @@ private:
 	float MaxHealth = 5.0f;
 
 	float CurrentHealth;
+
+	APawn* ParentPawn;
 };

@@ -18,8 +18,10 @@ void ABaseHealthComponent::BeginPlay()
 
 	CurrentHealth = MaxHealth;
 
+	ParentPawn = Cast<APawn>(GetParentActor());
+
 	//this = GetOwner
-	TakeDamageEvent.AddDynamic(GetOwner(), &ABaseHealthComponent::OnTakeAnyDamage);
+	//TakeDamageEvent.AddDynamic(this, &ABaseHealthComponent::OnTakeAnyDamage);
 	
 }
 

@@ -65,6 +65,18 @@ void ABaseCharacter::BeginPlay()
 	//From the Rifle class 
 	//and get the RifleAnimation and bind to the Rifle
 	Rifle->OnRifleAttack.AddDynamic(RifleAnimation, &UCharacterAnimation::FireAnimation);
+
+
+	//setting the HealthComponent
+	//HealthComponent = CreateDefaultSubobject<ABaseHealthComponent>("HealthComponent");
+	//SetRootComponent(HealthComponent);
+	//SetRootComponent(HealthComponent);
+	
+	//Rifle = Cast<ABaseRifle>(ChildActor->GetChildActor());
+	//Cast<ABaseHealthComponent>(HealthComponent);
+	
+	HealthComponent->TakeDamageEvent.AddDynamic(this, &ABaseHealthComponent::OnTakeAnyDamage);
+
 }
 
 // Called every frame

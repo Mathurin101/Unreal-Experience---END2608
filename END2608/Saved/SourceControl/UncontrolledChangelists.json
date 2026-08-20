@@ -5,13 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseAgent.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Agent.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/BluePrintTestingMap.umap",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseCharacter.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Utility/AC_HealthComponent.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Utility/BP_CodeBaseHealthComponent.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_Projectile.uasset"
 			]
 		}
 	]

@@ -11,7 +11,6 @@
     <None Include="..\..\Source\END2608Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -42,18 +41,6 @@
     <ClInclude Include="..\..\Source\END2608\END2608.h">
       <Filter>Source\END2608</Filter>
     </ClInclude>
-    <Filter Include="Source\END2608\All">
-      <UniqueIdentifier>{71E5ABDF-1E9D-3EFB-80C7-94AED009E4D0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\END2608\All\Game">
-      <UniqueIdentifier>{355CBBD4-D5E7-37D2-ACBD-4B1AB0607D3A}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\END2608\All\Game\C++">
-      <UniqueIdentifier>{8FD9752C-D9A2-3DF3-A84D-73E5A52424AC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\END2608\All\Game\C++\Utility">
-      <UniqueIdentifier>{ADC11A02-E43A-337F-9812-56F97F0494FF}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\END2608\Private">
       <UniqueIdentifier>{F9342F74-0865-39AC-9B01-ED716AB9A287}</UniqueIdentifier>
     </Filter>
@@ -64,6 +51,9 @@
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseCharacter.cpp">
+      <Filter>Source\END2608\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseHealthComponent.cpp">
       <Filter>Source\END2608\Private\Actors</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
@@ -103,6 +93,9 @@
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h">
+      <Filter>Source\END2608\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseHealthComponent.h">
       <Filter>Source\END2608\Public\Actors</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h">
