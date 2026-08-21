@@ -252,7 +252,6 @@
     <None Include="..\..\END2608.uproject"/>
     <None Include="..\..\Source\END2608.Target.cs"/>
     <None Include="..\..\Source\END2608Editor.Target.cs"/>
-    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
@@ -269,13 +268,13 @@
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseHealthComponent.cpp">
-      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BasePlayer.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\BaseRifle.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\END2608\Private\Actors\HealthComponent.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="..\..\Source\END2608\Private\Actors\Projectile.cpp">
@@ -298,9 +297,9 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseAgent.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseCharacter.h"/>
-    <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseHealthComponent.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BasePlayer.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\BaseRifle.h"/>
+    <ClInclude Include="..\..\Source\END2608\Public\Actors\HealthComponent.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Actors\Projectile.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Both\CharacterAnimation.h"/>
     <ClInclude Include="..\..\Source\END2608\Public\Both\PlayerHUD.h"/>

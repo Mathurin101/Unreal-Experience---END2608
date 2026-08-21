@@ -20,7 +20,8 @@ ABaseCharacter::ABaseCharacter()
 	ChildActor->SetupAttachment(GetMesh(), "PlaceWeaponHere");
 
 	
-	HealthComponent = CreateDefaultSubobject<ABaseHealthComponent>("HealthComponent");
+	HealthComponent = CreateDefaultSubobject<UHealthComponent>("HealthComponent");
+	
 }
 
 // Called when the game starts or when spawned
@@ -67,8 +68,10 @@ void ABaseCharacter::BeginPlay()
 	//and get the RifleAnimation and bind to the Rifle
 	Rifle->OnRifleAttack.AddDynamic(RifleAnimation, &UCharacterAnimation::FireAnimation);
 
-	//setting the HealthComponent
-	
+
+	//setting health
+
+
 
 }
 
