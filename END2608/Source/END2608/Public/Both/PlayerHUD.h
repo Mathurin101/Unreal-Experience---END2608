@@ -20,6 +20,6 @@ protected:
 	UProgressBar* HealthBar;
 	
 public:
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 	void SetHealth(float Percent);
 };

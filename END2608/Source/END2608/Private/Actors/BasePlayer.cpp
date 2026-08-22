@@ -32,11 +32,16 @@ void ABasePlayer::BeginPlay()
 
 	HUDObject = Cast<UPlayerHUD>(CreateWidget(PlayerController, HUDClass));
 
-	HUDObject->AddToViewport();
+	if (HUDObject) {
+		HUDObject->AddToViewport();
 
-	HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
-	
-	HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+		HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+
+		HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+	}
+	else {
+		UE_LOG(Game, Warning,TEXT("HUDObject is not here!!"));
+	}
 
 }
 

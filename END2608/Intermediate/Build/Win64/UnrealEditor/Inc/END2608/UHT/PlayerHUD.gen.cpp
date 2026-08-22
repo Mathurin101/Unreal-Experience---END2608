@@ -40,7 +40,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlaye
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::NewProp_Percent,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UPlayerHUD, nullptr, "SetHealth", Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PlayerHUD_eventSetHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UPlayerHUD, nullptr, "SetHealth", Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PlayerHUD_eventSetHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics::PlayerHUD_eventSetHealth_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UPlayerHUD_SetHealth()
 {
@@ -120,7 +120,7 @@ struct Z_Construct_UClass_UPlayerHUD_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UPlayerHUD_SetHealth, "SetHealth" }, // 1064058887
+		{ &Z_Construct_UFunction_UPlayerHUD_SetHealth, "SetHealth" }, // 3687770474
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -170,10 +170,10 @@ UPlayerHUD::~UPlayerHUD() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPlayerHUD, UPlayerHUD::StaticClass, TEXT("UPlayerHUD"), &Z_Registration_Info_UClass_UPlayerHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerHUD), 2005771377U) },
+		{ Z_Construct_UClass_UPlayerHUD, UPlayerHUD::StaticClass, TEXT("UPlayerHUD"), &Z_Registration_Info_UClass_UPlayerHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerHUD), 4105559045U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_1369286957(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_3136682992(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
