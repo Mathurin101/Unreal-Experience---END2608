@@ -38,6 +38,8 @@ public:
 	UPROPERTY(EditAnywhere)
 	float DestroyTimer = 3.0f;
 
+	float Damage = 1.0f;
+
 private:
 	UFUNCTION()
 	void HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBody, bool FromSweep, const FHitResult& Hit);

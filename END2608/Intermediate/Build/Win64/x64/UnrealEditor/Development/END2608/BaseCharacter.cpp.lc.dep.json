@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\private\\actors\\basecharacter.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\x64\\end2608editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\end2608\\definitions.end2608.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\actors\\basecharacter.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\nettoken\\nettokenexportcontext.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\actors\\baserifle.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\end2608.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\baserifle.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\actors\\healthcomponent.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\healthcomponent.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\source\\end2608\\public\\both\\characteranimation.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\characteranimation.generated.h",
+            "c:\\unrealprojects\\unreal-experience---end2608\\end2608\\intermediate\\build\\win64\\unrealeditor\\inc\\end2608\\uht\\basecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

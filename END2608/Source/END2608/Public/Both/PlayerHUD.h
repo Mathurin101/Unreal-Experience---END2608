@@ -19,4 +19,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly, meta = (BindWidget))
 	UProgressBar* HealthBar;
 	
+public:
+	UFUNCTION()
+	void SetHealth(float Percent);
 };

@@ -4,6 +4,9 @@
 #include "Actors/BasePlayer.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "blueprint/UserWidget.h"
+#include "../END2608.h"
+#include "Components/ActorComponent.h"
 
 ABasePlayer::ABasePlayer()
 {
@@ -16,6 +19,24 @@ ABasePlayer::ABasePlayer()
 	Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
 	Camera->SetupAttachment(SpringArm);
 	Camera->SetRelativeLocation(FVector(0.0, 0.0, 0.0));
+
+}
+
+void ABasePlayer::BeginPlay()
+{
+	//Parent: BeginPlay
+	Super::BeginPlay();
+
+	//set player controller
+	PlayerController = Cast<APlayerController>(GetController());
+
+	HUDObject = Cast<UPlayerHUD>(CreateWidget(PlayerController, HUDClass));
+
+	HUDObject->AddToViewport();
+
+	HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+	
+	HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 
 }
 
@@ -35,6 +56,8 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("AttackInput", EInputEvent::IE_Pressed, this, &ABasePlayer::Attack);
 
 }
+
+
 
 void ABasePlayer::InputAxisMoveForward(float AxisValue)
 {
@@ -65,7 +88,7 @@ void ABasePlayer::MovingLeftAndRight(float AxisValue)
 
 void ABasePlayer::Attack() {
 	Rifle->SpawnBullet();
-	
+
 	//	RifleAnimation->FireAnimation();//No longer used
 
 }

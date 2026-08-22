@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Actors/BaseCharacter.h"
+#include "Both/PlayerHUD.h"
 #include "BasePlayer.generated.h"
 
 /**
@@ -15,12 +16,22 @@ class END2608_API ABasePlayer : public ABaseCharacter
 	GENERATED_BODY()
 
 protected:
-	UPROPERTY(VisibleAnywhere, Category = Character)
 
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, Category = Character)
 	class USpringArmComponent* SpringArm;
+	
 	class UCameraComponent* Camera;
 	
-	
+
+	APlayerController* PlayerController;
+
+	UPROPERTY(EditAnywhere, Category = Character)
+	TSubclassOf<UUserWidget> HUDClass;
+
+	UPlayerHUD* HUDObject;
 
 public: 
 	ABasePlayer();

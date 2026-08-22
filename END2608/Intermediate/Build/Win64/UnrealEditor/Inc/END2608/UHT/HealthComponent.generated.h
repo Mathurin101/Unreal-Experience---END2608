@@ -20,14 +20,21 @@ class AActor;
 class AController;
 class UDamageType;
 
+// ********** Begin Delegate FDBindEventEvent ******************************************************
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_11_DELEGATE \
+END2608_API void FDBindEventEvent_DelegateWrapper(const FMulticastScriptDelegate& DBindEventEvent, float Ratio);
+
+
+// ********** End Delegate FDBindEventEvent ********************************************************
+
 // ********** Begin Class UHealthComponent *********************************************************
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnTakeAnyDamage);
 
 
 END2608_API UClass* Z_Construct_UClass_UHealthComponent_NoRegister();
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -38,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UHealthComponent(UHealthComponent&&) = delete; \
 	UHealthComponent(const UHealthComponent&) = delete; \
@@ -48,13 +55,13 @@ public: \
 	NO_API virtual ~UHealthComponent();
 
 
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_10_PROLOG
-#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_GENERATED_BODY \
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_PROLOG
+#define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_13_ENHANCED_CONSTRUCTORS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_INCLASS_NO_PURE_DECLS \
+	FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_HealthComponent_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

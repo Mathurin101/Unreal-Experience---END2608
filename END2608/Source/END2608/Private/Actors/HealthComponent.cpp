@@ -39,6 +39,21 @@ void UHealthComponent::OnTakeAnyDamage(AActor* DamagedActor, float Damage, const
 
 	CurrentHealth = FMath::Clamp(CurrentHealth - Damage, 0, MaxHealth);
 
-
 	UE_LOG(Game, Error, TEXT("CurrentHealth: %f"), CurrentHealth);
+
+	if (CurrentHealth > 0) {
+		
+		//call OnHurt
+		OnHurt.Broadcast(CurrentHealth / MaxHealth);
+	}
+	else {
+
+		//call OnDeath
+		OnDeath.Broadcast(0);
+
+		//unbind all events from this Delegate
+		GetOwner()->OnTakeAnyDamage.Clear();	
+		UE_LOG(Game, Error, TEXT("Unbinding Method on death"));
+	}
 }
+

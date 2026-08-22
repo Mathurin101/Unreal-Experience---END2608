@@ -6,21 +6,18 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFrameWork/ProjectileMovementComponent.h"
 #include "../END2608.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AProjectile::AProjectile()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.bStartWithTickEnabled = false;
 
 	SphereCollision = CreateDefaultSubobject<USphereComponent>("SphereCollision");
 	SetRootComponent(SphereCollision);
-	SphereCollision->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::HandleHit);
-	//SphereCollision->SetCollisionProfileName("BlockAllDynamic");
-	SphereCollision->SetCollisionProfileName("OverlapAllDynamic");
 	
-	SphereCollision->SetWorldScale3D(Size);
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>Asset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
 
@@ -44,6 +41,12 @@ void AProjectile::BeginPlay()
 	
 	FTimerHandle ProjectileTimer;
 
+	SphereCollision->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::HandleHit);
+	//SphereCollision->SetCollisionProfileName("BlockAllDynamic");
+	SphereCollision->SetCollisionProfileName("OverlapAllDynamic");
+
+	SphereCollision->SetWorldScale3D(Size);
+
 	GetWorld()->GetTimerManager().SetTimer(ProjectileTimer, this, &AProjectile::K2_DestroyActor, DestroyTimer);
 }
 
@@ -55,7 +58,10 @@ void AProjectile::Tick(float DeltaTime)
 }
 
 void AProjectile::HandleHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBody, bool FromSweep, const FHitResult& Hit)
-{                         
+{               
+	//(AActor* DamagedActor, float BaseDamage, AController* EventInstigator, AActor* DamageCauser, TSubclassOf<UDamageType> DamageTypeClass)
+	UGameplayStatics::ApplyDamage(OtherActor, Damage, GetInstigatorController(), this, UDamageType::StaticClass());
+
 	UE_LOG(Game, Log, TEXT("Destroy on the code side"));
 	Destroy();
 }

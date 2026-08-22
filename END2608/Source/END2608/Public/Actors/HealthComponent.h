@@ -7,6 +7,9 @@
 #include "HealthComponent.generated.h"
 
 
+//Create delegate class and sets the signature
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FDBindEventEvent, float, Ratio);
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class END2608_API UHealthComponent : public UActorComponent
 {
@@ -26,6 +29,11 @@ public:
 
 	UFUNCTION()
 	void OnTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);//(float DamageTaken);
+	
+
+	FDBindEventEvent OnHurt;
+	
+	FDBindEventEvent OnDeath;
 
 private:
 	const float MaxHealth = 5.0f;

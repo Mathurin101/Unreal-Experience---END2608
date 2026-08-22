@@ -35,7 +35,8 @@ protected:
 	//get the main or self in this case
 	APawn* PawnParent;
 
-
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default)
+	FName WeaponSocketName = TEXT("MuzzleFlashSocket");
 
 public:	
 	// Called every frame

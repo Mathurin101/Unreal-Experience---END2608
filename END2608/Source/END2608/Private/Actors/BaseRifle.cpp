@@ -11,6 +11,8 @@ ABaseRifle::ABaseRifle()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	PrimaryActorTick.bStartWithTickEnabled = false;
+
 	//creating the mesh for the rifle 
 	SkellyMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkellyMesh");
 
@@ -47,7 +49,7 @@ void ABaseRifle::SpawnBullet()
 {
 
 	// Define the location and rotation
-	FVector Location = SkellyMesh->GetSocketLocation("MuzzleFlashSocket");
+	FVector Location = SkellyMesh->GetSocketLocation(WeaponSocketName);
 	FRotator Rotation = PawnParent->GetBaseAimRotation();
 
 	FActorSpawnParameters Params;

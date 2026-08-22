@@ -155,9 +155,14 @@ struct Z_Construct_UClass_ABaseRifle_Statics
 		{ "ToolTip", "needed to give and get the mesh from the editor/code" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WeaponSocketName_MetaData[] = {
+		{ "Category", "Default" },
+		{ "ModuleRelativePath", "Public/Actors/BaseRifle.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SkellyMesh;
+	static const UECodeGen_Private::FNamePropertyParams NewProp_WeaponSocketName;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -171,9 +176,11 @@ struct Z_Construct_UClass_ABaseRifle_Statics
 };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABaseRifle_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABaseRifle, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ProjectileClass_MetaData), NewProp_ProjectileClass_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseRifle_Statics::NewProp_SkellyMesh = { "SkellyMesh", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABaseRifle, SkellyMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SkellyMesh_MetaData), NewProp_SkellyMesh_MetaData) };
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_ABaseRifle_Statics::NewProp_WeaponSocketName = { "WeaponSocketName", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABaseRifle, WeaponSocketName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WeaponSocketName_MetaData), NewProp_WeaponSocketName_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseRifle_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseRifle_Statics::NewProp_ProjectileClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseRifle_Statics::NewProp_SkellyMesh,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseRifle_Statics::NewProp_WeaponSocketName,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABaseRifle_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ABaseRifle_Statics::DependentSingletons[])() = {
@@ -212,10 +219,10 @@ ABaseRifle::~ABaseRifle() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 232853098U) },
+		{ Z_Construct_UClass_ABaseRifle, ABaseRifle::StaticClass, TEXT("ABaseRifle"), &Z_Registration_Info_UClass_ABaseRifle, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseRifle), 1769552190U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_4018637928(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_310136948(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseRifle_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
