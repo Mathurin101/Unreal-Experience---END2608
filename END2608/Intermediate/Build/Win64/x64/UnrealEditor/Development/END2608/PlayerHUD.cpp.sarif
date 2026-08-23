@@ -19,7 +19,7 @@
                                     "uri": "file:///C:/UnrealProjects/Unreal-Experience---END2608/END2608/Source/END2608/Private/Both/PlayerHUD.cpp"
                                 },
                                 "region": {
-                                    "startLine": 10,
+                                    "startLine": 38,
                                     "startColumn": 2,
                                     "snippet": {
                                         "text": "\tUE_LOG(Game, Warning, TEXT(\"HP is : %f\"), HealthBar->Percent);"
