@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBasePlayer.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/BP_CodeGameMode.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/BP_CodeGameMode.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/DoNotConvert/M_CrossHair.uasset"
 			]
 		}
 	]
