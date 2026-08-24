@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerHUD() {}
 
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 END2608_API UClass* Z_Construct_UClass_UPlayerHUD();
 END2608_API UClass* Z_Construct_UClass_UPlayerHUD_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
@@ -21,6 +22,50 @@ UMG_API UClass* Z_Construct_UClass_UProgressBar_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserWidget();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
+
+// ********** Begin Class UPlayerHUD Function GetDestination ***************************************
+struct Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics
+{
+	struct PlayerHUD_eventGetDestination_Parms
+	{
+		FVector ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Both/PlayerHUD.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000582, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(PlayerHUD_eventGetDestination_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ReturnValue_MetaData), NewProp_ReturnValue_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UPlayerHUD, nullptr, "GetDestination", Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PropPointers), sizeof(Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PlayerHUD_eventGetDestination_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::Function_MetaDataParams), Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::PlayerHUD_eventGetDestination_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UPlayerHUD_GetDestination()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UPlayerHUD_GetDestination_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UPlayerHUD::execGetDestination)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(FVector*)Z_Param__Result=P_THIS->GetDestination();
+	P_NATIVE_END;
+}
+// ********** End Class UPlayerHUD Function GetDestination *****************************************
 
 // ********** Begin Class UPlayerHUD Function SetHealth ********************************************
 struct Z_Construct_UFunction_UPlayerHUD_SetHealth_Statics
@@ -69,6 +114,7 @@ void UPlayerHUD::StaticRegisterNativesUPlayerHUD()
 {
 	UClass* Class = UPlayerHUD::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "GetDestination", &UPlayerHUD::execGetDestination },
 		{ "SetHealth", &UPlayerHUD::execSetHealth },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -158,6 +204,10 @@ struct Z_Construct_UClass_UPlayerHUD_Statics
 		{ "ToolTip", "give the safe color RGBA values" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EndPoint_MetaData[] = {
+		{ "Category", "Default" },
+		{ "ModuleRelativePath", "Public/Both/PlayerHUD.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_HealthBar;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CrossHair;
@@ -165,9 +215,11 @@ struct Z_Construct_UClass_UPlayerHUD_Statics
 	static const UECodeGen_Private::FNamePropertyParams NewProp_ColorName;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_SafeColor;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_DangerColor;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_EndPoint;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UPlayerHUD_GetDestination, "GetDestination" }, // 1192984462
 		{ &Z_Construct_UFunction_UPlayerHUD_SetHealth, "SetHealth" }, // 3687770474
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -182,6 +234,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UPlayerHUD_Sta
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UPlayerHUD_Statics::NewProp_ColorName = { "ColorName", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerHUD, ColorName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ColorName_MetaData), NewProp_ColorName_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerHUD_Statics::NewProp_SafeColor = { "SafeColor", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerHUD, SafeColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SafeColor_MetaData), NewProp_SafeColor_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerHUD_Statics::NewProp_DangerColor = { "DangerColor", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerHUD, DangerColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DangerColor_MetaData), NewProp_DangerColor_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UPlayerHUD_Statics::NewProp_EndPoint = { "EndPoint", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UPlayerHUD, EndPoint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EndPoint_MetaData), NewProp_EndPoint_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerHUD_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_HealthBar,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_CrossHair,
@@ -189,6 +242,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerHU
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_ColorName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_SafeColor,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_DangerColor,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerHUD_Statics::NewProp_EndPoint,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerHUD_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UPlayerHUD_Statics::DependentSingletons[])() = {
@@ -228,10 +282,10 @@ UPlayerHUD::~UPlayerHUD() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPlayerHUD, UPlayerHUD::StaticClass, TEXT("UPlayerHUD"), &Z_Registration_Info_UClass_UPlayerHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerHUD), 4010088842U) },
+		{ Z_Construct_UClass_UPlayerHUD, UPlayerHUD::StaticClass, TEXT("UPlayerHUD"), &Z_Registration_Info_UClass_UPlayerHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPlayerHUD), 3136362964U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_1629504003(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_92931666(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_PlayerHUD_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

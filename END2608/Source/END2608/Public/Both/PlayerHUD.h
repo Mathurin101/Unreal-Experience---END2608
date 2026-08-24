@@ -41,8 +41,10 @@ protected:
 	UPROPERTY(BlueprintReadOnly, Category = Default)
 	FLinearColor DangerColor = FLinearColor(0.85f, 0.1f, 0.1f, 1);
 	
-	virtual void NativeTick(FGeometry Geo,float DeltaTime) ;
+	virtual void NativeTick(const FGeometry& Geo,float DeltaTime) ;
 
+	UPROPERTY(BlueprintReadOnly, Category = Default)
+	FVector EndPoint;
 
 	//similar to event graph code vise
 	//NativeConstruct(): executes more than once //NativeOnInitialized(): executes once 
@@ -52,9 +54,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void SetHealth(float Percent);
 
-	FVector GetDestination();
+	UFUNCTION(BlueprintCallable)
+	const FVector GetDestination();
 
 private:
 	
-	FVector EndPoint;
+	
 };
