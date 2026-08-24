@@ -67,7 +67,7 @@ void ABasePlayer::HandleHurt(float Ratio)
 {
 	Super::HandleHurt(Ratio);
 
-
+	HUDObject->SetHealth(Ratio);
 }
 
 FRotator ABasePlayer::GetBaseAimRotation() const
