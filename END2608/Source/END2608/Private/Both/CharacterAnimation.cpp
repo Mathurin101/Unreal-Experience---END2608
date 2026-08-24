@@ -24,7 +24,7 @@ void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 		FRotator BaseRotation = Pawn->GetActorRotation();
 
 		Direction = UKismetAnimationLibrary::CalculateDirection(VelocityVector, BaseRotation);
-		
+
 	}
 	else {//is not vaild
 
@@ -35,14 +35,23 @@ void UCharacterAnimation::FireAnimation() {
 	PlaySlotAnimationAsDynamicMontage(FireAsset, ActionSlotName);
 }
 
+void UCharacterAnimation::HitAnimation()
+{
+	PlaySlotAnimationAsDynamicMontage(HitAsset, ActionSlotName);
+}
+
 void UCharacterAnimation::PreviewWindowUpdate_Implementation()
 {
-	//log shoot/fire
-	if (DebugFire) {
+
+	if (DebugHit) {
+		HitAnimation();
+		DebugHit = false;
+
+	}//log shoot/fire
+	else if (DebugFire){
 		FireAnimation();
 		DebugFire = false;
 	}
-	else {
-	
-	}
 }
+
+

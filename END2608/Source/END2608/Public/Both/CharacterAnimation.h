@@ -20,6 +20,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void FireAnimation();
 
+	UFUNCTION(BlueprintCallable)
+	void HitAnimation();
+
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default);
 	float Velocity; 
@@ -35,6 +38,13 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = Default);
 	FName ActionSlotName;
+
+	//hit animation
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	bool DebugHit;
+
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	UAnimSequence* HitAsset;
 
 protected:
 	UFUNCTION(BlueprintNativeEvent)

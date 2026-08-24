@@ -1339,3 +1339,71 @@ Detoured run took 1.2s
 [2026.08.24-21.30.48:407][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.08.24-21.30.48:410][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
 [2026.08.24-21.30.48:506][446]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2026.08.24-22.04.44:103][800]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation
+[2026.08.24-22.04.44:105][800]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.08.24-22.04.44:134][800]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.08.24-22.04.44:140][800]LogStreaming: Display: FlushAsyncLoading(331): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.04.44:190][800]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.08.24-22.04.45:760][800]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.08.24-22.04.46:154][800]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.08.24-22.04.46:214][800]LogSlate: Took 0.007461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.08.24-22.04.46:366][800]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.04.46:366][800]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/END_Starter/Mannequin/Meshes/SKM_Manny_Simple (0x63DEDC3AA5E9641) - The package to load does not exist on disk or in the loader
+[2026.08.24-22.04.46:366][800]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/END_Starter/Mannequin/Meshes/SKM_Manny_Simple.SKM_Manny_Simple'
+[2026.08.24-22.04.46:451][802]LogStreaming: Display: FlushAsyncLoading(534): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.04.46:472][802]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.08.24-22.04.46:506][802]LogStreaming: Display: FlushAsyncLoading(537): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.13.08:317][329]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-22.13.21:975][126]Display: Reload/Re-instancing Complete: No object changes detected
+[2026.08.24-22.13.21:975][126]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2026.08.24-22.17.49:023][686]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-22.18.00:080][345]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug1dffe893-8f73-4e78-8fe2-65e2305dbc8f ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\1595.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_1.exp
+Detoured run took 1.4s
+[2026.08.24-22.18.00:364][351]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.24-22.18.00:365][351]LogClass: UClass CharacterAnimation Reload.
+[2026.08.24-22.18.00:365][351]LogClass: Could not find existing class CharacterAnimation in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.24-22.18.00:365][351]LogClass: Function FireAnimation is new or belongs to a modified class.
+[2026.08.24-22.18.00:365][351]LogClass: Function HitAnimation is new or belongs to a modified class.
+[2026.08.24-22.18.00:365][351]LogClass: Function PreviewWindowUpdate is new or belongs to a modified class.
+[2026.08.24-22.18.00:408][351]Re-instancing CharacterAnimation after reload.
+[2026.08.24-22.18.00:739][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2026.08.24-22.18.01:615][352]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 10 classes unchanged, 10 functions remapped
+[2026.08.24-22.18.01:615][352]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.24-22.18.06:558][610]LogStreaming: Display: FlushAsyncLoading(538): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.06:584][611]LogStreaming: Display: FlushAsyncLoading(540): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.12:879][981]LogStreaming: Display: FlushAsyncLoading(541): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.15:256][117]LogStreaming: Display: FlushAsyncLoading(544): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.15:301][119]LogStreaming: Display: FlushAsyncLoading(555): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.15:318][120]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.15:337][121]LogStreaming: Display: FlushAsyncLoading(564): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.19:473][306]LogStreaming: Display: FlushAsyncLoading(568): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.19:487][306]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/END_Starter/Mannequin/Animations/A_Hit_Ironsights.A_Hit_Ironsights (Required Memory Estimate: 8.08 MB)
+[2026.08.24-22.18.19:545][306]LogAnimationCompression: Display: Storing compressed animation data for /Game/END_Starter/Mannequin/Animations/A_Hit_Ironsights.A_Hit_Ironsights, at AnimationSequence/31d6fc6f1aac68e8bd06c4d62ef25996bca0d964
+[2026.08.24-22.18.19:620][306]LogSlate: Took 0.010669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.08.24-22.18.19:642][307]LogStreaming: Display: FlushAsyncLoading(569): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.22:299][466]LogStreaming: Display: FlushAsyncLoading(572): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.26:684][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2026.08.24-22.18.26:728][690]LogStreaming: Display: FlushAsyncLoading(575): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.26:765][691]LogStreaming: Display: FlushAsyncLoading(578): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.18.27:274][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.24-22.18.27:387][721]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.24-22.18.27:398][721]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.24-22.18.27:398][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.24-22.18.27:398][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.24-22.18.27:439][721]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.24-22.18.27:440][721]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimationF87400AF438486C937C875A2A2298899.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.24-22.18.27:454][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.814 ms
+[2026.08.24-22.18.27:582][721]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.24-22.18.27:582][721]LogContentValidation: Enabled validators:
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.24-22.18.27:583][721]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.24-22.18.27:608][721]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
