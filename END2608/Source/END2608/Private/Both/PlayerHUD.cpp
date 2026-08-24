@@ -106,7 +106,7 @@ void UPlayerHUD::SetHealth(float Percent)
 	UE_LOG(Game, Warning, TEXT("HP is : %f"), HealthBar->Percent);
 }
 
-const FVector UPlayerHUD::GetDestination()
+ FVector UPlayerHUD::GetDestination() const
 {
 	return EndPoint;
 }

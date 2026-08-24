@@ -55,7 +55,7 @@ public:
 	void SetHealth(float Percent);
 
 	UFUNCTION(BlueprintCallable)
-	const FVector GetDestination();
+	FVector GetDestination() const;
 
 private:
 	
