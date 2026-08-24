@@ -21,7 +21,7 @@ public:
 	void FireAnimation();
 
 	UFUNCTION(BlueprintCallable)
-	void HitAnimation();
+	void HitAnimation(float NotUsed = 0);
 
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default);

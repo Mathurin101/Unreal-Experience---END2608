@@ -48,7 +48,7 @@ void ABaseRifle::Tick(float DeltaTime)
 void ABaseRifle::SpawnBullet()
 {
 	// Define the rotation
-	//FRotator Rotation = PawnParent->GetBaseAimRotation();
+	FRotator Rotation = PawnParent->GetBaseAimRotation();
 
 	FActorSpawnParameters Params;
 	Params.Owner = PawnParent->GetController();
@@ -57,7 +57,7 @@ void ABaseRifle::SpawnBullet()
 	//branch? : if statment
 	if (CanShoot()) {
 		//spawn 
-		GetWorld()->SpawnActor<AActor>(ProjectileClass, GetSockSource(), NewHackedRotator(), Params);
+		GetWorld()->SpawnActor<AActor>(ProjectileClass, GetSockSource(), Rotation, Params);
 
 		ActionHappening = true;
 
@@ -87,47 +87,4 @@ FVector ABaseRifle::GetSockSource() const {
 	return SkellyMesh->GetSocketLocation(WeaponSocketName);
 }
 
-FRotator ABaseRifle::NewHackedRotator() const
-{
-	FRotator ResultingRotator = PawnParent->GetBaseAimRotation();
 
-	// Gets a players widget from the GetWorld()
-	TArray<UUserWidget*> FoundWidgets;
-
-	// 1. Initialize the HUDClass with your specific widget class
-	TSubclassOf<UUserWidget> HUDClass = UPlayerHUD::StaticClass();
-	UPlayerHUD* HUDObject;
-
-	UWidgetBlueprintLibrary::GetAllWidgetsOfClass(GetWorld(), FoundWidgets, HUDClass, true);
-
-	//make sure the Foundwidget is not empty
-	bool isWidgetActuallyFound = ((FoundWidgets.Num() > 0) && (FoundWidgets[0] != nullptr));
-
-	if (isWidgetActuallyFound)
-	{
-		// Shortening the bool to check if it was the player
-		bool isPlayerPawn = (FoundWidgets[0]->GetOwningPlayerPawn() == PawnParent);
-
-		// To hold the subtraction of the destination and the socket source
-		FVector TheRotationSubtract;
-
-		if (isPlayerPawn) {
-
-			// Cast the FoundWidget to the HUDObject
-			HUDObject = Cast<UPlayerHUD>(FoundWidgets[0]);
-
-			//check if the HUDObject is not empty
-			if (HUDObject)
-			{
-				// GetDestination() - GetSockSource()
-				TheRotationSubtract = HUDObject->GetDestination() - GetSockSource();
-				ResultingRotator = FRotationMatrix::MakeFromX(TheRotationSubtract).Rotator();
-			}
-			
-		}
-		
-	}
-	
-
-	return ResultingRotator;
-}

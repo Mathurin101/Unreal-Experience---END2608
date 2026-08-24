@@ -1407,3 +1407,150 @@ Detoured run took 1.4s
 [2026.08.24-22.18.27:582][721]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.08.24-22.18.27:583][721]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
 [2026.08.24-22.18.27:608][721]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/SourceControl/UncontrolledChangelists.json
+[2026.08.24-22.19.00:265][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.24-22.19.00:353][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.24-22.19.00:354][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.24-22.19.00:354][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.24-22.19.00:377][879]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.24-22.19.00:379][879]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimationC5CC20904950C4E8E74C7BA7D37E4B41.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.24-22.19.00:388][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.892 ms (total: 303.707 ms)
+[2026.08.24-22.19.00:506][879]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.24-22.19.00:506][879]LogContentValidation: Enabled validators:
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.24-22.19.00:506][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.24-22.19.00:506][879]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.24-22.27.25:019][961]LogDerivedDataCache: C:/Users/mathu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.08.24-22.47.03:519][937]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.08.24-22.47.03:632][940]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.08.24-22.47.03:875][941]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.08.24-22.47.03:897][942]LogStreaming: Display: FlushAsyncLoading(580): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.47.03:962][943]LogStreaming: Display: FlushAsyncLoading(583): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.47.03:967][943]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.08.24-22.47.04:015][944]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.08.24-22.47.05:757][ 20]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/Actors/BP_BaseRifle.BP_BaseRifle
+[2026.08.24-22.47.05:758][ 20]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.08.24-22.47.05:828][ 20]LogStreaming: Display: FlushAsyncLoading(586): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-22.52.21:655][564]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-22.52.41:940][762]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugbe9ed227-46b6-4a3c-8468-de2c27598f4b ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\D92E.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_2.exp
+Detoured run took 1.5s
+[2026.08.24-22.52.42:385][767]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.24-22.52.42:386][767]LogClass: UClass CharacterAnimation Reload.
+[2026.08.24-22.52.42:386][767]LogClass: Could not find existing class CharacterAnimation in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.24-22.52.42:386][767]LogClass: Function FireAnimation is new or belongs to a modified class.
+[2026.08.24-22.52.42:386][767]LogClass: Function HitAnimation is new or belongs to a modified class.
+[2026.08.24-22.52.42:386][767]LogClass: Function PreviewWindowUpdate is new or belongs to a modified class.
+[2026.08.24-22.52.42:438][767]Re-instancing CharacterAnimation after reload.
+[2026.08.24-22.52.42:992][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2026.08.24-22.52.44:080][768]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 10 classes unchanged, 10 functions remapped
+[2026.08.24-22.52.44:080][768]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.24-22.53.42:900][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.24-22.53.42:908][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.24-22.53.42:908][215]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-22.53.42:912][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004792s)
+[2026.08.24-22.53.42:912][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.004885s)
+[2026.08.24-22.53.43:035][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.08.24-22.53.43:037][215]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-22.53.43:038][215]LogPlayLevel: PIE: World Init took: (0.002077s)
+[2026.08.24-22.53.43:040][215]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.24-22.53.43:040][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.24-22.53.43:040][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.24-22.53.43:040][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.24-22.53.43:040][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.24-22.53.43:040][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.24-22.53.43:043][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.24-22.53.43:087][215]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.24-22.53.43:088][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.24-22.53.43:088][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.24-22.53.43:088][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.24-22.53.43:088][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.08.24-22.53.43:088][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.08.24-22.53.43:091][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.08.24-22.53.43:091][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.08.24-22.53.43:091][215]LogInit: FAudioDevice initialized with ID 5.
+[2026.08.24-22.53.43:091][215]LogAudio: Display: Audio Device (ID: 5) registered with world 'CodeTestingMap'.
+[2026.08.24-22.53.43:091][215]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.08.24-22.53.43:099][215]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.24-22.53.43:101][215]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.24-18.53.43
+[2026.08.24-22.53.43:101][215]LogWorld: Bringing up level for play took: 0.002043
+[2026.08.24-22.53.43:105][215]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.08.24-22.53.43:107][215]Game: Weapon is Here!!!
+[2026.08.24-22.53.43:107][215]Game: Shoot Animation is Here!!!
+[2026.08.24-22.53.43:108][215]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.08.24-22.53.44:097][215]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.989 s
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: === Handled ensure: ===
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: 
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: Ensure condition failed: this->IsBound()  [File:C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl] [Line: 1148] 
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: Unable to bind delegate to 'HandleHurt' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: Stack: 
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x0000015dba88707a UnrealEditor-END2608.patch_2.exe!`TBaseDynamicDelegate<FNotThreadSafeDelegateMode,void,float>::__Internal_BindDynamic<ABaseCharacter>'::`2'::<lambda_1>::operator()() [C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1148]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x0000015dba8741fb UnrealEditor-END2608.patch_2.exe!TBaseDynamicMulticastDelegate<FNotThreadSafeDelegateMode,void,float>::__Internal_AddDynamic<ABaseCharacter>() [C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1235]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x0000015dba875a8a UnrealEditor-END2608.patch_2.exe!ABaseCharacter::BeginPlay() [C:\UnrealProjects\Unreal-Experience---END2608\END2608\Source\END2608\Private\Actors\BaseCharacter.cpp:76]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc7dcff17 UnrealEditor-Engine.dll!AActor::DispatchBeginPlay() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Actor.cpp:4713]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdca47b66f UnrealEditor-Engine.dll!AWorldSettings::NotifyBeginPlay() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\WorldSettings.cpp:362]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc8c48e91 UnrealEditor-Engine.dll!AGameStateBase::HandleBeginPlay() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameStateBase.cpp:228]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdca193114 UnrealEditor-Engine.dll!UWorld::BeginPlay() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\World.cpp:5916]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc8bccaac UnrealEditor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameInstance.cpp:567]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4ee05b5 UnrealEditor-UnrealEd.dll!UEditorEngine::CreateInnerProcessPIEGameInstance() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:3182]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4f0d869 UnrealEditor-UnrealEd.dll!UEditorEngine::OnLoginPIEComplete_Deferred() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:1627]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4ee134c UnrealEditor-UnrealEd.dll!UEditorEngine::CreateNewPlayInEditorInstance() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:1890]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4f29d06 UnrealEditor-UnrealEd.dll!UEditorEngine::StartPlayInEditorSession() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:2913]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4f2dfab UnrealEditor-UnrealEd.dll!UEditorEngine::StartQueuedPlaySessionRequestImpl() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:1204]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc4f2d5ae UnrealEditor-UnrealEd.dll!UEditorEngine::StartQueuedPlaySessionRequest() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp:1105]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc47a2795 UnrealEditor-UnrealEd.dll!UEditorEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\EditorEngine.cpp:2038]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ffdc5475956 UnrealEditor-UnrealEd.dll!UUnrealEdEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Private\UnrealEdEngine.cpp:533]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6f79ce4 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5625]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6f9e5ac UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:187]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6f9e6ba UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:128]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6fa209e UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:282]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6fb4e44 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:339]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007ff6e6fb80fa UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007fff3738ccb7 KERNEL32.DLL!UnknownFunction []
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: [Callstack] 0x00007fff389cad6c ntdll.dll!UnknownFunction []
+[2026.08.24-22.53.44:097][215]LogOutputDevice: Error: 
+[2026.08.24-22.53.44:098][215]LogStats:                SubmitErrorReport -  0.000 s
+[2026.08.24-22.53.46:013][215]LogStats:                    SendNewReport -  1.916 s
+[2026.08.24-22.53.46:014][215]LogStats:             FDebug::EnsureFailed -  2.905 s
+[2026.08.24-22.53.46:014][215]Game: Weapon is Here!!!
+[2026.08.24-22.53.46:014][215]Game: Shoot Animation is Here!!!
+[2026.08.24-22.53.46:016][215]PIE: Server logged in
+[2026.08.24-22.53.46:019][215]PIE: Play in editor total start time 3.114 seconds.
+[2026.08.24-22.53.46:114][216]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-22.53.47:042][219]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-22.53.47:042][219]Game: Destroy on the code side
+[2026.08.24-22.54.00:221][979]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-22.54.00:221][979]Game: Destroy on the code side
+[2026.08.24-22.54.02:880][138]Game: Error: CurrentHealth: 3.000000
+[2026.08.24-22.54.02:881][138]Game: Destroy on the code side
+[2026.08.24-22.54.10:465][590]Game: Error: CurrentHealth: 2.000000
+[2026.08.24-22.54.10:465][590]Game: Destroy on the code side
+[2026.08.24-22.54.12:500][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-22.54.12:500][710]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-22.54.12:500][710]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-22.54.12:501][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-22.54.12:503][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.24-22.54.12:509][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-22.54.12:538][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-22.54.12:538][710]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.08.24-22.54.12:538][710]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.08.24-22.54.12:540][710]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.08.24-22.54.12:548][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.08.24-22.54.12:827][711]LogPlayLevel: Display: Destroying online subsystem :Context_16

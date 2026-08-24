@@ -39,6 +39,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	// overrides the parent's HandleHurt
+	virtual void HandleHurt(float Ratio) override;
+
+	virtual FRotator GetBaseAimRotation() const override;
 
 private: 
 	void InputAxisMoveForward(float AxisValue);

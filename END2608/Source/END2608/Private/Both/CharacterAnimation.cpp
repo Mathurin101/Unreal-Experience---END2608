@@ -35,7 +35,7 @@ void UCharacterAnimation::FireAnimation() {
 	PlaySlotAnimationAsDynamicMontage(FireAsset, ActionSlotName);
 }
 
-void UCharacterAnimation::HitAnimation()
+void UCharacterAnimation::HitAnimation(float NotUsed)
 {
 	PlaySlotAnimationAsDynamicMontage(HitAsset, ActionSlotName);
 }

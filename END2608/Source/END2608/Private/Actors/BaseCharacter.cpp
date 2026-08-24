@@ -69,10 +69,16 @@ void ABaseCharacter::BeginPlay()
 	Rifle->OnRifleAttack.AddDynamic(RifleAnimation, &UCharacterAnimation::FireAnimation);
 
 
-	//setting health
+	//Health Bind hit animation to OnHurt
+	HealthComponent->OnHurt.AddDynamic(this, &ABaseCharacter::HandleHurt);
 
 
+}
 
+void ABaseCharacter::HandleHurt(float Ratio)
+{
+	//calls the animationBP
+	RifleAnimation->HitAnimation();
 }
 
 // Called every frame

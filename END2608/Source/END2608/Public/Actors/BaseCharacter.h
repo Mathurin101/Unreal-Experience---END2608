@@ -43,6 +43,7 @@ protected:
 	UHealthComponent* HealthComponent;
 
 
+	virtual void HandleHurt(float Ratio);
 
 public:	
 	// Called every frame

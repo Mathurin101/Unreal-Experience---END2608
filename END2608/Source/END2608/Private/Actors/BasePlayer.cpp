@@ -35,7 +35,8 @@ void ABasePlayer::BeginPlay()
 	if (HUDObject) {
 		HUDObject->AddToViewport();
 
-		HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+		//call this in the Base Character.h or parent class
+		//HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 
 		HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 	}
@@ -62,6 +63,24 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
+void ABasePlayer::HandleHurt(float Ratio)
+{
+	Super::HandleHurt(Ratio);
+
+
+}
+
+FRotator ABasePlayer::GetBaseAimRotation() const
+{
+	FRotator ResultingRotator;
+	FVector TheRotationSubtract;
+
+	// GetDestination() - GetSockSource()
+	TheRotationSubtract = HUDObject->GetDestination() - Rifle->GetSockSource();
+	ResultingRotator = FRotationMatrix::MakeFromX(TheRotationSubtract).Rotator();
+
+	return ResultingRotator;
+}
 
 
 void ABasePlayer::InputAxisMoveForward(float AxisValue)

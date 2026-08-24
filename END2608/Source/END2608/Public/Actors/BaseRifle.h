@@ -50,8 +50,6 @@ public:
 	FDelegateEvent OnRifleAttack;
 
 	FVector GetSockSource() const;//pure function
-	
-	FRotator NewHackedRotator() const;//pure function
 
 private:
 

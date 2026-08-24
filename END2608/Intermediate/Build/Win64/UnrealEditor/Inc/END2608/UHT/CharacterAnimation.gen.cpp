@@ -52,14 +52,27 @@ DEFINE_FUNCTION(UCharacterAnimation::execFireAnimation)
 // ********** Begin Class UCharacterAnimation Function HitAnimation ********************************
 struct Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics
 {
+	struct CharacterAnimation_eventHitAnimation_Parms
+	{
+		float NotUsed;
+	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "CPP_Default_NotUsed", "0.000000" },
 		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
 	};
 #endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_NotUsed;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UCharacterAnimation, nullptr, "HitAnimation", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::NewProp_NotUsed = { "NotUsed", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(CharacterAnimation_eventHitAnimation_Parms, NotUsed), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::NewProp_NotUsed,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UCharacterAnimation, nullptr, "HitAnimation", Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::CharacterAnimation_eventHitAnimation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UCharacterAnimation_HitAnimation_Statics::CharacterAnimation_eventHitAnimation_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UCharacterAnimation_HitAnimation()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -71,9 +84,10 @@ UFunction* Z_Construct_UFunction_UCharacterAnimation_HitAnimation()
 }
 DEFINE_FUNCTION(UCharacterAnimation::execHitAnimation)
 {
+	P_GET_PROPERTY(FFloatProperty,Z_Param_NotUsed);
 	P_FINISH;
 	P_NATIVE_BEGIN;
-	P_THIS->HitAnimation();
+	P_THIS->HitAnimation(Z_Param_NotUsed);
 	P_NATIVE_END;
 }
 // ********** End Class UCharacterAnimation Function HitAnimation **********************************
@@ -219,7 +233,7 @@ struct Z_Construct_UClass_UCharacterAnimation_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UCharacterAnimation_FireAnimation, "FireAnimation" }, // 2556266060
-		{ &Z_Construct_UFunction_UCharacterAnimation_HitAnimation, "HitAnimation" }, // 3814425614
+		{ &Z_Construct_UFunction_UCharacterAnimation_HitAnimation, "HitAnimation" }, // 4094883957
 		{ &Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate, "PreviewWindowUpdate" }, // 2718223656
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -290,10 +304,10 @@ UCharacterAnimation::~UCharacterAnimation() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 1980120239U) },
+		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 4227336857U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_3719727375(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_2449456180(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
