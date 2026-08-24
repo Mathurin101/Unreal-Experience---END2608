@@ -7,13 +7,13 @@
 			"BasePlayer.gen.cpp.obj",
 			"BaseRifle.gen.cpp.obj",
 			"CharacterAnimation.gen.cpp.obj",
-			"END2608.init.gen.cpp.obj",
 			"ExampleDefaultPawn.gen.cpp.obj",
 			"ExampleFunctions.gen.cpp.obj",
 			"ExampleVariable.gen.cpp.obj",
 			"HealthComponent.gen.cpp.obj",
-			"PlayerHUD.gen.cpp.obj",
-			"Projectile.gen.cpp.obj"
+			"Projectile.gen.cpp.obj",
+			"END2608.init.gen.cpp.obj",
+			"PlayerHUD.gen.cpp.obj"
 		]
 	}
 }
