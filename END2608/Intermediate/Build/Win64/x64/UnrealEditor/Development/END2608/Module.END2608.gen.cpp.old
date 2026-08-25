@@ -3,6 +3,8 @@
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/BaseCharacter.gen.cpp"
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/BasePlayer.gen.cpp"
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/BaseRifle.gen.cpp"
+#include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/CharacterAnimation.gen.cpp"
+#include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/END2608.init.gen.cpp"
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/ExampleDefaultPawn.gen.cpp"
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/ExampleFunctions.gen.cpp"
 #include "C:/UnrealProjects/Unreal-Experience---END2608/END2608/Intermediate/Build/Win64/UnrealEditor/Inc/END2608/UHT/ExampleVariable.gen.cpp"

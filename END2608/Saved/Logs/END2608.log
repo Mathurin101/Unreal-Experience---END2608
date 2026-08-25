@@ -2026,3 +2026,619 @@ Detoured run took 1.3s
 [2026.08.24-23.16.14:401][706]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
 [2026.08.24-23.16.14:408][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
 [2026.08.24-23.16.14:612][707]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.08.24-23.18.18:891][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2026.08.24-23.18.18:895][235]LogStreaming: Display: FlushAsyncLoading(653): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.18.18:898][235]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.18.18:903][235]LogAssetEditorSubsystem: Opening Asset editor for World /Game/C++/CodeTestingMap.CodeTestingMap
+[2026.08.24-23.18.18:903][235]Cmd: MAP LOAD FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/CodeTestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.08.24-23.18.18:917][235]LogWorld: UWorld::CleanupWorld for BluePrintTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.18.18:917][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.18.18:952][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.24-23.18.18:956][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2026.08.24-23.18.18:959][235]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.18.18:959][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.18.18:992][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.08.24-23.18.19:122][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.08.24-23.18.19:127][235]LogAudio: Display: Audio Device (ID: 1) registered with world 'CodeTestingMap'.
+[2026.08.24-23.18.19:127][235]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.18.19:191][235]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.08.24-23.18.19:221][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.08.24-23.18.19:227][235]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.08.24-23.18.19:227][235]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.076ms to complete.
+[2026.08.24-23.18.19:358][237]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-23.18.20:805][310]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.24-23.18.20:810][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.24-23.18.20:851][310]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.18.20:854][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003038s)
+[2026.08.24-23.18.20:854][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.003100s)
+[2026.08.24-23.18.20:885][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2026.08.24-23.18.20:886][310]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.18.20:888][310]LogPlayLevel: PIE: World Init took: (0.002195s)
+[2026.08.24-23.18.20:890][310]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.24-23.18.20:890][310]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.24-23.18.20:890][310]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.24-23.18.20:890][310]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.24-23.18.20:890][310]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.24-23.18.20:890][310]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.24-23.18.20:893][310]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.24-23.18.20:934][310]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.24-23.18.20:935][310]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.24-23.18.20:935][310]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.24-23.18.20:935][310]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.24-23.18.20:935][310]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.08.24-23.18.20:935][310]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.08.24-23.18.20:938][310]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.08.24-23.18.20:938][310]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.08.24-23.18.20:938][310]LogInit: FAudioDevice initialized with ID 8.
+[2026.08.24-23.18.20:938][310]LogAudio: Display: Audio Device (ID: 8) registered with world 'CodeTestingMap'.
+[2026.08.24-23.18.20:938][310]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.24-23.18.20:942][310]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.24-23.18.20:944][310]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.24-19.18.20
+[2026.08.24-23.18.20:944][310]LogWorld: Bringing up level for play took: 0.001949
+[2026.08.24-23.18.20:947][310]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.08.24-23.18.20:951][310]Game: Weapon is Here!!!
+[2026.08.24-23.18.20:951][310]Game: Shoot Animation is Here!!!
+[2026.08.24-23.18.20:951][310]Game: Weapon is Here!!!
+[2026.08.24-23.18.20:951][310]Game: Shoot Animation is Here!!!
+[2026.08.24-23.18.20:952][310]PIE: Server logged in
+[2026.08.24-23.18.20:955][310]PIE: Play in editor total start time 0.144 seconds.
+[2026.08.24-23.18.21:036][311]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-23.18.22:062][324]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.18.22:062][324]Game: Destroy on the code side
+[2026.08.24-23.18.27:234][403]Game: Error: CurrentHealth: 3.000000
+[2026.08.24-23.18.27:234][403]Game: Destroy on the code side
+[2026.08.24-23.18.31:476][477]Game: Error: CurrentHealth: 2.000000
+[2026.08.24-23.18.31:476][477]Game: Destroy on the code side
+[2026.08.24-23.18.34:116][633]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.18.34:116][633]Game: Destroy on the code side
+[2026.08.24-23.18.35:211][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.18.35:211][696]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.18.35:212][696]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.18.35:213][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.18.35:214][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.24-23.18.35:222][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.18.35:252][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.18.35:252][696]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.08.24-23.18.35:252][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.08.24-23.18.35:255][696]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.08.24-23.18.35:263][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.08.24-23.18.35:458][697]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.08.24-23.18.36:792][715]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-23.18.55:098][737]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug9ab86141-52b1-4307-ad0c-f3dd80721fcc ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\DA64.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_4.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_4.exp
+Detoured run took 1.5s
+[2026.08.24-23.18.55:792][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2026.08.24-23.18.56:704][738]Display: Reload/Re-instancing Complete: 1 package changed, 11 classes unchanged, 13 functions remapped
+[2026.08.24-23.18.56:704][738]LogLiveCoding: Display: Live coding succeeded
+[2026.08.24-23.19.15:576][926]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.24-23.19.15:581][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.24-23.19.15:581][926]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.19.15:585][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002913s)
+[2026.08.24-23.19.15:585][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.002964s)
+[2026.08.24-23.19.15:692][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.08.24-23.19.15:694][926]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.19.15:696][926]LogPlayLevel: PIE: World Init took: (0.002108s)
+[2026.08.24-23.19.15:696][926]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.24-23.19.15:696][926]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.24-23.19.15:696][926]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.24-23.19.15:696][926]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.24-23.19.15:696][926]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.24-23.19.15:696][926]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.24-23.19.15:700][926]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.24-23.19.15:741][926]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.24-23.19.15:741][926]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.24-23.19.15:741][926]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.24-23.19.15:741][926]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.24-23.19.15:743][926]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.08.24-23.19.15:743][926]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.08.24-23.19.15:745][926]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.08.24-23.19.15:745][926]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.08.24-23.19.15:745][926]LogInit: FAudioDevice initialized with ID 9.
+[2026.08.24-23.19.15:745][926]LogAudio: Display: Audio Device (ID: 9) registered with world 'CodeTestingMap'.
+[2026.08.24-23.19.15:745][926]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.24-23.19.15:749][926]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.24-23.19.15:750][926]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.24-19.19.15
+[2026.08.24-23.19.15:751][926]LogWorld: Bringing up level for play took: 0.002053
+[2026.08.24-23.19.15:754][926]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.08.24-23.19.15:757][926]Game: Weapon is Here!!!
+[2026.08.24-23.19.15:757][926]Game: Shoot Animation is Here!!!
+[2026.08.24-23.19.15:757][926]Game: Weapon is Here!!!
+[2026.08.24-23.19.15:757][926]Game: Shoot Animation is Here!!!
+[2026.08.24-23.19.15:758][926]PIE: Server logged in
+[2026.08.24-23.19.15:760][926]PIE: Play in editor total start time 0.179 seconds.
+[2026.08.24-23.19.15:833][927]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-23.19.16:818][939]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.19.16:818][939]Game: Destroy on the code side
+[2026.08.24-23.19.21:861][233]Game: Error: CurrentHealth: 3.000000
+[2026.08.24-23.19.21:861][233]Game: Destroy on the code side
+[2026.08.24-23.19.23:152][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.19.23:152][309]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.19.23:152][309]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.19.23:152][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.19.23:154][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.24-23.19.23:161][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.19.23:187][309]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.24-23.19.23:202][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.08.24-23.19.23:202][309]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.08.24-23.19.23:204][309]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.08.24-23.19.23:210][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.19.23:234][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2026.08.24-23.19.23:400][310]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.08.24-23.20.52:223][615]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-23.21.01:682][646]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debug4590049f-370e-4d25-813c-1c3a36a022b5 ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\CB38.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_5.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_5.exp
+Detoured run took 968ms
+[2026.08.24-23.21.02:256][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.08.24-23.21.03:029][647]Display: Reload/Re-instancing Complete: 1 package changed, 11 classes unchanged, 13 functions remapped
+[2026.08.24-23.21.03:029][647]LogLiveCoding: Display: Live coding succeeded
+[2026.08.24-23.21.28:290][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.24-23.21.28:296][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.24-23.21.28:297][ 14]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.21.28:300][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002910s)
+[2026.08.24-23.21.28:300][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.002953s)
+[2026.08.24-23.21.28:393][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.08.24-23.21.28:400][ 14]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.21.28:402][ 14]LogPlayLevel: PIE: World Init took: (0.001992s)
+[2026.08.24-23.21.28:403][ 14]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.08.24-23.21.28:403][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.24-23.21.28:403][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.24-23.21.28:403][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.24-23.21.28:403][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.24-23.21.28:404][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.24-23.21.28:404][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.24-23.21.28:404][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.24-23.21.28:404][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.24-23.21.28:404][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.24-23.21.28:404][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.24-23.21.28:404][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.24-23.21.28:407][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.08.24-23.21.28:452][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.08.24-23.21.28:455][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.08.24-23.21.28:455][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.08.24-23.21.28:455][ 14]LogInit: FAudioDevice initialized with ID 10.
+[2026.08.24-23.21.28:455][ 14]LogAudio: Display: Audio Device (ID: 10) registered with world 'CodeTestingMap'.
+[2026.08.24-23.21.28:455][ 14]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.08.24-23.21.28:459][ 14]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.24-23.21.28:461][ 14]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.24-19.21.28
+[2026.08.24-23.21.28:461][ 14]LogWorld: Bringing up level for play took: 0.001920
+[2026.08.24-23.21.28:464][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.08.24-23.21.28:467][ 14]Game: Weapon is Here!!!
+[2026.08.24-23.21.28:467][ 14]Game: Shoot Animation is Here!!!
+[2026.08.24-23.21.28:467][ 14]Game: Weapon is Here!!!
+[2026.08.24-23.21.28:467][ 14]Game: Shoot Animation is Here!!!
+[2026.08.24-23.21.28:469][ 14]PIE: Server logged in
+[2026.08.24-23.21.28:471][ 14]PIE: Play in editor total start time 0.175 seconds.
+[2026.08.24-23.21.28:563][ 15]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-23.21.29:500][ 25]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.21.29:500][ 25]Game: Destroy on the code side
+[2026.08.24-23.21.46:545][580]Game: Error: CurrentHealth: 3.000000
+[2026.08.24-23.21.46:546][580]Game: Destroy on the code side
+[2026.08.24-23.21.52:596][943]Game: Error: CurrentHealth: 2.000000
+[2026.08.24-23.21.52:596][943]Game: Destroy on the code side
+[2026.08.24-23.21.56:022][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.21.56:022][144]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.21.56:022][144]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.21.56:023][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.21.56:025][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.24-23.21.56:030][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.21.56:060][144]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.24-23.21.56:062][144]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.08.24-23.21.56:062][144]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.08.24-23.21.56:064][144]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.08.24-23.21.56:071][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.21.56:077][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.08.24-23.21.56:231][145]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.08.24-23.26.37:754][ 12]LogLiveCoding: Display: Starting Live Coding compile.
+[2026.08.24-23.26.56:528][ 90]LogLiveCoding: Display: UbaCli v5.7.0-Uba_v1.0.0-43528563 (Rootdir: "C:\ProgramData\Epic\UbaCli", StoreCapacity: 0Gb)
+
+---- Starting trace: Debugc48025b9-c1ed-4adc-a33b-1c9955ec75cf ----
+Running C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\Hostx64\x64\link.exe @C:\Users\mathu\AppData\Local\Temp\3322.tmp
+   Creating library C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_6.lib and object C:\UnrealProjects\Unreal-Experience---END2608\END2608\Binaries\Win64\UnrealEditor-END2608.patch_6.exp
+Detoured run took 1.5s
+[2026.08.24-23.26.56:808][ 95]LogClass: UPackage /Script/END2608 Reload.
+[2026.08.24-23.26.56:808][ 95]LogClass: UClass BaseAgent Reload.
+[2026.08.24-23.26.56:808][ 95]LogClass: UClass BaseCharacter Reload.
+[2026.08.24-23.26.56:808][ 95]LogClass: UClass BasePlayer Reload.
+[2026.08.24-23.26.56:808][ 95]LogClass: Could not find existing class BaseAgent in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.24-23.26.56:808][ 95]LogClass: Could not find existing class BaseCharacter in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.24-23.26.56:808][ 95]LogClass: Function HandleHurt is new or belongs to a modified class.
+[2026.08.24-23.26.56:835][ 95]LogClass: Could not find existing class BasePlayer in package /Script/END2608 for reload, assuming new or modified class
+[2026.08.24-23.26.56:857][ 95]Re-instancing BaseCharacter after reload.
+[2026.08.24-23.26.56:943][ 95]Re-instancing BaseAgent after reload.
+[2026.08.24-23.26.57:035][ 95]Re-instancing BasePlayer after reload.
+[2026.08.24-23.26.57:293][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.08.24-23.26.58:108][ 96]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes changed, 8 classes unchanged, 13 functions remapped
+[2026.08.24-23.26.58:108][ 96]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2026.08.24-23.27.25:031][663]LogDerivedDataCache: C:/Users/mathu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.08.24-23.27.25:629][699]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.24-23.27.25:638][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.24-23.27.25:638][699]LogPlayLevel: Creating play world package: /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.27.25:642][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003231s)
+[2026.08.24-23.27.25:642][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/C++/CodeTestingMap.CodeTestingMap to /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap (0.003276s)
+[2026.08.24-23.27.25:754][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.08.24-23.27.25:755][699]LogChaosDD: Creating Chaos Debug Draw Scene for world CodeTestingMap
+[2026.08.24-23.27.25:757][699]LogPlayLevel: PIE: World Init took: (0.002195s)
+[2026.08.24-23.27.25:758][699]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.24-23.27.25:758][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.24-23.27.25:758][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.24-23.27.25:758][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.24-23.27.25:758][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.24-23.27.25:758][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.24-23.27.25:760][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.24-23.27.25:803][699]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2026.08.24-23.27.25:804][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.24-23.27.25:804][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.24-23.27.25:804][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.24-23.27.25:804][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.08.24-23.27.25:804][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.08.24-23.27.25:808][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.08.24-23.27.25:808][699]LogInit: FAudioDevice initialized with ID 11.
+[2026.08.24-23.27.25:808][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.08.24-23.27.25:808][699]LogAudio: Display: Audio Device (ID: 11) registered with world 'CodeTestingMap'.
+[2026.08.24-23.27.25:808][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.08.24-23.27.25:813][699]LogLoad: Game class is 'BP_CodeGameMode_C'
+[2026.08.24-23.27.25:815][699]LogWorld: Bringing World /Game/C++/UEDPIE_0_CodeTestingMap.CodeTestingMap up for play (max tick rate 60) at 2026.08.24-19.27.25
+[2026.08.24-23.27.25:815][699]LogWorld: Bringing up level for play took: 0.002160
+[2026.08.24-23.27.25:818][699]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.08.24-23.27.25:821][699]Game: Weapon is Here!!!
+[2026.08.24-23.27.25:821][699]Game: Shoot Animation is Here!!!
+[2026.08.24-23.27.25:821][699]Game: Weapon is Here!!!
+[2026.08.24-23.27.25:821][699]Game: Shoot Animation is Here!!!
+[2026.08.24-23.27.25:822][699]PIE: Server logged in
+[2026.08.24-23.27.25:825][699]PIE: Play in editor total start time 0.187 seconds.
+[2026.08.24-23.27.25:910][700]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.08.24-23.27.26:887][711]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.27.26:888][711]Game: Warning: just played the hit animation in the base character.h class or parent
+[2026.08.24-23.27.26:888][711]Game: Warning: HP is : 0.800000
+[2026.08.24-23.27.26:888][711]Game: Error: Handle hurt override just got hurt? ouwa
+[2026.08.24-23.27.26:888][711]Game: Destroy on the code side
+[2026.08.24-23.27.35:883][209]Game: Error: CurrentHealth: 3.000000
+[2026.08.24-23.27.35:883][209]Game: Warning: just played the hit animation in the base character.h class or parent
+[2026.08.24-23.27.35:883][209]Game: Warning: HP is : 0.600000
+[2026.08.24-23.27.35:883][209]Game: Error: Handle hurt override just got hurt? ouwa
+[2026.08.24-23.27.35:883][209]Game: Destroy on the code side
+[2026.08.24-23.27.37:900][330]Game: Error: CurrentHealth: 2.000000
+[2026.08.24-23.27.37:900][330]Game: Warning: just played the hit animation in the base character.h class or parent
+[2026.08.24-23.27.37:900][330]Game: Warning: HP is : 0.400000
+[2026.08.24-23.27.37:900][330]Game: Error: Handle hurt override just got hurt? ouwa
+[2026.08.24-23.27.37:900][330]Game: Destroy on the code side
+[2026.08.24-23.27.39:917][451]Game: Error: CurrentHealth: 1.000000
+[2026.08.24-23.27.39:917][451]Game: Warning: just played the hit animation in the base character.h class or parent
+[2026.08.24-23.27.39:917][451]Game: Warning: HP is : 0.200000
+[2026.08.24-23.27.39:917][451]Game: Error: Handle hurt override just got hurt? ouwa
+[2026.08.24-23.27.39:917][451]Game: Destroy on the code side
+[2026.08.24-23.27.42:684][617]Game: Error: CurrentHealth: 4.000000
+[2026.08.24-23.27.42:684][617]Game: Warning: just played the hit animation in the base character.h class or parent
+[2026.08.24-23.27.42:684][617]Game: Destroy on the code side
+[2026.08.24-23.27.44:942][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.27.44:942][751]LogWorld: BeginTearingDown for /Game/C++/UEDPIE_0_CodeTestingMap
+[2026.08.24-23.27.44:942][751]LogWorld: UWorld::CleanupWorld for CodeTestingMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.24-23.27.44:943][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.27.44:944][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.24-23.27.44:951][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.24-23.27.44:978][751]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.24-23.27.44:978][751]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.08.24-23.27.44:978][751]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.08.24-23.27.44:981][751]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.08.24-23.27.44:986][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.24-23.27.44:989][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2026.08.24-23.27.45:155][752]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.08.24-23.31.23:068][939]LogStreaming: Display: FlushAsyncLoading(655): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.23:285][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.08.24-23.32.23:293][562]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/C++/CodeTestingMap' took 0.038
+[2026.08.24-23.32.23:294][562]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.24-23.32.23:305][562]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.24-23.32.23:305][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.24-23.32.23:328][562]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Both/ABP_CharacterAnimation_Auto2
+[2026.08.24-23.32.23:328][562]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation_Auto2B96D3F944D5EB434B33A829E12293A8D.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Both/ABP_CharacterAnimation_Auto2.uasset'
+[2026.08.24-23.32.23:329][562]LogFileHelpers: Auto-saving content packages took 0.036
+[2026.08.24-23.32.25:457][684]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.25:511][686]LogStreaming: Display: FlushAsyncLoading(675): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.25:536][687]LogStreaming: Display: FlushAsyncLoading(682): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.25:555][688]LogStreaming: Display: FlushAsyncLoading(690): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.25:575][689]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.08.24-23.32.26:452][737]LogStreaming: Display: FlushAsyncLoading(694): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.26:463][737]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/END_Starter/Mannequin/Animations/A_Death1_Ironsights.A_Death1_Ironsights (Required Memory Estimate: 19.85 MB)
+[2026.08.24-23.32.26:638][739]LogStreaming: Display: FlushAsyncLoading(702): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.26:663][739]LogAnimationCompression: Display: Storing compressed animation data for /Game/END_Starter/Mannequin/Animations/A_Death1_Ironsights.A_Death1_Ironsights, at AnimationSequence/8af5b10cd8688009d9c83f36c51f812b455566dd
+[2026.08.24-23.32.26:744][743]LogStreaming: Display: FlushAsyncLoading(705): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.27:164][765]LogStreaming: Display: FlushAsyncLoading(708): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.58:371][223]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.24-23.32.58:428][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.08.24-23.32.58:487][223]LogStreaming: Display: FlushAsyncLoading(709): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.32.58:529][223]LogStreaming: Display: FlushAsyncLoading(711): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.33.01:723][413]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.24-23.33.01:784][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.08.24-23.33.01:834][413]LogStreaming: Display: FlushAsyncLoading(712): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.33.01:877][413]LogStreaming: Display: FlushAsyncLoading(714): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.33.02:433][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.24-23.33.02:527][446]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.24-23.33.02:538][446]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.24-23.33.02:538][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.24-23.33.02:538][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.24-23.33.02:562][446]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.24-23.33.02:563][446]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation0F90B12742826C7219F56C93C7B9C915.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.24-23.33.02:585][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.931 ms (total: 2.95 sec)
+[2026.08.24-23.33.02:710][446]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.24-23.33.02:710][446]LogContentValidation: Enabled validators:
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.24-23.33.02:710][446]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.24-23.33.02:710][446]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.24-23.33.05:105][577]LogStreaming: Display: FlushAsyncLoading(715): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.24-23.42.23:874][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.08.24-23.42.23:886][459]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/C++/CodeTestingMap' took 0.044
+[2026.08.24-23.42.23:887][459]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.24-23.42.24:114][459]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.24-23.42.24:114][459]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.24-23.42.24:140][459]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Both/ABP_CharacterAnimation_Auto3
+[2026.08.24-23.42.24:140][459]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation_Auto327A78F3145498F073599EAA385881BB0.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Both/ABP_CharacterAnimation_Auto3.uasset'
+[2026.08.24-23.42.24:142][459]LogFileHelpers: Auto-saving content packages took 0.256
+[2026.08.25-00.01.15:295][ 41]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.25-00.01.15:359][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.08.25-00.02.47:694][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.02.47:788][ 76]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.02.47:799][ 76]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.02.47:799][ 76]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.02.47:799][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.02.47:824][ 76]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.02.47:825][ 76]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation5C72545D436C82071B0AD89DBA7CE69C.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.02.47:836][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.176 ms (total: 3.10 sec)
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: Enabled validators:
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.02.47:992][ 76]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.02.47:993][ 76]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.03.38:407][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.08.25-00.03.38:417][938]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/C++/CodeTestingMap' took 0.041
+[2026.08.25-00.03.38:417][938]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.03.38:643][938]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.03.38:643][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.03.38:673][938]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Both/ABP_CharacterAnimation_Auto4
+[2026.08.25-00.03.38:673][938]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation_Auto4727783824C45F7F33D50FFAD7C3F3764.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/Autosaves/Game/Both/ABP_CharacterAnimation_Auto4.uasset'
+[2026.08.25-00.03.38:679][938]LogFileHelpers: Auto-saving content packages took 0.263
+[2026.08.25-00.03.54:242][364]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.25-00.03.54:304][364]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.08.25-00.03.55:687][434]LogStreaming: Display: FlushAsyncLoading(716): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.03.55:726][436]LogStreaming: Display: FlushAsyncLoading(722): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.03.55:774][437]LogStreaming: Display: FlushAsyncLoading(725): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.03.57:584][519]LogStreaming: Display: FlushAsyncLoading(728): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.03.59:455][618]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.25-00.03.59:462][618]LogStreaming: Display: FlushAsyncLoading(732): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.03.59:517][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.08.25-00.03.59:647][619]LogStreaming: Display: FlushAsyncLoading(733): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.04.00:714][675]LogBlueprint: Warning: [AssetLog] C:\UnrealProjects\Unreal-Experience---END2608\END2608\Content\Both\ABP_CharacterAnimation.uasset: [Compiler] Walking to Death  will never be taken, please connect something to  Can Enter Transition
+[2026.08.25-00.04.00:721][675]LogStreaming: Display: FlushAsyncLoading(738): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.04.00:776][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.08.25-00.04.00:885][676]LogStreaming: Display: FlushAsyncLoading(739): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.04.01:431][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.04.01:526][709]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.04.01:535][709]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.04.01:535][709]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.04.01:537][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.04.01:564][709]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.04.01:565][709]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation938474CC4C6307099AC3499552A4A36A.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.04.01:574][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.876 ms (total: 3.24 sec)
+[2026.08.25-00.04.01:725][709]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.04.01:725][709]LogContentValidation: Enabled validators:
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.04.01:725][709]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.04.01:725][709]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.04.03:663][812]LogStreaming: Display: FlushAsyncLoading(744): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.04.04:018][829]LogStreaming: Display: FlushAsyncLoading(748): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.04.09:254][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.04.09:349][905]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.04.09:360][905]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.04.09:360][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.04.09:360][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.04.09:387][905]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.04.09:388][905]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation7A6CD2F14AF4E14B294A6DAC34FDF0A2.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.04.09:398][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.309 ms (total: 3.38 sec)
+[2026.08.25-00.04.09:550][905]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.04.09:550][905]LogContentValidation: Enabled validators:
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.04.09:550][905]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.04.09:550][905]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.07.28:075][583]LogStreaming: Display: FlushAsyncLoading(752): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.28:135][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.08.25-00.07.28:252][584]LogStreaming: Display: FlushAsyncLoading(753): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.28:668][593]LogStreaming: Display: FlushAsyncLoading(758): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.28:723][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.08.25-00.07.28:841][594]LogStreaming: Display: FlushAsyncLoading(759): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.29:323][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.07.29:426][623]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.07.29:434][623]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.07.29:434][623]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.07.29:434][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.07.29:463][623]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.07.29:465][623]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation78E6234F4D2FB0A09FA7A7BA78F11DD9.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.07.29:476][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.127 ms (total: 3.54 sec)
+[2026.08.25-00.07.29:618][623]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.07.29:618][623]LogContentValidation: Enabled validators:
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.07.29:618][623]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.07.29:618][623]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.07.30:053][646]LogStreaming: Display: FlushAsyncLoading(764): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.30:115][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.08.25-00.07.30:235][647]LogStreaming: Display: FlushAsyncLoading(765): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.31:136][700]LogStreaming: Display: FlushAsyncLoading(770): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.31:199][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.08.25-00.07.31:312][701]LogStreaming: Display: FlushAsyncLoading(771): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.32:469][769]LogStreaming: Display: FlushAsyncLoading(776): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.32:535][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.08.25-00.07.32:654][770]LogStreaming: Display: FlushAsyncLoading(777): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.07.34:060][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.07.34:146][854]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.07.34:157][854]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.07.34:158][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.07.34:158][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.07.34:186][854]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.07.34:186][854]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimationC3D608B54CCAA97FC0A96DBE81E3C475.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.07.34:199][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.901 ms (total: 3.67 sec)
+[2026.08.25-00.07.34:348][854]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.07.34:348][854]LogContentValidation: Enabled validators:
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.07.34:348][854]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.07.34:348][854]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.08.43:628][240]LogStreaming: Display: FlushAsyncLoading(782): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.43:673][242]LogStreaming: Display: FlushAsyncLoading(787): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.46:399][392]LogStreaming: Display: FlushAsyncLoading(793): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.46:420][393]LogStreaming: Display: FlushAsyncLoading(796): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.46:441][394]LogStreaming: Display: FlushAsyncLoading(799): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.46:467][395]LogStreaming: Display: FlushAsyncLoading(805): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.46:492][396]LogStreaming: Display: FlushAsyncLoading(811): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.50:139][600]LogStreaming: Display: FlushAsyncLoading(814): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.50:510][602]LogStreaming: Display: FlushAsyncLoading(816): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.50:532][603]LogStreaming: Display: FlushAsyncLoading(822): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.50:555][604]LogStreaming: Display: FlushAsyncLoading(828): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.54:814][817]LogStreaming: Display: FlushAsyncLoading(831): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:202][840]LogStreaming: Display: FlushAsyncLoading(834): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:219][841]LogStreaming: Display: FlushAsyncLoading(837): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:235][842]LogStreaming: Display: FlushAsyncLoading(840): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:253][843]LogStreaming: Display: FlushAsyncLoading(843): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:269][844]LogStreaming: Display: FlushAsyncLoading(846): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.08.55:288][845]LogStreaming: Display: FlushAsyncLoading(849): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.03:813][ 65]LogStreaming: Display: FlushAsyncLoading(852): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.04:403][ 76]LogStreaming: Display: FlushAsyncLoading(857): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.05:164][121]LogStreaming: Display: FlushAsyncLoading(862): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.05:190][122]LogStreaming: Display: FlushAsyncLoading(863): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.05:211][123]LogStreaming: Display: FlushAsyncLoading(864): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.05:539][134]LogStreaming: Display: FlushAsyncLoading(865): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.05:669][137]LogStreaming: Display: FlushAsyncLoading(866): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.06:164][155]LogStreaming: Display: FlushAsyncLoading(867): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.06:201][156]LogStreaming: Display: FlushAsyncLoading(868): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:288][237]LogStreaming: Display: FlushAsyncLoading(869): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:353][239]LogStreaming: Display: FlushAsyncLoading(872): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:371][240]LogStreaming: Display: FlushAsyncLoading(875): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:391][241]LogStreaming: Display: FlushAsyncLoading(878): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:410][242]LogStreaming: Display: FlushAsyncLoading(881): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:569][249]LogStreaming: Display: FlushAsyncLoading(884): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:615][250]LogStreaming: Display: FlushAsyncLoading(887): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:660][251]LogStreaming: Display: FlushAsyncLoading(890): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.08:682][252]LogStreaming: Display: FlushAsyncLoading(893): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:720][548]LogStreaming: Display: FlushAsyncLoading(896): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:737][549]LogStreaming: Display: FlushAsyncLoading(899): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:756][550]LogStreaming: Display: FlushAsyncLoading(902): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:775][551]LogStreaming: Display: FlushAsyncLoading(905): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:791][552]LogStreaming: Display: FlushAsyncLoading(908): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:810][553]LogStreaming: Display: FlushAsyncLoading(911): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:829][554]LogStreaming: Display: FlushAsyncLoading(914): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.13:847][555]LogStreaming: Display: FlushAsyncLoading(917): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.16:321][702]LogStreaming: Display: FlushAsyncLoading(920): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.16:338][703]LogStreaming: Display: FlushAsyncLoading(923): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.16:358][704]LogStreaming: Display: FlushAsyncLoading(926): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.16:714][723]LogStreaming: Display: FlushAsyncLoading(929): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.19:947][911]LogStreaming: Display: FlushAsyncLoading(930): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.23:168][ 84]LogStreaming: Display: FlushAsyncLoading(935): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:460][281]LogStreaming: Display: FlushAsyncLoading(939): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:478][282]LogStreaming: Display: FlushAsyncLoading(942): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:499][283]LogStreaming: Display: FlushAsyncLoading(945): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:518][284]LogStreaming: Display: FlushAsyncLoading(948): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:536][285]LogStreaming: Display: FlushAsyncLoading(951): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:554][286]LogStreaming: Display: FlushAsyncLoading(954): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:573][287]LogStreaming: Display: FlushAsyncLoading(957): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:597][288]LogStreaming: Display: FlushAsyncLoading(960): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.26:615][289]LogStreaming: Display: FlushAsyncLoading(963): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.30:413][512]LogStreaming: Display: FlushAsyncLoading(966): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.32:077][609]LogStreaming: Display: FlushAsyncLoading(970): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.48:369][119]LogStreaming: Display: FlushAsyncLoading(974): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.51:046][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.08.25-00.09.51:114][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.09.51:215][254]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.09.51:231][254]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.09.51:231][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.09.51:231][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.09.51:263][254]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.09.51:264][254]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation139A2C5B43624AE67F40EFB4516C91DD.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.09.51:279][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.642 ms (total: 3.84 sec)
+[2026.08.25-00.09.51:441][254]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.09.51:441][254]LogContentValidation: Enabled validators:
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.09.51:441][254]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.09.51:441][254]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset
+[2026.08.25-00.09.51:516][254]LogStreaming: Display: FlushAsyncLoading(979): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.09.51:887][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2026.08.25-00.09.52:013][269]LogStreaming: Display: FlushAsyncLoading(981): 1 QueuedPackages, 0 AsyncPackages
+[2026.08.25-00.10.40:967][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.25-00.10.41:092][581]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Both/ABP_CharacterAnimation] ([2] browsable assets)...
+[2026.08.25-00.10.41:142][581]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Both/ABP_CharacterAnimation.ABP_CharacterAnimation]
+[2026.08.25-00.10.41:143][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/Both/ABP_CharacterAnimation]
+[2026.08.25-00.10.41:143][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Both/ABP_CharacterAnimation" FILE="../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset" SILENT=true
+[2026.08.25-00.10.41:173][581]LogSavePackage: Moving output files for package: /Game/Both/ABP_CharacterAnimation
+[2026.08.25-00.10.41:175][581]LogSavePackage: Moving '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Saved/ABP_CharacterAnimation008BC8EA456105125C08DEA821657A74.tmp' to '../../../../../../UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset'
+[2026.08.25-00.10.41:186][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 218.876 ms (total: 4.06 sec)
+[2026.08.25-00.10.41:358][581]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.25-00.10.41:358][581]LogContentValidation: Enabled validators:
+[2026.08.25-00.10.41:358][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.25-00.10.41:358][581]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.25-00.10.41:358][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.25-00.10.41:358][581]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.25-00.10.41:360][581]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.25-00.10.41:360][581]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.25-00.10.41:360][581]AssetCheck: /Game/Both/ABP_CharacterAnimation Validating asset

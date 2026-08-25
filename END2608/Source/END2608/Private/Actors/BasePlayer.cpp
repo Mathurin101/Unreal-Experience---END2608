@@ -63,7 +63,7 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
-void ABasePlayer::HandleHurt(float Ratio)
+void ABasePlayer::HandleHurt(float Ratio) 
 {
 	Super::HandleHurt(Ratio);
 

@@ -42,7 +42,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = Default)
 	UHealthComponent* HealthComponent;
 
-
+	UFUNCTION(BlueprintCallable, Category = Default)
 	virtual void HandleHurt(float Ratio);
 
 public:	
