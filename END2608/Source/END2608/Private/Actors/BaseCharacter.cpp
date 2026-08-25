@@ -72,6 +72,7 @@ void ABaseCharacter::BeginPlay()
 	//Health Bind hit animation to OnHurt
 	HealthComponent->OnHurt.AddDynamic(this, &ABaseCharacter::HandleHurt);
 
+	HealthComponent->OnDeath.AddDynamic(this, &ABaseCharacter::HandleDeath);
 
 }
 
@@ -79,8 +80,11 @@ void ABaseCharacter::HandleHurt(float Ratio)
 {
 	//calls the animationBP
 	RifleAnimation->HitAnimation();
-	
-	UE_LOG(Game, Warning, TEXT("you Got HIT!!!"));
+}
+
+void ABaseCharacter::HandleDeath(float Ratio)
+{
+	RifleAnimation->DeathAnimation();
 }
 
 // Called every frame

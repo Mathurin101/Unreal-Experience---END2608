@@ -44,6 +44,10 @@ public:
 	// overrides the parent's HandleHurt
 	virtual void HandleHurt(float Ratio) override;
 
+	// overrides the parent's HandleHurt
+	virtual void HandleDeath(float Ratio) override;
+
+
 private: 
 	void InputAxisMoveForward(float AxisValue);
 

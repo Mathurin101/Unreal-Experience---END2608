@@ -45,6 +45,9 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = Default)
 	virtual void HandleHurt(float Ratio);
 
+	UFUNCTION(BlueprintCallable, Category = Default)
+	virtual void HandleDeath(float Ratio);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

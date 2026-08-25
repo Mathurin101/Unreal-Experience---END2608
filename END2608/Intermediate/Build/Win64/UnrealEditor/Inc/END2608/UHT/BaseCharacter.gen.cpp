@@ -22,6 +22,49 @@ ENGINE_API UClass* Z_Construct_UClass_UChildActorComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class ABaseCharacter Function HandleDeath **************************************
+struct Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics
+{
+	struct BaseCharacter_eventHandleDeath_Parms
+	{
+		float Ratio;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Default" },
+		{ "ModuleRelativePath", "Public/Actors/BaseCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Ratio;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::NewProp_Ratio = { "Ratio", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BaseCharacter_eventHandleDeath_Parms, Ratio), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::NewProp_Ratio,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, nullptr, "HandleDeath", Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::PropPointers), sizeof(Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::BaseCharacter_eventHandleDeath_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::Function_MetaDataParams), Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::BaseCharacter_eventHandleDeath_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ABaseCharacter_HandleDeath()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ABaseCharacter_HandleDeath_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ABaseCharacter::execHandleDeath)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Ratio);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->HandleDeath(Z_Param_Ratio);
+	P_NATIVE_END;
+}
+// ********** End Class ABaseCharacter Function HandleDeath ****************************************
+
 // ********** Begin Class ABaseCharacter Function HandleHurt ***************************************
 struct Z_Construct_UFunction_ABaseCharacter_HandleHurt_Statics
 {
@@ -70,6 +113,7 @@ void ABaseCharacter::StaticRegisterNativesABaseCharacter()
 {
 	UClass* Class = ABaseCharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "HandleDeath", &ABaseCharacter::execHandleDeath },
 		{ "HandleHurt", &ABaseCharacter::execHandleHurt },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -150,6 +194,7 @@ struct Z_Construct_UClass_ABaseCharacter_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABaseCharacter_HandleDeath, "HandleDeath" }, // 2032921092
 		{ &Z_Construct_UFunction_ABaseCharacter_HandleHurt, "HandleHurt" }, // 418228301
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -203,10 +248,10 @@ ABaseCharacter::~ABaseCharacter() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseCharacter_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABaseCharacter, ABaseCharacter::StaticClass, TEXT("ABaseCharacter"), &Z_Registration_Info_UClass_ABaseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseCharacter), 3993839215U) },
+		{ Z_Construct_UClass_ABaseCharacter, ABaseCharacter::StaticClass, TEXT("ABaseCharacter"), &Z_Registration_Info_UClass_ABaseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABaseCharacter), 4260001371U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseCharacter_h__Script_END2608_788042835(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseCharacter_h__Script_END2608_1209801785(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseCharacter_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Actors_BaseCharacter_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -44,7 +44,7 @@ void UCharacterAnimation::HitAnimation(float NotUsed)
 void UCharacterAnimation::DeathAnimation(float NotUsed)
 {
 	int RandomNumber = FMath::RandRange(0, DeathAssets.Num() - 1);
-	
+
 	//random death animation
 	CurrentDeathAsset = DeathAssets[RandomNumber];
 	UE_LOG(Game, Log, TEXT("Death animation number: %d"), RandomNumber);
@@ -57,8 +57,7 @@ void UCharacterAnimation::PreviewWindowUpdate_Implementation()
 		DebugDeath = false;
 		UE_LOG(Game, Error, TEXT("Death method just got called"));
 	}
-	
-	if (DebugHit) {
+	else if (DebugHit) {
 		HitAnimation();
 		DebugHit = false;
 		UE_LOG(Game, Error, TEXT("Hit method just got called"));

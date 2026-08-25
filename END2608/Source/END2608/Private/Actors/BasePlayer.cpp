@@ -38,7 +38,8 @@ void ABasePlayer::BeginPlay()
 		//call this in the Base Character.h or parent class
 		//HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 
-		HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+		//call this in the Base Character.h or parent class
+		//HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 	}
 	else {
 		UE_LOG(Game, Warning,TEXT("HUDObject is not here!!"));
@@ -69,6 +70,12 @@ void ABasePlayer::HandleHurt(float Ratio)
 
 	HUDObject->SetHealth(Ratio);
 	UE_LOG(Game, Warning, TEXT("you Got HIT!!! (baseplayer)"));
+}
+
+void ABasePlayer::HandleDeath(float Ratio)
+{
+	Super::HandleDeath(Ratio);
+	HUDObject->SetHealth(Ratio);
 }
 
 FRotator ABasePlayer::GetBaseAimRotation() const
