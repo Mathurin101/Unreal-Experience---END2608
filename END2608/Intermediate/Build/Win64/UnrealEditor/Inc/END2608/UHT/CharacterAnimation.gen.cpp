@@ -20,6 +20,49 @@ ENGINE_API UClass* Z_Construct_UClass_UAnimSequence_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class UCharacterAnimation Function DeathAnimation ******************************
+struct Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics
+{
+	struct CharacterAnimation_eventDeathAnimation_Parms
+	{
+		float NotUsed;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "CPP_Default_NotUsed", "0.000000" },
+		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_NotUsed;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::NewProp_NotUsed = { "NotUsed", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(CharacterAnimation_eventDeathAnimation_Parms, NotUsed), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::NewProp_NotUsed,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UCharacterAnimation, nullptr, "DeathAnimation", Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::CharacterAnimation_eventDeathAnimation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::CharacterAnimation_eventDeathAnimation_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UCharacterAnimation_DeathAnimation()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UCharacterAnimation_DeathAnimation_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UCharacterAnimation::execDeathAnimation)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_NotUsed);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->DeathAnimation(Z_Param_NotUsed);
+	P_NATIVE_END;
+}
+// ********** End Class UCharacterAnimation Function DeathAnimation ********************************
+
 // ********** Begin Class UCharacterAnimation Function FireAnimation *******************************
 struct Z_Construct_UFunction_UCharacterAnimation_FireAnimation_Statics
 {
@@ -139,6 +182,7 @@ void UCharacterAnimation::StaticRegisterNativesUCharacterAnimation()
 {
 	UClass* Class = UCharacterAnimation::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "DeathAnimation", &UCharacterAnimation::execDeathAnimation },
 		{ "FireAnimation", &UCharacterAnimation::execFireAnimation },
 		{ "HitAnimation", &UCharacterAnimation::execHitAnimation },
 		{ "PreviewWindowUpdate", &UCharacterAnimation::execPreviewWindowUpdate },
@@ -219,6 +263,36 @@ struct Z_Construct_UClass_UCharacterAnimation_Statics
 		{ "Category", "Default" },
 		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeathAssets_MetaData[] = {
+		{ "Category", "Default" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//death animation things\n//is an array of death animations\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "death animation things\nis an array of death animations" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CurrentDeathAsset_MetaData[] = {
+		{ "Category", "Default" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//this Uproperty allows me to edit the blueprint variable without removing \n" },
+#endif
+		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "this Uproperty allows me to edit the blueprint variable without removing" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DebugDeath_MetaData[] = {
+		{ "Category", "Default" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//hit animation\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Both/CharacterAnimation.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "hit animation" },
+#endif
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Velocity;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Direction;
@@ -229,9 +303,15 @@ struct Z_Construct_UClass_UCharacterAnimation_Statics
 	static void NewProp_DebugHit_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_DebugHit;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_HitAsset;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_DeathAssets_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_DeathAssets;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_CurrentDeathAsset;
+	static void NewProp_DebugDeath_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_DebugDeath;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UCharacterAnimation_DeathAnimation, "DeathAnimation" }, // 2090918111
 		{ &Z_Construct_UFunction_UCharacterAnimation_FireAnimation, "FireAnimation" }, // 2556266060
 		{ &Z_Construct_UFunction_UCharacterAnimation_HitAnimation, "HitAnimation" }, // 4094883957
 		{ &Z_Construct_UFunction_UCharacterAnimation_PreviewWindowUpdate, "PreviewWindowUpdate" }, // 2718223656
@@ -257,6 +337,14 @@ void Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugHit_SetBit(voi
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugHit = { "DebugHit", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UCharacterAnimation), &Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugHit_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DebugHit_MetaData), NewProp_DebugHit_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_HitAsset = { "HitAsset", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterAnimation, HitAsset), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_HitAsset_MetaData), NewProp_HitAsset_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DeathAssets_Inner = { "DeathAssets", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DeathAssets = { "DeathAssets", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterAnimation, DeathAssets), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeathAssets_MetaData), NewProp_DeathAssets_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_CurrentDeathAsset = { "CurrentDeathAsset", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UCharacterAnimation, CurrentDeathAsset), Z_Construct_UClass_UAnimSequence_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentDeathAsset_MetaData), NewProp_CurrentDeathAsset_MetaData) };
+void Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugDeath_SetBit(void* Obj)
+{
+	((UCharacterAnimation*)Obj)->DebugDeath = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugDeath = { "DebugDeath", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UCharacterAnimation), &Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugDeath_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DebugDeath_MetaData), NewProp_DebugDeath_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterAnimation_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_Velocity,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_Direction,
@@ -265,6 +353,10 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacte
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_ActionSlotName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugHit,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_HitAsset,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DeathAssets_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DeathAssets,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_CurrentDeathAsset,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterAnimation_Statics::NewProp_DebugDeath,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterAnimation_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UCharacterAnimation_Statics::DependentSingletons[])() = {
@@ -304,10 +396,10 @@ UCharacterAnimation::~UCharacterAnimation() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 4227336857U) },
+		{ Z_Construct_UClass_UCharacterAnimation, UCharacterAnimation::StaticClass, TEXT("UCharacterAnimation"), &Z_Registration_Info_UClass_UCharacterAnimation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCharacterAnimation), 364819382U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_2449456180(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_2682383901(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -23,6 +23,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void HitAnimation(float NotUsed = 0);
 
+	UFUNCTION(BlueprintCallable)
+	void DeathAnimation(float NotUsed = 0);
+
 protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = Default);
 	float Velocity; 
@@ -45,6 +48,20 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = Default);
 	UAnimSequence* HitAsset;
+
+	//death animation things
+	//is an array of death animations
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	TArray<UAnimSequence*> DeathAssets;
+
+	//this Uproperty allows me to edit the blueprint variable without removing 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Default)
+	UAnimSequence* CurrentDeathAsset;
+
+	//hit animation
+	UPROPERTY(EditDefaultsOnly, Category = Default);
+	bool DebugDeath;
+
 
 protected:
 	UFUNCTION(BlueprintNativeEvent)

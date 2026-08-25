@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UCharacterAnimation ******************************************************
 #define FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Both_CharacterAnimation_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execPreviewWindowUpdate); \
+	DECLARE_FUNCTION(execDeathAnimation); \
 	DECLARE_FUNCTION(execHitAnimation); \
 	DECLARE_FUNCTION(execFireAnimation);
 

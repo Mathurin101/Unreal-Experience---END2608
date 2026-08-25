@@ -4,6 +4,7 @@
 #include "Both/CharacterAnimation.h"
 #include "KismetAnimationLibrary.h"
 #include "../END2608.h"
+#include "Kismet/KismetArrayLibrary.h"
 
 void UCharacterAnimation::NativeThreadSafeUpdateAnimation(float DeltaSeconds) {
 	Super::NativeThreadSafeUpdateAnimation(DeltaSeconds);
@@ -40,15 +41,27 @@ void UCharacterAnimation::HitAnimation(float NotUsed)
 	PlaySlotAnimationAsDynamicMontage(HitAsset, ActionSlotName);
 }
 
+void UCharacterAnimation::DeathAnimation(float NotUsed)
+{
+	int RandomNumber = FMath::RandRange(0, DeathAssets.Num() - 1);
+	
+	//random death animation
+	CurrentDeathAsset = DeathAssets[RandomNumber];
+	UE_LOG(Game, Log, TEXT("Death animation number: %d"), RandomNumber);
+}
+
 void UCharacterAnimation::PreviewWindowUpdate_Implementation()
 {
-
-	if (DebugHit) {
+	if (DebugDeath) {
+		DeathAnimation();
+		DebugDeath = false;
+	}
+	else if (DebugHit) {
 		HitAnimation();
 		DebugHit = false;
 
 	}//log shoot/fire
-	else if (DebugFire){
+	else if (DebugFire) {
 		FireAnimation();
 		DebugFire = false;
 	}
