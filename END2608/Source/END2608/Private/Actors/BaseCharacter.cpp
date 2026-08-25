@@ -79,6 +79,8 @@ void ABaseCharacter::HandleHurt(float Ratio)
 {
 	//calls the animationBP
 	RifleAnimation->HitAnimation();
+	
+	UE_LOG(Game, Warning, TEXT("you Got HIT!!!"));
 }
 
 // Called every frame

@@ -68,6 +68,7 @@ void ABasePlayer::HandleHurt(float Ratio)
 	Super::HandleHurt(Ratio);
 
 	HUDObject->SetHealth(Ratio);
+	UE_LOG(Game, Warning, TEXT("you Got HIT!!! (baseplayer)"));
 }
 
 FRotator ABasePlayer::GetBaseAimRotation() const

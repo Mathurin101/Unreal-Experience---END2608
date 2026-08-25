@@ -55,15 +55,19 @@ void UCharacterAnimation::PreviewWindowUpdate_Implementation()
 	if (DebugDeath) {
 		DeathAnimation();
 		DebugDeath = false;
+		UE_LOG(Game, Error, TEXT("Death method just got called"));
 	}
-	else if (DebugHit) {
+	
+	if (DebugHit) {
 		HitAnimation();
 		DebugHit = false;
+		UE_LOG(Game, Error, TEXT("Hit method just got called"));
 
 	}//log shoot/fire
 	else if (DebugFire) {
 		FireAnimation();
 		DebugFire = false;
+		UE_LOG(Game, Error, TEXT("Fire method just got called"));
 	}
 }
 
