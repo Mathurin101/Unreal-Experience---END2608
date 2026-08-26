@@ -7,7 +7,8 @@
 			"files": [
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/Both/ABP_CharacterAnimation.uasset",
 				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BaseCharacter.uasset",
-				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset"
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/BluePrints/Actors/BP_BasePlayer.uasset",
+				"C:/UnrealProjects/Unreal-Experience---END2608/END2608/Content/C++/Actors/BP_CodeBaseAgent.uasset"
 			]
 		}
 	]

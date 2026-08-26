@@ -85,6 +85,9 @@ void ABaseCharacter::HandleHurt(float Ratio)
 void ABaseCharacter::HandleDeath(float Ratio)
 {
 	RifleAnimation->DeathAnimation();
+
+	//make it so the child classes cant get hit anymore
+	AActor::SetActorEnableCollision(true);
 }
 
 // Called every frame

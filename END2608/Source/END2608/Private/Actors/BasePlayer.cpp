@@ -75,7 +75,11 @@ void ABasePlayer::HandleHurt(float Ratio)
 void ABasePlayer::HandleDeath(float Ratio)
 {
 	Super::HandleDeath(Ratio);
+
 	HUDObject->SetHealth(Ratio);
+
+	//make it so you can't do any action
+	DisableInput(PlayerController);
 }
 
 FRotator ABasePlayer::GetBaseAimRotation() const
