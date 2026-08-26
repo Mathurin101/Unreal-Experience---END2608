@@ -6,15 +6,18 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Example/ExampleFunctions.h"
+#include "GameFramework/Actor.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 void EmptyLinkFunctionForGeneratedCodeExampleFunctions() {}
 
 // ********** Begin Cross Module References ********************************************************
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 END2608_API UClass* Z_Construct_UClass_AExampleFunctions();
 END2608_API UClass* Z_Construct_UClass_AExampleFunctions_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 UPackage* Z_Construct_UPackage__Script_END2608();
 // ********** End Cross Module References **********************************************************
 
@@ -129,6 +132,87 @@ UFunction* Z_Construct_UFunction_AExampleFunctions_ImplementableEvent()
 }
 // ********** End Class AExampleFunctions Function ImplementableEvent ******************************
 
+// ********** Begin Class AExampleFunctions Function MultipleReturnValues **************************
+struct ExampleFunctions_eventMultipleReturnValues_Parms
+{
+	AActor* Actor1;
+	FRotator Rotation;
+	AActor* Actor2;
+	int32 Index;
+	bool ReturnValue;
+
+	/** Constructor, initializes return property only **/
+	ExampleFunctions_eventMultipleReturnValues_Parms()
+		: ReturnValue(false)
+	{
+	}
+};
+static FName NAME_AExampleFunctions_MultipleReturnValues = FName(TEXT("MultipleReturnValues"));
+bool AExampleFunctions::MultipleReturnValues(AActor* Actor1, FRotator Rotation, AActor*& Actor2, int32& Index)
+{
+	ExampleFunctions_eventMultipleReturnValues_Parms Parms;
+	Parms.Actor1=Actor1;
+	Parms.Rotation=Rotation;
+	Parms.Actor2=Actor2;
+	Parms.Index=Index;
+	UFunction* Func = FindFunctionChecked(NAME_AExampleFunctions_MultipleReturnValues);
+	ProcessEvent(Func,&Parms);
+	Actor2=Parms.Actor2;
+	Index=Parms.Index;
+	return !!Parms.ReturnValue;
+}
+struct Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//calls only c++\n//*& = alocates memory fun fact\n" },
+#endif
+		{ "ModuleRelativePath", "Public/Example/ExampleFunctions.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "calls only c++\n/& = alocates memory fun fact" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Actor1;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_Rotation;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_Actor2;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_Index;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Actor1 = { "Actor1", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleFunctions_eventMultipleReturnValues_Parms, Actor1), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Rotation = { "Rotation", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleFunctions_eventMultipleReturnValues_Parms, Rotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Actor2 = { "Actor2", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleFunctions_eventMultipleReturnValues_Parms, Actor2), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ExampleFunctions_eventMultipleReturnValues_Parms, Index), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((ExampleFunctions_eventMultipleReturnValues_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ExampleFunctions_eventMultipleReturnValues_Parms), &Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Actor1,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Rotation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Actor2,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_Index,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AExampleFunctions, nullptr, "MultipleReturnValues", Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::PropPointers), sizeof(ExampleFunctions_eventMultipleReturnValues_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0CC20800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::Function_MetaDataParams), Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(ExampleFunctions_eventMultipleReturnValues_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+// ********** End Class AExampleFunctions Function MultipleReturnValues ****************************
+
 // ********** Begin Class AExampleFunctions Function PureFunction **********************************
 struct Z_Construct_UFunction_AExampleFunctions_PureFunction_Statics
 {
@@ -223,6 +307,7 @@ struct Z_Construct_UClass_AExampleFunctions_Statics
 		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintCallable, "BlueprintCallable" }, // 2341161542
 		{ &Z_Construct_UFunction_AExampleFunctions_BlueprintNativeEvent, "BlueprintNativeEvent" }, // 3512330251
 		{ &Z_Construct_UFunction_AExampleFunctions_ImplementableEvent, "ImplementableEvent" }, // 2551761049
+		{ &Z_Construct_UFunction_AExampleFunctions_MultipleReturnValues, "MultipleReturnValues" }, // 4225015886
 		{ &Z_Construct_UFunction_AExampleFunctions_PureFunction, "PureFunction" }, // 42946192
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -267,10 +352,10 @@ AExampleFunctions::~AExampleFunctions() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 1183474912U) },
+		{ Z_Construct_UClass_AExampleFunctions, AExampleFunctions::StaticClass, TEXT("AExampleFunctions"), &Z_Registration_Info_UClass_AExampleFunctions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleFunctions), 2085040860U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_105756289(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_1094977113(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleFunctions_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

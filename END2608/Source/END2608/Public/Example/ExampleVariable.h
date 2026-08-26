@@ -59,6 +59,12 @@ protected:
 	UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = Variable)
 	FDelegateType OnDelegateInstance;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Variables|Array")
+	TArray<UObject*> PointerArray;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Variables|Array")
+	TArray<int32> ValueArray;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

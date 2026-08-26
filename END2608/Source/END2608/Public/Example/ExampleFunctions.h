@@ -28,6 +28,10 @@ public:
 
 	virtual void BlueprintNativeEvent_Implementation();//calls only c++
 
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+	//*& = alocates memory fun fact
+	bool MultipleReturnValues(AActor* Actor1, FRotator Rotation, AActor*& Actor2, int32& Index);
+
 private:
 	UFUNCTION(BlueprintCallable)
 	float PureFunction() const;

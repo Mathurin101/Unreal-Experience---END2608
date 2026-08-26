@@ -12,6 +12,13 @@ AExampleVariable::AExampleVariable()
 
 	ClassType = AExampleVariable::StaticClass();
 
+	//int32
+	ValueArray.Add(3);
+	ValueArray.Add(4);
+
+	//UObjects: takes objects and AActors
+	PointerArray.Add(this);
+	PointerArray.Add(nullptr);
 }
 
 // Called when the game starts or when spawned

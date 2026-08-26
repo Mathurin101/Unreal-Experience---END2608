@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeExampleVariable() {}
 
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 END2608_API UClass* Z_Construct_UClass_AExampleVariable();
 END2608_API UClass* Z_Construct_UClass_AExampleVariable_NoRegister();
@@ -264,6 +265,14 @@ struct Z_Construct_UClass_AExampleVariable_Statics
 		{ "ToolTip", "create variable of delegate / event dispatcher" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PointerArray_MetaData[] = {
+		{ "Category", "Variables|Array" },
+		{ "ModuleRelativePath", "Public/Example/ExampleVariable.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ValueArray_MetaData[] = {
+		{ "Category", "Variables|Array" },
+		{ "ModuleRelativePath", "Public/Example/ExampleVariable.h" },
+	};
 #endif // WITH_METADATA
 	static void NewProp_VisibleAnywhere_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_VisibleAnywhere;
@@ -277,6 +286,10 @@ struct Z_Construct_UClass_AExampleVariable_Statics
 	static const UECodeGen_Private::FStructPropertyParams NewProp_EditInstanceOnly;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_ClassType;
 	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnDelegateInstance;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_PointerArray_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_PointerArray;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_ValueArray_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_ValueArray;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -304,6 +317,10 @@ const UECodeGen_Private::FTextPropertyParams Z_Construct_UClass_AExampleVariable
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOnly = { "EditInstanceOnly", nullptr, (EPropertyFlags)0x0020080000000801, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, EditInstanceOnly), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EditInstanceOnly_MetaData), NewProp_EditInstanceOnly_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_ClassType = { "ClassType", nullptr, (EPropertyFlags)0x0024080000010015, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, ClassType), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassType_MetaData), NewProp_ClassType_MetaData) };
 const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_OnDelegateInstance = { "OnDelegateInstance", nullptr, (EPropertyFlags)0x0020180010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, OnDelegateInstance), Z_Construct_UDelegateFunction_END2608_DelegateType__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnDelegateInstance_MetaData), NewProp_OnDelegateInstance_MetaData) }; // 1963277
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_PointerArray_Inner = { "PointerArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_PointerArray = { "PointerArray", nullptr, (EPropertyFlags)0x0020080000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, PointerArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PointerArray_MetaData), NewProp_PointerArray_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_ValueArray_Inner = { "ValueArray", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AExampleVariable_Statics::NewProp_ValueArray = { "ValueArray", nullptr, (EPropertyFlags)0x0020080000010005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AExampleVariable, ValueArray), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ValueArray_MetaData), NewProp_ValueArray_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExampleVariable_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_VisibleAnywhere,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_VisibleDefaultsOnly,
@@ -316,6 +333,10 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExampleV
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_EditInstanceOnly,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_ClassType,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_OnDelegateInstance,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_PointerArray_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_PointerArray,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_ValueArray_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExampleVariable_Statics::NewProp_ValueArray,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AExampleVariable_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AExampleVariable_Statics::DependentSingletons[])() = {
@@ -354,10 +375,10 @@ AExampleVariable::~AExampleVariable() {}
 struct Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 403941659U) },
+		{ Z_Construct_UClass_AExampleVariable, AExampleVariable::StaticClass, TEXT("AExampleVariable"), &Z_Registration_Info_UClass_AExampleVariable, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AExampleVariable), 2852116581U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_884117546(TEXT("/Script/END2608"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_3981682187(TEXT("/Script/END2608"),
 	Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProjects_Unreal_Experience___END2608_END2608_Source_END2608_Public_Example_ExampleVariable_h__Script_END2608_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
