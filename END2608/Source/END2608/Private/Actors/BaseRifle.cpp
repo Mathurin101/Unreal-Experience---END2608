@@ -65,7 +65,7 @@ void ABaseRifle::SpawnBullet()
 		TimeDelegateObject.BindUFunction(this, FName("ActionStopped"));
 
 		//set timer by event
-		UKismetSystemLibrary::K2_SetTimerDelegate(TimeDelegateObject, RestTimer, true);
+		UKismetSystemLibrary::K2_SetTimerDelegate(TimeDelegateObject, RestTimer, false);
 
 		//call OnRifleAttack
 		OnRifleAttack.Broadcast();

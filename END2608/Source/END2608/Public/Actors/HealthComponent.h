@@ -27,8 +27,6 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UFUNCTION()
-	void OnTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);//(float DamageTaken);
 	
 
 	FDBindEventEvent OnHurt;
@@ -40,4 +38,6 @@ private:
 
 	float CurrentHealth;
 
+	UFUNCTION()
+	void OnTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);//(float DamageTaken);
 };

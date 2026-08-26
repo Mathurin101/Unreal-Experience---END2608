@@ -30,19 +30,23 @@ void ABasePlayer::BeginPlay()
 	//set player controller
 	PlayerController = Cast<APlayerController>(GetController());
 
-	HUDObject = Cast<UPlayerHUD>(CreateWidget(PlayerController, HUDClass));
+	if (PlayerController) {
 
-	if (HUDObject) {
-		HUDObject->AddToViewport();
+		HUDObject = Cast<UPlayerHUD>(CreateWidget(PlayerController, HUDClass));
 
-		//call this in the Base Character.h or parent class
-		//HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
 
-		//call this in the Base Character.h or parent class
-		//HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
-	}
-	else {
-		UE_LOG(Game, Warning,TEXT("HUDObject is not here!!"));
+		if (HUDObject) {
+			HUDObject->AddToViewport();
+
+			//call this in the Base Character.h or parent class
+			//HealthComponent->OnHurt.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+
+			//call this in the Base Character.h or parent class
+			//HealthComponent->OnDeath.AddDynamic(HUDObject, &UPlayerHUD::SetHealth);
+		}
+		else {
+			UE_LOG(Game, Warning, TEXT("HUDObject is not here!!"));
+		}
 	}
 
 }
@@ -64,7 +68,7 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
-void ABasePlayer::HandleHurt(float Ratio) 
+void ABasePlayer::HandleHurt(float Ratio)
 {
 	Super::HandleHurt(Ratio);
 
