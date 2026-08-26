@@ -75,7 +75,7 @@ void ABaseRifle::SpawnBullet()
 
 const bool ABaseRifle::CanShoot()
 {
-	return !ActionHappening;
+	return (!ActionHappening && Alive);
 }
 
 void ABaseRifle::ActionStopped()
@@ -85,6 +85,11 @@ void ABaseRifle::ActionStopped()
 
 FVector ABaseRifle::GetSockSource() const {
 	return SkellyMesh->GetSocketLocation(WeaponSocketName);
+}
+
+void ABaseRifle::OwnerDied()
+{
+	Alive = false;
 }
 
 

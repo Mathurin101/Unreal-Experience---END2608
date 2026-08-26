@@ -88,6 +88,8 @@ void ABaseCharacter::HandleDeath(float Ratio)
 
 	//make it so the child classes cant get hit anymore
 	AActor::SetActorEnableCollision(true);
+
+	Rifle->OwnerDied();
 }
 
 // Called every frame

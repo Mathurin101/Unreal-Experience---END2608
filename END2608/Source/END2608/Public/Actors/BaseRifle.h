@@ -51,20 +51,23 @@ public:
 
 	FVector GetSockSource() const;//pure function
 
+	void OwnerDied();
+
 private:
 
 	//controlls the projectile
 	bool ActionHappening = false;
-
 
 	//Timer things
 	//call this method in the 
 	UFUNCTION()
 	void ActionStopped();
 	
-	
 	float RestTimer = 2.0f;
 
 	//need this object to bind the function that will be called when the timer rests
 	FTimerDynamicDelegate TimeDelegateObject;
+
+
+	bool Alive = true;
 };
